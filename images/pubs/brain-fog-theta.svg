@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" font-family="'Segoe UI', Arial, Helvetica, sans-serif">
+  <defs>
+    <symbol id="person" viewBox="-22 -50 44 76" overflow="visible">
+      <circle cx="0" cy="-33" r="13"/>
+      <path d="M-19 26 L-19 -4 Q-19 -17 -6 -17 L6 -17 Q19 -17 19 -4 L19 26 Z"/>
+    </symbol>
+    <path id="cloud" d="M-30 10 C-44 10 -44 -8 -30 -7 C-30 -22 -12 -26 -4 -15 C2 -28 26 -26 25 -9 C38 -11 42 9 28 10 Z"/>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBE3D6"/><stop offset="1" stop-color="#EFC4AE"/></linearGradient>
+    <radialGradient id="amberHot" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#D99A3E" stop-opacity="0.95"/><stop offset="1" stop-color="#D99A3E" stop-opacity="0"/></radialGradient>
+    <radialGradient id="violetSoft" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#8E89B3" stop-opacity="0.55"/><stop offset="1" stop-color="#8E89B3" stop-opacity="0"/></radialGradient>
+    <clipPath id="scalp"><circle cx="0" cy="0" r="72"/></clipPath>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#2B2B2B"/></marker>
+    <marker id="ag" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#8C88AA"/></marker>
+  </defs>
+
+  <rect width="1200" height="800" fill="#FFFFFF"/>
+
+  <!-- ============ 色带 ============ -->
+  <rect x="0" y="0" width="46" height="196" fill="#6A6590"/>
+  <rect x="0" y="196" width="46" height="326" fill="#B07A2A"/>
+  <rect x="0" y="522" width="46" height="278" fill="#4D4970"/>
+  <g fill="#FFFFFF" font-size="21" font-weight="600" text-anchor="middle">
+    <text transform="translate(31 98) rotate(-90)">Cohort</text>
+    <text transform="translate(31 359) rotate(-90)">Measures</text>
+    <text transform="translate(31 661) rotate(-90)">Finding</text>
+  </g>
+  <rect x="46" y="0" width="1154" height="196" fill="#F5F4F9"/>
+  <rect x="46" y="522" width="1154" height="278" fill="#F5F4F9"/>
+  <g stroke="#2B2B2B" stroke-width="2"><line x1="0" y1="196" x2="1200" y2="196"/><line x1="0" y1="522" x2="1200" y2="522"/></g>
+  <rect x="1" y="1" width="1198" height="798" fill="none" stroke="#2B2B2B" stroke-width="2"/>
+
+  <!-- ============ 1 队列 ============ -->
+  <text x="86" y="76" font-size="26" fill="#1F2937">Mild SARS-CoV-2 cohort</text>
+  <use href="#cloud" transform="translate(110 120) scale(0.62)" fill="#ADA8C8"/>
+  <text x="140" y="127" font-size="17" fill="#374151">= residual brain fog</text>
+
+  <!-- 病毒 -->
+  <g transform="translate(560 106) scale(0.78)">
+    <g stroke="#6A6590" stroke-width="4.5" stroke-linecap="round">
+      <line x1="0" y1="0" x2="42" y2="0"/><line x1="0" y1="0" x2="34" y2="24.7"/><line x1="0" y1="0" x2="13" y2="40"/><line x1="0" y1="0" x2="-13" y2="40"/><line x1="0" y1="0" x2="-34" y2="24.7"/>
+      <line x1="0" y1="0" x2="-42" y2="0"/><line x1="0" y1="0" x2="-34" y2="-24.7"/><line x1="0" y1="0" x2="-13" y2="-40"/><line x1="0" y1="0" x2="13" y2="-40"/><line x1="0" y1="0" x2="34" y2="-24.7"/>
+    </g>
+    <g fill="#6A6590"><circle cx="44" cy="0" r="6.5"/><circle cx="35.6" cy="25.9" r="6.5"/><circle cx="13.6" cy="41.8" r="6.5"/><circle cx="-13.6" cy="41.8" r="6.5"/><circle cx="-35.6" cy="25.9" r="6.5"/><circle cx="-44" cy="0" r="6.5"/><circle cx="-35.6" cy="-25.9" r="6.5"/><circle cx="-13.6" cy="-41.8" r="6.5"/><circle cx="13.6" cy="-41.8" r="6.5"/><circle cx="35.6" cy="-25.9" r="6.5"/></g>
+    <circle r="31" fill="#D6D3E6" stroke="#6A6590" stroke-width="3.5"/>
+    <g fill="#8E89B3"><circle cx="-10" cy="-8" r="5"/><circle cx="11" cy="-12" r="4"/><circle cx="6" cy="10" r="6"/><circle cx="-14" cy="13" r="3.5"/></g>
+  </g>
+  <text x="560" y="178" text-anchor="middle" font-size="15" fill="#4B5563">mild infection</text>
+  <path d="M614 118 L654 118" stroke="#2B2B2B" stroke-width="2.4" marker-end="url(#ah)"/>
+
+  <!-- 人群 + 雾 -->
+  <ellipse cx="910" cy="166" rx="250" ry="10" fill="#E3E1EC"/>
+  <use href="#person" x="680" y="94" width="42" height="72" fill="#8E89B3"/>
+  <use href="#person" x="764" y="94" width="42" height="72" fill="#6A6590"/>
+  <use href="#person" x="848" y="94" width="42" height="72" fill="#B9B5D0"/>
+  <use href="#person" x="932" y="94" width="42" height="72" fill="#4D4970"/>
+  <use href="#person" x="1016" y="94" width="42" height="72" fill="#8E89B3"/>
+  <use href="#person" x="1100" y="94" width="42" height="72" fill="#6A6590"/>
+  <g fill="#ADA8C8" fill-opacity="0.92">
+    <use href="#cloud" transform="translate(785 80) scale(0.78)"/>
+    <use href="#cloud" transform="translate(953 80) scale(0.78)"/>
+    <use href="#cloud" transform="translate(1121 80) scale(0.78)"/>
+  </g>
+  <g fill="none" stroke="#C9C5DC" stroke-width="2.4" stroke-linecap="round">
+    <path d="M738 56 q10 -6 20 0 t20 0"/><path d="M984 50 q10 -6 20 0 t20 0"/><path d="M1076 56 q10 -6 20 0 t20 0"/>
+  </g>
+
+  <!-- ============ 2 测量 ============ -->
+  <text x="86" y="242" font-size="23" fill="#1F2937">Clinical measures</text>
+  <!-- 症状量表 -->
+  <g transform="translate(115 270)">
+    <rect x="0" y="12" width="110" height="150" rx="10" fill="#FFFFFF" stroke="#8C88AA" stroke-width="2.4"/>
+    <rect x="33" y="0" width="44" height="22" rx="6" fill="#8C88AA"/>
+    <g stroke="#DAD7E6" stroke-width="5" stroke-linecap="round"><line x1="40" y1="50" x2="94" y2="50"/><line x1="40" y1="78" x2="94" y2="78"/><line x1="40" y1="106" x2="86" y2="106"/><line x1="40" y1="134" x2="92" y2="134"/></g>
+    <g fill="none" stroke="#6A6590" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M14 50 l6 6 l10 -12"/><path d="M14 78 l6 6 l10 -12"/><path d="M14 134 l6 6 l10 -12"/></g>
+    <rect x="13" y="98" width="16" height="16" rx="3" fill="none" stroke="#9AA3AE" stroke-width="2.4"/>
+  </g>
+  <text x="170" y="474" text-anchor="middle" font-size="17" font-weight="700" fill="#1F2937">symptom burden</text>
+  <text x="170" y="496" text-anchor="middle" font-size="15" fill="#4B5563">adjusted covariate</text>
+
+  <!-- 有雾的头 -->
+  <g transform="translate(338 262) scale(0.42)">
+    <path d="M120 400 C120 345 108 318 94 292 C70 250 64 198 80 158 C100 100 160 62 226 62 C292 62 336 106 343 160 C346 180 345 194 351 207 C359 221 373 235 377 247 C379 254 372 258 362 260 C365 268 366 274 360 278 C364 285 362 292 354 296 C351 312 343 322 325 324 C305 326 290 326 284 332 L280 400 Z" fill="url(#skin)" stroke="#B98A74" stroke-width="5"/>
+  </g>
+  <g fill="#ADA8C8" fill-opacity="0.85">
+    <use href="#cloud" transform="translate(402 300) scale(1.0)"/>
+    <use href="#cloud" transform="translate(452 322) scale(0.8)"/>
+    <use href="#cloud" transform="translate(374 334) scale(0.72)"/>
+  </g>
+  <g fill="none" stroke="#8E89B3" stroke-width="2.6" stroke-linecap="round" stroke-opacity="0.8">
+    <path d="M478 296 q10 -7 20 0 t20 0"/><path d="M488 352 q10 -7 20 0 t20 0"/><path d="M348 282 q9 -6 18 0 t18 0"/>
+  </g>
+  <text x="432" y="474" text-anchor="middle" font-size="17" font-weight="700" fill="#1F2937">residual brain fog</text>
+  <text x="432" y="496" text-anchor="middle" font-size="15" fill="#4B5563">after mild infection</text>
+
+  <line x1="600" y1="220" x2="600" y2="502" stroke="#D8D5E6" stroke-width="2"/>
+
+  <text x="636" y="242" font-size="23" fill="#1F2937">EEG marker</text>
+  <!-- 地形图：顶枕区高亮 -->
+  <g transform="translate(730 368)">
+    <path d="M-11 -70 L0 -88 L11 -70 Z" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+    <ellipse cx="-74" cy="0" rx="8" ry="18" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+    <ellipse cx="74" cy="0" rx="8" ry="18" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+    <circle r="72" fill="#EEEDF4"/>
+    <g clip-path="url(#scalp)">
+      <circle cx="-30" cy="-34" r="40" fill="url(#violetSoft)"/>
+      <circle cx="34" cy="-26" r="36" fill="url(#violetSoft)"/>
+      <ellipse cx="0" cy="50" rx="74" ry="48" fill="url(#amberHot)"/>
+    </g>
+    <circle r="72" fill="none" stroke="#6B7280" stroke-width="2"/>
+    <g stroke="#8A5A16" stroke-width="2.6" stroke-linecap="round">
+      <line x1="-34" y1="40" x2="0" y2="56"/><line x1="0" y1="56" x2="34" y2="40"/><line x1="-34" y1="40" x2="34" y2="40"/>
+      <line x1="-50" y1="14" x2="-34" y2="40"/><line x1="50" y1="14" x2="34" y2="40"/><line x1="-34" y1="40" x2="0" y2="30"/><line x1="0" y1="30" x2="34" y2="40"/>
+    </g>
+    <g fill="#2B2B2B">
+      <circle cx="-22" cy="-48" r="3"/><circle cx="22" cy="-48" r="3"/><circle cx="-44" cy="-18" r="3"/><circle cx="0" cy="-22" r="3"/><circle cx="44" cy="-18" r="3"/>
+      <circle cx="-18" cy="8" r="3"/><circle cx="18" cy="8" r="3"/>
+    </g>
+    <g fill="#8A5A16"><circle cx="-50" cy="14" r="4"/><circle cx="50" cy="14" r="4"/><circle cx="-34" cy="40" r="4"/><circle cx="0" cy="30" r="4"/><circle cx="34" cy="40" r="4"/><circle cx="0" cy="56" r="4"/></g>
+  </g>
+  <text x="730" y="474" text-anchor="middle" font-size="17" font-weight="700" fill="#1F2937">parieto-occipital</text>
+  <text x="730" y="496" text-anchor="middle" font-size="15" fill="#4B5563">region</text>
+
+  <path d="M818 368 L856 368" stroke="#2B2B2B" stroke-width="2.4" marker-end="url(#ah)"/>
+
+  <!-- θ 相位滞后 -->
+  <rect x="866" y="284" width="290" height="160" rx="10" fill="#FFFFFF" stroke="#D8D5E6" stroke-width="2"/>
+  <g fill="none" stroke-width="3.2" stroke-linecap="round">
+    <path d="M884 384 q15 -50 30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0" stroke="#6A6590"/>
+    <path d="M906 384 q15 -50 30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0" stroke="#C98A2E"/>
+  </g>
+  <g stroke="#6B7280" stroke-width="1.6" stroke-dasharray="4 4"><line x1="959" y1="359" x2="959" y2="326"/><line x1="981" y1="359" x2="981" y2="326"/></g>
+  <path d="M959 322 L981 322" stroke="#2B2B2B" stroke-width="1.8"/>
+  <text x="970" y="314" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">Δφ</text>
+  <text x="1012" y="432" text-anchor="middle" font-size="14" fill="#4B5563">two θ-band signals</text>
+  <text x="1012" y="474" text-anchor="middle" font-size="17" font-weight="700" fill="#1F2937">θ phase-lag synchrony</text>
+  <text x="1012" y="496" text-anchor="middle" font-size="15" fill="#4B5563">and its change</text>
+
+  <!-- ============ 3 发现 ============ -->
+  <text x="86" y="562" font-size="23" fill="#1F2937">Association after adjustment</text>
+  <line x1="86" y1="576" x2="748" y2="576" stroke="#2B2B2B" stroke-width="1.6"/>
+
+  <rect x="300" y="596" width="230" height="44" rx="22" fill="#FFFFFF" stroke="#8C88AA" stroke-width="2.2"/>
+  <text x="415" y="624" text-anchor="middle" font-size="17" fill="#374151">symptom burden</text>
+  <g fill="none" stroke="#8C88AA" stroke-width="2.2" stroke-dasharray="7 5">
+    <path d="M330 640 L262 674" marker-end="url(#ag)"/>
+    <path d="M500 640 L568 674" marker-end="url(#ag)"/>
+  </g>
+  <text x="415" y="664" text-anchor="middle" font-size="15" font-style="italic" fill="#6B7280">adjusted for</text>
+
+  <rect x="86" y="680" width="240" height="84" rx="12" fill="#F6E5C6" stroke="#C98A2E" stroke-width="2.4"/>
+  <text x="206" y="714" text-anchor="middle" font-size="19" font-weight="700" fill="#5E3F0E">Δ θ phase lag</text>
+  <text x="206" y="740" text-anchor="middle" font-size="15" fill="#5E3F0E">parieto-occipital</text>
+
+  <rect x="506" y="680" width="240" height="84" rx="12" fill="#E4E2EF" stroke="#6A6590" stroke-width="2.4"/>
+  <use href="#cloud" transform="translate(548 722) scale(0.6)" fill="#8E89B3"/>
+  <text x="648" y="714" text-anchor="middle" font-size="19" font-weight="700" fill="#33304F">brain fog</text>
+  <text x="648" y="740" text-anchor="middle" font-size="15" fill="#33304F">after mild infection</text>
+
+  <line x1="332" y1="722" x2="500" y2="722" stroke="#4D4970" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="332" cy="722" r="6" fill="#4D4970"/><circle cx="500" cy="722" r="6" fill="#4D4970"/>
+  <text x="416" y="708" text-anchor="middle" font-size="16" font-weight="700" fill="#33304F">associated</text>
+
+  <line x1="784" y1="544" x2="784" y2="780" stroke="#D0CDE0" stroke-width="2"/>
+
+  <text x="814" y="562" font-size="23" fill="#1F2937">Implication</text>
+  <line x1="814" y1="576" x2="1170" y2="576" stroke="#2B2B2B" stroke-width="1.6"/>
+  <g transform="translate(816 606)" font-size="17" fill="#1F2937">
+    <g fill="none" stroke="#B07A2A" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 10 l6 6 l11 -13"/><path d="M0 66 l6 6 l11 -13"/><path d="M0 122 l6 6 l11 -13"/>
+    </g>
+    <text x="28" y="16">Theta synchrony: a candidate</text>
+    <text x="28" y="36" fill="#4B5563" font-size="15">objective marker of brain fog</text>
+    <text x="28" y="72">Link holds beyond</text>
+    <text x="28" y="92" fill="#4B5563" font-size="15">overall symptom burden</text>
+    <text x="28" y="128">May guide EEG follow-up</text>
+    <text x="28" y="148" fill="#4B5563" font-size="15">of mild cases</text>
+  </g>
+</svg>

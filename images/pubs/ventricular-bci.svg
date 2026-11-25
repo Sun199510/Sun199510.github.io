@@ -1,0 +1,237 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" font-family="'Segoe UI', Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#2B2B2B"/>
+    </marker>
+    <marker id="ac" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#C96A52"/>
+    </marker>
+    <linearGradient id="brainG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F8E6DF"/><stop offset="1" stop-color="#F0D2C6"/>
+    </linearGradient>
+    <linearGradient id="lanternG" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E9A48F"/><stop offset="0.5" stop-color="#F6D5CB"/><stop offset="1" stop-color="#E9A48F"/>
+    </linearGradient>
+    <linearGradient id="ratG" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C9CED3"/><stop offset="1" stop-color="#A9B0B7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="#FFFFFF"/>
+
+  <!-- ============ bands ============ -->
+  <rect x="0" y="0" width="46" height="272" fill="#1F6F78"/>
+  <rect x="0" y="272" width="46" height="256" fill="#C96A52"/>
+  <rect x="0" y="528" width="46" height="272" fill="#174C55"/>
+  <g fill="#FFFFFF" font-size="21" font-weight="600" text-anchor="middle">
+    <text transform="translate(31 136) rotate(-90)">Device</text>
+    <text transform="translate(31 400) rotate(-90)">Stability</text>
+    <text transform="translate(31 664) rotate(-90)">Decoding</text>
+  </g>
+  <rect x="46" y="0" width="1154" height="272" fill="#F2F7F7"/>
+  <rect x="46" y="528" width="1154" height="272" fill="#F2F7F7"/>
+  <g stroke="#2B2B2B" stroke-width="2"><line x1="0" y1="272" x2="1200" y2="272"/><line x1="0" y1="528" x2="1200" y2="528"/></g>
+  <rect x="1" y="1" width="1198" height="798" fill="none" stroke="#2B2B2B" stroke-width="2"/>
+
+  <!-- ============ 1 DEVICE ============ -->
+  <text x="86" y="42" font-size="25" fill="#1F2937">Lantern-inspired expandable electrode</text>
+
+  <!-- traditional lantern -->
+  <g>
+    <line x1="170" y1="62" x2="170" y2="82" stroke="#6B7280" stroke-width="2.5"/>
+    <rect x="146" y="80" width="48" height="12" rx="3" fill="#8A5A44"/>
+    <ellipse cx="170" cy="150" rx="54" ry="60" fill="url(#lanternG)" stroke="#C96A52" stroke-width="2.5"/>
+    <g fill="none" stroke="#C96A52" stroke-width="1.8">
+      <ellipse cx="170" cy="150" rx="34" ry="60"/><ellipse cx="170" cy="150" rx="13" ry="60"/>
+    </g>
+    <rect x="150" y="206" width="40" height="11" rx="3" fill="#8A5A44"/>
+    <g stroke="#C96A52" stroke-width="2.5" stroke-linecap="round">
+      <line x1="164" y1="218" x2="162" y2="236"/><line x1="170" y1="218" x2="170" y2="238"/><line x1="176" y1="218" x2="178" y2="236"/>
+    </g>
+  </g>
+  <text x="170" y="258" text-anchor="middle" font-size="15" fill="#4B5563">traditional lantern frame</text>
+
+  <path d="M236 150 L282 150" stroke="#2B2B2B" stroke-width="2.4" stroke-dasharray="6 5" marker-end="url(#ah)"/>
+  <text x="257" y="136" text-anchor="middle" font-size="14" fill="#6B7280">inspires</text>
+
+  <!-- folded electrode -->
+  <g>
+    <path d="M340 84 L340 64 C340 56 346 52 354 52" fill="none" stroke="#174C55" stroke-width="3"/>
+    <rect x="333" y="84" width="14" height="9" rx="2" fill="#174C55"/>
+    <g stroke="#1F6F78" stroke-width="2.6">
+      <line x1="335" y1="93" x2="335" y2="206"/><line x1="338.5" y1="93" x2="338.5" y2="206"/>
+      <line x1="342" y1="93" x2="342" y2="206"/><line x1="345.5" y1="93" x2="345.5" y2="206"/>
+    </g>
+    <rect x="334" y="205" width="12" height="8" rx="2" fill="#174C55"/>
+    <g fill="#C96A52"><circle cx="340" cy="122" r="3.5"/><circle cx="340" cy="150" r="3.5"/><circle cx="340" cy="178" r="3.5"/></g>
+  </g>
+  <text x="340" y="236" text-anchor="middle" font-size="14" fill="#6B7280">folded</text>
+
+  <path d="M362 150 L398 150" stroke="#2B2B2B" stroke-width="2.4" marker-end="url(#ah)"/>
+
+  <!-- expanded electrode -->
+  <g>
+    <path d="M470 84 L470 64 C470 56 476 52 484 52" fill="none" stroke="#174C55" stroke-width="3"/>
+    <g fill="none" stroke="#9CC9CC" stroke-width="2.4">
+      <path d="M470 92 C486 112 486 188 470 208"/><path d="M470 92 C454 112 454 188 470 208"/>
+    </g>
+    <g fill="none" stroke="#1F6F78" stroke-width="3">
+      <path d="M470 92 C550 112 550 188 470 208"/><path d="M470 92 C390 112 390 188 470 208"/>
+      <path d="M470 92 C518 112 518 188 470 208"/><path d="M470 92 C422 112 422 188 470 208"/>
+    </g>
+    <rect x="462" y="84" width="16" height="10" rx="2" fill="#174C55"/>
+    <rect x="464" y="206" width="12" height="9" rx="2" fill="#174C55"/>
+    <g fill="#C96A52" stroke="#FFFFFF" stroke-width="1.5">
+      <circle cx="530" cy="150" r="5.5"/><circle cx="410" cy="150" r="5.5"/><circle cx="506" cy="150" r="5"/><circle cx="434" cy="150" r="5"/>
+      <circle cx="520" cy="122" r="5"/><circle cx="420" cy="122" r="5"/><circle cx="520" cy="178" r="5"/><circle cx="420" cy="178" r="5"/>
+    </g>
+  </g>
+  <text x="470" y="236" text-anchor="middle" font-size="14" fill="#6B7280">expanded</text>
+  <text x="410" y="258" text-anchor="middle" font-size="15" fill="#4B5563">flexible, expandable electrode</text>
+
+  <path d="M556 150 L630 150" stroke="#2B2B2B" stroke-width="2.4" marker-end="url(#ah)"/>
+  <text x="592" y="136" text-anchor="middle" font-size="14" fill="#6B7280">implant</text>
+
+  <!-- rat brain coronal section -->
+  <g>
+    <path d="M760 82 C716 72 652 92 646 146 C641 194 684 230 736 224 C748 222 754 216 760 210 C766 216 772 222 784 224 C836 230 879 194 874 146 C868 92 804 72 760 82 Z" fill="url(#brainG)" stroke="#C98E80" stroke-width="2.5"/>
+    <line x1="760" y1="84" x2="760" y2="118" stroke="#D9A898" stroke-width="2"/>
+    <path d="M706 124 C734 108 786 108 814 124" fill="none" stroke="#E7C2B4" stroke-width="7" stroke-linecap="round"/>
+    <g fill="none" stroke="#DFA694" stroke-width="8" stroke-linecap="round">
+      <path d="M690 198 C700 180 724 176 742 190"/><path d="M830 198 C820 180 796 176 778 190"/>
+    </g>
+    <ellipse cx="730" cy="150" rx="20" ry="25" fill="#D6ECEE" stroke="#3E9AA0" stroke-width="2"/>
+    <ellipse cx="790" cy="150" rx="22" ry="26" fill="#D6ECEE" stroke="#3E9AA0" stroke-width="2"/>
+    <line x1="790" y1="58" x2="790" y2="128" stroke="#174C55" stroke-width="3"/>
+    <g fill="none" stroke="#1F6F78" stroke-width="2">
+      <path d="M790 128 C817 136 817 164 790 172"/><path d="M790 128 C763 136 763 164 790 172"/>
+      <path d="M790 128 C801 136 801 164 790 172"/><path d="M790 128 C779 136 779 164 790 172"/>
+    </g>
+    <g fill="#C96A52"><circle cx="810" cy="150" r="3.5"/><circle cx="770" cy="150" r="3.5"/><circle cx="798" cy="150" r="3"/><circle cx="782" cy="150" r="3"/></g>
+  </g>
+  <text x="800" y="64" font-size="14" fill="#174C55">via EVD pathway</text>
+  <g stroke="#6B7280" stroke-width="1.5" fill="none">
+    <path d="M808 132 L900 118"/><path d="M812 154 L900 160"/><path d="M826 194 L900 210"/>
+  </g>
+  <g font-size="15" fill="#374151">
+    <text x="906" y="123">lateral ventricle</text>
+    <text x="906" y="158">electrode conforms to</text>
+    <text x="906" y="177">the ependymal wall</text>
+    <text x="906" y="215">hippocampus</text>
+  </g>
+  <text x="760" y="258" text-anchor="middle" font-size="15" fill="#4B5563">rat lateral ventricle (coronal view)</text>
+
+  <!-- ============ 2 STABILITY ============ -->
+  <text x="86" y="314" font-size="25" fill="#1F2937">Stable, immunocompatible recording vs. subdural ECoG</text>
+
+  <!-- SNR over time -->
+  <g>
+    <line x1="110" y1="470" x2="390" y2="470" stroke="#2B2B2B" stroke-width="2"/>
+    <line x1="110" y1="346" x2="110" y2="470" stroke="#2B2B2B" stroke-width="2"/>
+    <path d="M116 376 C170 370 230 374 280 371 S360 373 386 371" fill="none" stroke="#C96A52" stroke-width="4" stroke-linecap="round"/>
+    <path d="M116 424 C170 428 230 420 280 426 S360 430 386 428" fill="none" stroke="#9AA3AE" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 0"/>
+    <text x="398" y="377" font-size="15" font-weight="700" fill="#C96A52">LV-BCI</text>
+    <text x="398" y="434" font-size="15" fill="#6B7280">subdural ECoG</text>
+    <text x="116" y="490" text-anchor="middle" font-size="14" fill="#4B5563">0</text>
+    <text x="380" y="490" text-anchor="middle" font-size="14" fill="#4B5563">112</text>
+    <text x="248" y="490" text-anchor="middle" font-size="14" fill="#4B5563">days</text>
+    <text transform="translate(98 408) rotate(-90)" text-anchor="middle" font-size="14" fill="#4B5563">evoked SNR</text>
+  </g>
+  <text x="250" y="514" text-anchor="middle" font-size="15" fill="#374151">consistently higher SNR over 112 days</text>
+
+  <!-- spectra / bandwidth -->
+  <g>
+    <line x1="580" y1="470" x2="770" y2="470" stroke="#2B2B2B" stroke-width="2"/>
+    <line x1="580" y1="346" x2="580" y2="470" stroke="#2B2B2B" stroke-width="2"/>
+    <path d="M586 354 C604 392 630 414 664 428 C700 442 734 450 766 454" fill="none" stroke="#9AA3AE" stroke-width="4" stroke-linecap="round"/>
+    <path d="M586 362 C606 398 632 418 666 432 C702 446 736 453 766 457" fill="none" stroke="#C96A52" stroke-width="3" stroke-dasharray="7 5" stroke-linecap="round"/>
+    <text x="675" y="490" text-anchor="middle" font-size="14" fill="#4B5563">frequency</text>
+    <text transform="translate(568 408) rotate(-90)" text-anchor="middle" font-size="14" fill="#4B5563">power</text>
+  </g>
+  <text x="675" y="514" text-anchor="middle" font-size="15" fill="#374151">max bandwidth comparable to ECoG</text>
+
+  <!-- microglia -->
+  <g transform="translate(908 404)">
+    <g stroke="#C96A52" stroke-width="5" stroke-linecap="round">
+      <line x1="0" y1="0" x2="-24" y2="-12"/><line x1="0" y1="0" x2="22" y2="-18"/><line x1="0" y1="0" x2="20" y2="18"/><line x1="0" y1="0" x2="-18" y2="22"/>
+    </g>
+    <circle r="17" fill="#E9A48F" stroke="#C96A52" stroke-width="2.5"/>
+    <circle cx="-3" cy="-2" r="6" fill="#C96A52"/>
+  </g>
+  <path d="M960 404 L1018 404" stroke="#2B2B2B" stroke-width="2.4" marker-end="url(#ah)"/>
+  <g transform="translate(1088 404)" fill="none" stroke="#1F6F78" stroke-width="2.4" stroke-linecap="round">
+    <path d="M0 0 C-14 -10 -26 -16 -40 -18 M-26 -14 L-32 -30 M0 0 C14 -12 26 -22 36 -36 M24 -20 L40 -18 M0 0 C18 4 32 10 44 22 M30 10 L34 26 M0 0 C-10 14 -18 26 -30 34 M-18 24 L-36 20 M0 0 C-16 4 -30 2 -44 8"/>
+    <circle r="9" fill="#9CC9CC"/>
+    <circle r="4" fill="#1F6F78" stroke="none"/>
+  </g>
+  <g font-size="14" fill="#4B5563" text-anchor="middle">
+    <text x="908" y="460">transient early</text><text x="908" y="478">activation</text>
+    <text x="1088" y="460">control level,</text><text x="1088" y="478">stable to 168 days</text>
+  </g>
+  <text x="998" y="514" text-anchor="middle" font-size="15" fill="#374151">microglial response (histology)</text>
+  <text x="998" y="370" text-anchor="middle" font-size="14" fill="#6B7280">after implantation</text>
+
+  <!-- ============ 3 DECODING ============ -->
+  <text x="86" y="570" font-size="23" fill="#1F2937">Memory-guided decision decoding</text>
+  <line x1="86" y1="582" x2="760" y2="582" stroke="#2B2B2B" stroke-width="1.6"/>
+
+  <!-- T-maze -->
+  <g>
+    <path d="M100 604 L300 604 L300 642 L220 642 L220 742 L180 742 L180 642 L100 642 Z" fill="#FFFFFF" stroke="#6B7280" stroke-width="3" stroke-linejoin="round"/>
+    <g transform="translate(200 708) scale(1.25)">
+      <path d="M0 18 C6 25 -6 31 2 38" fill="none" stroke="#9AA3AE" stroke-width="2.5" stroke-linecap="round" transform="translate(0 -14)"/>
+      <ellipse cx="0" cy="0" rx="10" ry="17" fill="url(#ratG)" stroke="#7D858D" stroke-width="1.5"/>
+      <path d="M-7 -12 L0 -27 L7 -12 Z" fill="#B4BBC2" stroke="#7D858D" stroke-width="1.5"/>
+      <circle cx="-7" cy="-14" r="4" fill="#E9B9A8"/><circle cx="7" cy="-14" r="4" fill="#E9B9A8"/>
+      <circle cx="0" cy="-27" r="2" fill="#C96A52"/>
+    </g>
+    <path d="M200 676 C200 640 170 624 130 623" fill="none" stroke="#C96A52" stroke-width="3" stroke-dasharray="6 4" marker-end="url(#ac)"/>
+    <path d="M200 676 C200 640 230 624 270 623" fill="none" stroke="#1F6F78" stroke-width="3" stroke-dasharray="6 4" marker-end="url(#ac)"/>
+    <text x="112" y="629" font-size="16" font-weight="700" fill="#C96A52">L</text>
+    <text x="286" y="629" font-size="16" font-weight="700" fill="#1F6F78">R</text>
+  </g>
+  <text x="200" y="770" text-anchor="middle" font-size="15" fill="#4B5563">action-memory T-maze</text>
+
+  <path d="M316 680 L352 680" stroke="#2B2B2B" stroke-width="2.4" marker-end="url(#ah)"/>
+
+  <!-- microstate sequence classifier -->
+  <g transform="translate(364 612)">
+    <rect x="0" y="0" width="200" height="130" rx="10" fill="#FFFFFF" stroke="#C9D3D6" stroke-width="2"/>
+    <path d="M12 38 l8 -10 l8 14 l8 -18 l8 12 l8 -6 l8 16 l8 -14 l8 8 l8 -12 l8 10 l8 -4 l8 12 l8 -16 l8 10 l8 -6 l8 8 l8 -10 l8 6 l8 -2 l8 4 l8 -2" fill="none" stroke="#1F6F78" stroke-width="2" stroke-linejoin="round"/>
+    <g stroke="#FFFFFF" stroke-width="1.5">
+      <rect x="12" y="70" width="30" height="26" fill="#1F6F78"/><rect x="42" y="70" width="22" height="26" fill="#C96A52"/>
+      <rect x="64" y="70" width="36" height="26" fill="#3E9AA0"/><rect x="100" y="70" width="20" height="26" fill="#E9A48F"/>
+      <rect x="120" y="70" width="32" height="26" fill="#1F6F78"/><rect x="152" y="70" width="36" height="26" fill="#C96A52"/>
+    </g>
+    <g font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+      <text x="27" y="88">A</text><text x="53" y="88">B</text><text x="82" y="88">C</text><text x="110" y="88">D</text><text x="136" y="88">A</text><text x="170" y="88">B</text>
+    </g>
+    <text x="100" y="118" text-anchor="middle" font-size="14" fill="#6B7280">signal → microstates</text>
+  </g>
+  <text x="464" y="770" text-anchor="middle" font-size="15" fill="#4B5563">microstate sequence classifier (MSSC)</text>
+
+  <path d="M576 680 L606 680" stroke="#2B2B2B" stroke-width="2.4" marker-end="url(#ah)"/>
+
+  <g transform="translate(616 628)">
+    <text x="0" y="56" font-size="50" font-weight="800" fill="#C96A52">98%</text>
+    <text x="2" y="84" font-size="16" fill="#1F2937">left/right turn</text>
+    <text x="2" y="104" font-size="16" fill="#1F2937">prediction (up to)</text>
+    <text x="2" y="128" font-size="14" fill="#6B7280">higher than subdural ECoG</text>
+  </g>
+
+  <line x1="790" y1="552" x2="790" y2="782" stroke="#C9D3D6" stroke-width="2"/>
+
+  <text x="816" y="570" font-size="23" fill="#1F2937">Implication</text>
+  <line x1="816" y1="582" x2="1170" y2="582" stroke="#2B2B2B" stroke-width="1.6"/>
+  <g transform="translate(818 612)" font-size="17" fill="#1F2937">
+    <g fill="none" stroke="#1F6F78" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 6 l6 6 l11 -13"/><path d="M0 64 l6 6 l11 -13"/><path d="M0 122 l6 6 l11 -13"/>
+    </g>
+    <text x="28" y="12">Lateral ventricle as a viable</text>
+    <text x="28" y="32" font-size="15" fill="#4B5563">route for neural signal acquisition</text>
+    <text x="28" y="70">Access to decision information</text>
+    <text x="28" y="90" font-size="15" fill="#4B5563">from deep structures (e.g., hippocampus)</text>
+    <text x="28" y="128">Long-term stable recording</text>
+    <text x="28" y="148" font-size="15" fill="#4B5563">without scar-related signal decline</text>
+  </g>
+</svg>

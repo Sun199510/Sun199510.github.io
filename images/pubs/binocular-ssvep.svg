@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" font-family="'Segoe UI', Arial, Helvetica, sans-serif">
+  <defs>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBE3D6"/><stop offset="1" stop-color="#EFC4AE"/></linearGradient>
+    <linearGradient id="cap" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4F6C9C"/><stop offset="1" stop-color="#2C4774"/></linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#E6ECF5"/><stop offset="1" stop-color="#F6F0DE"/></linearGradient>
+    <marker id="an" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#26406B"/></marker>
+    <marker id="an2" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#1E2F4D"/></marker>
+    <marker id="ag" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#B8892A"/></marker>
+    <marker id="ak" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#2B2B2B"/></marker>
+    <g id="tile">
+      <rect width="22" height="22" rx="3" fill="#C99B35"/>
+      <path d="M0 3 Q0 0 3 0 L22 0 L0 22 Z" fill="#2C4774"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="800" fill="#FFFFFF"/>
+
+  <!-- 标题 + 问题 -->
+  <text x="600" y="48" text-anchor="middle" font-size="31" font-weight="700" fill="#1E2F4D">Binocular vision SSVEP for dual-frequency modulation</text>
+  <rect x="170" y="66" width="860" height="44" rx="10" fill="#FDF0C2" stroke="#E2BC52" stroke-width="2"/>
+  <text x="600" y="95" text-anchor="middle" font-size="19" fill="#3D3420">Can one target carry two frequencies without intermodulation interference?</text>
+
+  <!-- ===== PARADIGM ===== -->
+  <rect x="28" y="140" width="1144" height="300" rx="18" fill="#F1F4F9" stroke="#4A6491" stroke-width="2.5"/>
+  <rect x="505" y="124" width="190" height="36" rx="8" fill="#26406B"/>
+  <text x="600" y="149" text-anchor="middle" font-size="19" font-weight="700" letter-spacing="1.5" fill="#FFFFFF">PARADIGM</text>
+
+  <!-- 偏振显示器 -->
+  <g>
+    <rect x="60" y="196" width="196" height="140" rx="8" fill="#FFFFFF" stroke="#3A4A63" stroke-width="3"/>
+    <rect x="70" y="206" width="176" height="120" rx="3" fill="#E8EDF5"/>
+    <g transform="translate(77 213)">
+      <use href="#tile" x="0" y="0"/><use href="#tile" x="28" y="0"/><use href="#tile" x="56" y="0"/><use href="#tile" x="84" y="0"/><use href="#tile" x="112" y="0"/><use href="#tile" x="140" y="0"/>
+      <use href="#tile" x="0" y="28"/><use href="#tile" x="28" y="28"/><use href="#tile" x="56" y="28"/><use href="#tile" x="84" y="28"/><use href="#tile" x="112" y="28"/><use href="#tile" x="140" y="28"/>
+      <use href="#tile" x="0" y="56"/><use href="#tile" x="28" y="56"/><use href="#tile" x="56" y="56"/><use href="#tile" x="84" y="56"/><use href="#tile" x="112" y="56"/><use href="#tile" x="140" y="56"/>
+      <use href="#tile" x="0" y="84"/><use href="#tile" x="28" y="84"/><use href="#tile" x="56" y="84"/><use href="#tile" x="84" y="84"/><use href="#tile" x="112" y="84"/><use href="#tile" x="140" y="84"/>
+      <rect x="81" y="25" width="28" height="28" rx="4" fill="none" stroke="#1E2F4D" stroke-width="3"/>
+    </g>
+    <rect x="146" y="336" width="24" height="20" fill="#3A4A63"/>
+    <rect x="114" y="356" width="88" height="9" rx="4" fill="#3A4A63"/>
+  </g>
+  <text x="158" y="402" text-anchor="middle" font-size="16" fill="#1F2937">circularly polarized display</text>
+  <text x="158" y="424" text-anchor="middle" font-size="14" fill="#4B5563">6-target offline · 40-target online</text>
+
+  <!-- 光束：每束同时含 f1 与 f2 -->
+  <rect x="256" y="249" width="442" height="30" fill="url(#beam)"/>
+  <rect x="256" y="301" width="442" height="30" fill="url(#beam)"/>
+  <g fill="none" stroke-width="2.6" stroke-linecap="round">
+    <path stroke="#2C4774" d="M262 257 q6 -6 12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0"/>
+    <path stroke="#C99B35" d="M262 271 q10 -6 20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0"/>
+    <path stroke="#2C4774" d="M262 309 q6 -6 12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0"/>
+    <path stroke="#C99B35" d="M262 323 q10 -6 20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0"/>
+  </g>
+  <text x="470" y="236" text-anchor="middle" font-size="16" font-weight="600"><tspan fill="#26406B">f₁</tspan><tspan fill="#4B5563"> + </tspan><tspan fill="#A87C22">f₂</tspan><tspan fill="#4B5563" font-weight="400"> reach both lenses</tspan></text>
+  <text x="470" y="356" text-anchor="middle" font-size="15" fill="#4B5563">two polarization states from one target</text>
+
+  <!-- 俯视头部 + 偏振眼镜 -->
+  <g>
+    <ellipse cx="806" cy="214" rx="13" ry="8" fill="url(#skin)" stroke="#B98A74" stroke-width="2"/>
+    <ellipse cx="806" cy="366" rx="13" ry="8" fill="url(#skin)" stroke="#B98A74" stroke-width="2"/>
+    <path d="M716 290 C716 238 754 216 806 216 C858 216 890 248 890 290 C890 332 858 364 806 364 C754 364 716 342 716 290 Z" fill="url(#skin)" stroke="#B98A74" stroke-width="2.5"/>
+    <path d="M719 278 L700 290 L719 302 Z" fill="url(#skin)" stroke="#B98A74" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M770 220 C786 216 798 216 806 216 C858 216 890 248 890 290 C890 332 858 364 806 364 C798 364 786 364 770 360 C752 330 752 250 770 220 Z" fill="url(#cap)" stroke="#22385E" stroke-width="2.5"/>
+    <g fill="#F5F7FA" stroke="#1E2F4D" stroke-width="2">
+      <circle cx="790" cy="246" r="5.5"/><circle cx="790" cy="290" r="5.5"/><circle cx="790" cy="334" r="5.5"/>
+      <circle cx="828" cy="236" r="5.5"/><circle cx="828" cy="268" r="5.5"/><circle cx="828" cy="312" r="5.5"/><circle cx="828" cy="344" r="5.5"/>
+      <circle cx="864" cy="262" r="5.5"/><circle cx="864" cy="318" r="5.5"/><circle cx="876" cy="290" r="5.5"/>
+    </g>
+    <!-- 眼睛 -->
+    <ellipse cx="732" cy="264" rx="9" ry="12" fill="#FFFFFF" stroke="#6B4A3A" stroke-width="2"/>
+    <circle cx="727" cy="264" r="4.5" fill="#3A2A22"/>
+    <ellipse cx="732" cy="316" rx="9" ry="12" fill="#FFFFFF" stroke="#6B4A3A" stroke-width="2"/>
+    <circle cx="727" cy="316" r="4.5" fill="#3A2A22"/>
+    <!-- 透过镜片后只剩单一频率 -->
+    <path d="M708 264 q4 -5 8 0 t8 0" fill="none" stroke="#2C4774" stroke-width="2.6"/>
+    <path d="M708 316 q6 -5 12 0" fill="none" stroke="#C99B35" stroke-width="2.6"/>
+    <!-- 镜框 -->
+    <path d="M704 244 L798 218 M704 336 L798 362 M704 284 L704 296" fill="none" stroke="#2B2B2B" stroke-width="2.5" stroke-linecap="round"/>
+    <ellipse cx="704" cy="264" rx="6" ry="21" fill="#C9D5E8" stroke="#26406B" stroke-width="3.5"/>
+    <ellipse cx="704" cy="316" rx="6" ry="21" fill="#F1E2B8" stroke="#B8892A" stroke-width="3.5"/>
+  </g>
+  <text x="664" y="232" text-anchor="middle" font-size="15" font-weight="700" fill="#26406B">f₁ only</text>
+  <text x="664" y="360" text-anchor="middle" font-size="15" font-weight="700" fill="#A87C22">f₂ only</text>
+  <text x="790" y="402" text-anchor="middle" font-size="16" fill="#1F2937">polarizing glasses</text>
+  <text x="790" y="424" text-anchor="middle" font-size="14" fill="#4B5563">each eye sees one frequency</text>
+
+  <path d="M898 290 L926 290" stroke="#2B2B2B" stroke-width="2.4" fill="none" marker-end="url(#ak)"/>
+
+  <!-- 脑电 + FBDCCA -->
+  <g transform="translate(940 196)">
+    <rect x="0" y="0" width="206" height="160" rx="10" fill="#FFFFFF" stroke="#B9C4D6" stroke-width="2"/>
+    <g fill="none" stroke-width="1.8" stroke-linejoin="round">
+      <path stroke="#2C4774" d="M14 24 l8 -6 l8 8 l8 -10 l8 9 l8 -6 l8 7 l8 -9 l8 6 l8 -4 l8 7 l8 -9 l8 7 l8 -4 l8 5 l8 -7 l8 6 l8 -3 l8 3 l8 -4 l8 3 l8 -2"/>
+      <path stroke="#C99B35" d="M14 50 l8 5 l8 -8 l8 10 l8 -7 l8 7 l8 -10 l8 8 l8 -4 l8 6 l8 -7 l8 5 l8 -3 l8 6 l8 -5 l8 4 l8 -6 l8 7 l8 -4 l8 2 l8 -3 l8 3"/>
+      <path stroke="#5E7BA8" d="M14 76 l8 -7 l8 6 l8 -4 l8 10 l8 -8 l8 5 l8 -3 l8 7 l8 -9 l8 6 l8 -5 l8 8 l8 -6 l8 4 l8 -6 l8 5 l8 -3 l8 5 l8 -4 l8 3 l8 -2"/>
+    </g>
+    <path d="M103 92 L103 108" stroke="#2B2B2B" stroke-width="2.2" marker-end="url(#ak)"/>
+    <rect x="38" y="112" width="130" height="36" rx="8" fill="#26406B"/>
+    <text x="103" y="137" text-anchor="middle" font-size="18" font-weight="700" letter-spacing="1" fill="#FFFFFF">FBDCCA</text>
+  </g>
+  <text x="1043" y="402" text-anchor="middle" font-size="16" fill="#1F2937">dual-frequency decoding</text>
+  <text x="1043" y="424" text-anchor="middle" font-size="14" fill="#4B5563">filter-bank dual-frequency CCA</text>
+
+  <!-- 范式 → 结果 -->
+  <path d="M150 446 L150 476" stroke="#26406B" stroke-width="6" marker-end="url(#an)"/>
+
+  <!-- ===== KEY FINDINGS ===== -->
+  <rect x="28" y="490" width="732" height="288" rx="18" fill="#FBF6E9" stroke="#C9A043" stroke-width="2.5"/>
+  <rect x="292" y="472" width="200" height="36" rx="8" fill="#B8892A"/>
+  <text x="392" y="497" text-anchor="middle" font-size="19" font-weight="700" letter-spacing="1.5" fill="#FFFFFF">KEY FINDINGS</text>
+
+  <!-- 示意频谱：目标频率 vs 互调成分 -->
+  <g transform="translate(86 540)">
+    <line x1="0" y1="0" x2="0" y2="160" stroke="#2B2B2B" stroke-width="2"/>
+    <line x1="0" y1="160" x2="250" y2="160" stroke="#2B2B2B" stroke-width="2"/>
+    <rect x="22" y="62" width="26" height="98" fill="#A9B1BE"/>
+    <rect x="76" y="22" width="26" height="138" fill="#2C4774"/>
+    <rect x="130" y="30" width="26" height="130" fill="#C99B35"/>
+    <rect x="184" y="68" width="26" height="92" fill="#A9B1BE"/>
+    <line x1="64" y1="22" x2="240" y2="22" stroke="#6B7280" stroke-width="1.6" stroke-dasharray="5 4"/>
+    <line x1="12" y1="62" x2="240" y2="62" stroke="#6B7280" stroke-width="1.6" stroke-dasharray="5 4"/>
+    <path d="M232 26 L232 58" stroke="#1E2F4D" stroke-width="2.4" marker-start="url(#an2)" marker-end="url(#an2)"/>
+    <text x="244" y="49" font-size="20" font-weight="700" fill="#26406B">+2 dB</text>
+    <g font-size="15" fill="#374151" text-anchor="middle">
+      <text x="35" y="180">IM</text><text x="89" y="180">f₁</text><text x="143" y="180">f₂</text><text x="197" y="180">IM</text>
+    </g>
+    <text transform="translate(-14 80) rotate(-90)" text-anchor="middle" font-size="14" fill="#4B5563">SNR</text>
+  </g>
+  <text x="200" y="746" text-anchor="middle" font-size="15" fill="#374151">targets vs. intermodulation (IM)</text>
+  <text x="200" y="766" text-anchor="middle" font-size="14" fill="#6B7280">6-target offline, 9 subjects</text>
+
+  <line x1="404" y1="526" x2="404" y2="760" stroke="#E5D3A6" stroke-width="2"/>
+
+  <!-- 关键数字 -->
+  <g transform="translate(432 0)">
+    <text x="0" y="590" font-size="60" font-weight="800" fill="#B8892A">104.6</text>
+    <text x="168" y="590" font-size="22" font-weight="600" fill="#1F2937">bits/min</text>
+    <text x="2" y="622" font-size="18" font-weight="600" fill="#1F2937">online ITR, training-free</text>
+    <text x="2" y="646" font-size="15" fill="#4B5563">40 targets · 12 subjects</text>
+    <text x="2" y="668" font-size="15" fill="#4B5563">≈2× the best prior dual-frequency paradigm</text>
+    <line x1="2" y1="688" x2="300" y2="688" stroke="#E5D3A6" stroke-width="2"/>
+    <text x="2" y="722" font-size="24" font-weight="700" fill="#26406B">180.87 <tspan font-size="17" font-weight="600">bits/min</tspan></text>
+    <text x="2" y="746" font-size="15" fill="#4B5563">offline analysis with training</text>
+  </g>
+
+  <!-- 结果 → 意义 -->
+  <path d="M764 634 L780 634" stroke="#B8892A" stroke-width="6" marker-end="url(#ag)"/>
+
+  <!-- ===== SIGNIFICANCE ===== -->
+  <rect x="790" y="490" width="382" height="288" rx="18" fill="#F1F4F9" stroke="#4A6491" stroke-width="2.5"/>
+  <rect x="883" y="472" width="196" height="36" rx="8" fill="#26406B"/>
+  <text x="981" y="497" text-anchor="middle" font-size="19" font-weight="700" letter-spacing="1.5" fill="#FFFFFF">SIGNIFICANCE</text>
+  <g transform="translate(822 562)" font-size="17" fill="#1F2937">
+    <g fill="none" stroke="#B8892A" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 6 l6 6 l11 -13"/><path d="M0 78 l6 6 l11 -13"/><path d="M0 150 l6 6 l11 -13"/>
+    </g>
+    <text x="28" y="12">Intermodulation suppressed</text>
+    <text x="28" y="34" font-size="15" fill="#4B5563">cleaner dual-frequency responses</text>
+    <text x="28" y="84">Suited to training-free use</text>
+    <text x="28" y="106" font-size="15" fill="#4B5563">no per-user calibration online</text>
+    <text x="28" y="156">Room for more targets</text>
+    <text x="28" y="178" font-size="15" fill="#4B5563">toward large-target BCI systems</text>
+  </g>
+</svg>

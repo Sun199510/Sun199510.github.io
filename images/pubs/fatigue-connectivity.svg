@@ -1,0 +1,464 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" font-family="'Segoe UI', Arial, Helvetica, sans-serif">
+  <defs>
+    <symbol id="person" viewBox="-22 -50 44 76" overflow="visible">
+      <circle cx="0" cy="-33" r="13"/>
+      <path d="M-19 26 L-19 -4 Q-19 -17 -6 -17 L6 -17 Q19 -17 19 -4 L19 26 Z"/>
+    </symbol>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#2B2B2B"/>
+    </marker>
+    <marker id="ab" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="3.4" markerHeight="3.4" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#2C5580"/>
+    </marker>
+    <marker id="aw" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#A9B8C8"/>
+    </marker>
+    <clipPath id="scalpN"><circle cx="0" cy="0" r="88"/></clipPath>
+    <g id="nodes">
+      <circle cx="-28" cy="-66" r="6"/><circle cx="28" cy="-66" r="6"/>
+      <circle cx="-44" cy="-30" r="6"/><circle cx="0" cy="-34" r="6"/><circle cx="44" cy="-30" r="6"/>
+      <circle cx="-74" cy="0" r="6"/><circle cx="-38" cy="0" r="6"/><circle cx="0" cy="0" r="6"/><circle cx="38" cy="0" r="6"/><circle cx="74" cy="0" r="6"/>
+      <circle cx="-24" cy="68" r="6"/><circle cx="24" cy="68" r="6"/>
+    </g>
+    <g id="scalp">
+      <path d="M-12 -86 L0 -104 L12 -86 Z" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+      <ellipse cx="-90" cy="0" rx="8" ry="20" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+      <ellipse cx="90" cy="0" rx="8" ry="20" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+      <circle r="88" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="800" fill="#FFFFFF"/>
+
+  <!-- ============ band strips ============ -->
+  <rect x="0" y="0" width="46" height="372" fill="#7A6A5C"/>
+  <rect x="0" y="372" width="46" height="428" fill="#3C6E9F"/>
+  <g fill="#FFFFFF" font-size="21" font-weight="600" text-anchor="middle">
+    <text transform="translate(31 186) rotate(-90)">Paradigm</text>
+    <text transform="translate(31 586) rotate(-90)">Findings</text>
+  </g>
+  <rect x="46" y="0" width="1154" height="372" fill="#F5F3F0"/>
+  <line x1="0" y1="372" x2="1200" y2="372" stroke="#2B2B2B" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="798" fill="none" stroke="#2B2B2B" stroke-width="2"/>
+
+  <!-- ============ 1 Paradigm ============ -->
+  <text x="86" y="42" font-size="25" fill="#1F2937">Fatigue induced by an N-back task, probed with RSVP</text>
+
+  <!-- RSVP stream of phase-scrambled images -->
+  <g transform="translate(220 80)">
+    <rect x="-4" y="-4" width="92" height="92" rx="5" fill="#FFFFFF" stroke="#7A6A5C" stroke-width="2"/>
+    <rect x="0" y="0" width="12" height="12" fill="#C2BCB4"/>
+    <rect x="12" y="0" width="12" height="12" fill="#DDD6CD"/>
+    <rect x="24" y="0" width="12" height="12" fill="#D9D2C9"/>
+    <rect x="36" y="0" width="12" height="12" fill="#D0C9C1"/>
+    <rect x="48" y="0" width="12" height="12" fill="#C3BDB5"/>
+    <rect x="60" y="0" width="12" height="12" fill="#E2DBD2"/>
+    <rect x="72" y="0" width="12" height="12" fill="#E3DCD3"/>
+    <rect x="0" y="12" width="12" height="12" fill="#D3CCC4"/>
+    <rect x="12" y="12" width="12" height="12" fill="#CDC6BE"/>
+    <rect x="24" y="12" width="12" height="12" fill="#B1ABA4"/>
+    <rect x="36" y="12" width="12" height="12" fill="#9C9791"/>
+    <rect x="48" y="12" width="12" height="12" fill="#B8B2AB"/>
+    <rect x="60" y="12" width="12" height="12" fill="#D2CBC3"/>
+    <rect x="72" y="12" width="12" height="12" fill="#BDB7AF"/>
+    <rect x="0" y="24" width="12" height="12" fill="#DED7CE"/>
+    <rect x="12" y="24" width="12" height="12" fill="#A8A29C"/>
+    <rect x="24" y="24" width="12" height="12" fill="#7D7974"/>
+    <rect x="36" y="24" width="12" height="12" fill="#67635F"/>
+    <rect x="48" y="24" width="12" height="12" fill="#A49F98"/>
+    <rect x="60" y="24" width="12" height="12" fill="#C2BCB4"/>
+    <rect x="72" y="24" width="12" height="12" fill="#E2DBD2"/>
+    <rect x="0" y="36" width="12" height="12" fill="#D2CBC3"/>
+    <rect x="12" y="36" width="12" height="12" fill="#8C8782"/>
+    <rect x="24" y="36" width="12" height="12" fill="#736F6A"/>
+    <rect x="36" y="36" width="12" height="12" fill="#75716C"/>
+    <rect x="48" y="36" width="12" height="12" fill="#686460"/>
+    <rect x="60" y="36" width="12" height="12" fill="#BBB5AD"/>
+    <rect x="72" y="36" width="12" height="12" fill="#C6C0B8"/>
+    <rect x="0" y="48" width="12" height="12" fill="#BEB8B0"/>
+    <rect x="12" y="48" width="12" height="12" fill="#C6C0B8"/>
+    <rect x="24" y="48" width="12" height="12" fill="#77736E"/>
+    <rect x="36" y="48" width="12" height="12" fill="#948F89"/>
+    <rect x="48" y="48" width="12" height="12" fill="#88837E"/>
+    <rect x="60" y="48" width="12" height="12" fill="#B8B2AB"/>
+    <rect x="72" y="48" width="12" height="12" fill="#C7C1B9"/>
+    <rect x="0" y="60" width="12" height="12" fill="#D2CBC3"/>
+    <rect x="12" y="60" width="12" height="12" fill="#BDB7AF"/>
+    <rect x="24" y="60" width="12" height="12" fill="#A7A19B"/>
+    <rect x="36" y="60" width="12" height="12" fill="#C8C2BA"/>
+    <rect x="48" y="60" width="12" height="12" fill="#B1ABA4"/>
+    <rect x="60" y="60" width="12" height="12" fill="#DBD4CB"/>
+    <rect x="72" y="60" width="12" height="12" fill="#C4BEB6"/>
+    <rect x="0" y="72" width="12" height="12" fill="#EBE3DA"/>
+    <rect x="12" y="72" width="12" height="12" fill="#E7E0D6"/>
+    <rect x="24" y="72" width="12" height="12" fill="#DFD8CF"/>
+    <rect x="36" y="72" width="12" height="12" fill="#DFD8CF"/>
+    <rect x="48" y="72" width="12" height="12" fill="#D6CFC7"/>
+    <rect x="60" y="72" width="12" height="12" fill="#DFD8CF"/>
+    <rect x="72" y="72" width="12" height="12" fill="#C0BAB2"/>
+  </g>
+  <g transform="translate(190 102)">
+    <rect x="-4" y="-4" width="92" height="92" rx="5" fill="#FFFFFF" stroke="#7A6A5C" stroke-width="2"/>
+    <rect x="0" y="0" width="12" height="12" fill="#ACA69F"/>
+    <rect x="12" y="0" width="12" height="12" fill="#D8D1C8"/>
+    <rect x="24" y="0" width="12" height="12" fill="#88837E"/>
+    <rect x="36" y="0" width="12" height="12" fill="#E4DDD4"/>
+    <rect x="48" y="0" width="12" height="12" fill="#E0D9D0"/>
+    <rect x="60" y="0" width="12" height="12" fill="#A39E97"/>
+    <rect x="72" y="0" width="12" height="12" fill="#9E9992"/>
+    <rect x="0" y="12" width="12" height="12" fill="#A8A29C"/>
+    <rect x="12" y="12" width="12" height="12" fill="#9E9992"/>
+    <rect x="24" y="12" width="12" height="12" fill="#E7E0D6"/>
+    <rect x="36" y="12" width="12" height="12" fill="#96918B"/>
+    <rect x="48" y="12" width="12" height="12" fill="#6B6763"/>
+    <rect x="60" y="12" width="12" height="12" fill="#797570"/>
+    <rect x="72" y="12" width="12" height="12" fill="#CAC3BB"/>
+    <rect x="0" y="24" width="12" height="12" fill="#ECE4DB"/>
+    <rect x="12" y="24" width="12" height="12" fill="#A49F98"/>
+    <rect x="24" y="24" width="12" height="12" fill="#948F89"/>
+    <rect x="36" y="24" width="12" height="12" fill="#97928C"/>
+    <rect x="48" y="24" width="12" height="12" fill="#B4AEA7"/>
+    <rect x="60" y="24" width="12" height="12" fill="#817D77"/>
+    <rect x="72" y="24" width="12" height="12" fill="#BBB5AD"/>
+    <rect x="0" y="36" width="12" height="12" fill="#B4AEA7"/>
+    <rect x="12" y="36" width="12" height="12" fill="#AEA8A1"/>
+    <rect x="24" y="36" width="12" height="12" fill="#67635F"/>
+    <rect x="36" y="36" width="12" height="12" fill="#63605C"/>
+    <rect x="48" y="36" width="12" height="12" fill="#7C7873"/>
+    <rect x="60" y="36" width="12" height="12" fill="#D4CDC5"/>
+    <rect x="72" y="36" width="12" height="12" fill="#99948E"/>
+    <rect x="0" y="48" width="12" height="12" fill="#BAB4AC"/>
+    <rect x="12" y="48" width="12" height="12" fill="#8B8681"/>
+    <rect x="24" y="48" width="12" height="12" fill="#625F5B"/>
+    <rect x="36" y="48" width="12" height="12" fill="#595652"/>
+    <rect x="48" y="48" width="12" height="12" fill="#BDB7AF"/>
+    <rect x="60" y="48" width="12" height="12" fill="#C7C1B9"/>
+    <rect x="72" y="48" width="12" height="12" fill="#9D9892"/>
+    <rect x="0" y="60" width="12" height="12" fill="#C6C0B8"/>
+    <rect x="12" y="60" width="12" height="12" fill="#C3BDB5"/>
+    <rect x="24" y="60" width="12" height="12" fill="#DAD3CA"/>
+    <rect x="36" y="60" width="12" height="12" fill="#DED7CE"/>
+    <rect x="48" y="60" width="12" height="12" fill="#9C9791"/>
+    <rect x="60" y="60" width="12" height="12" fill="#EBE3DA"/>
+    <rect x="72" y="60" width="12" height="12" fill="#E9E2D8"/>
+    <rect x="0" y="72" width="12" height="12" fill="#BAB4AC"/>
+    <rect x="12" y="72" width="12" height="12" fill="#E0D9D0"/>
+    <rect x="24" y="72" width="12" height="12" fill="#ADA7A0"/>
+    <rect x="36" y="72" width="12" height="12" fill="#9E9992"/>
+    <rect x="48" y="72" width="12" height="12" fill="#8E8984"/>
+    <rect x="60" y="72" width="12" height="12" fill="#DFD8CF"/>
+    <rect x="72" y="72" width="12" height="12" fill="#84807A"/>
+  </g>
+  <g transform="translate(160 124)">
+    <rect x="-4" y="-4" width="92" height="92" rx="5" fill="#FFFFFF" stroke="#7A6A5C" stroke-width="2"/>
+    <rect x="0" y="0" width="12" height="12" fill="#BEB8B0"/>
+    <rect x="12" y="0" width="12" height="12" fill="#E3DCD3"/>
+    <rect x="24" y="0" width="12" height="12" fill="#E0D9D0"/>
+    <rect x="36" y="0" width="12" height="12" fill="#D0C9C1"/>
+    <rect x="48" y="0" width="12" height="12" fill="#E3DCD3"/>
+    <rect x="60" y="0" width="12" height="12" fill="#BCB6AE"/>
+    <rect x="72" y="0" width="12" height="12" fill="#C7C1B9"/>
+    <rect x="0" y="12" width="12" height="12" fill="#C8C2BA"/>
+    <rect x="12" y="12" width="12" height="12" fill="#C9C2BA"/>
+    <rect x="24" y="12" width="12" height="12" fill="#AEA8A1"/>
+    <rect x="36" y="12" width="12" height="12" fill="#9F9A93"/>
+    <rect x="48" y="12" width="12" height="12" fill="#B6B0A9"/>
+    <rect x="60" y="12" width="12" height="12" fill="#E2DBD2"/>
+    <rect x="72" y="12" width="12" height="12" fill="#EBE3DA"/>
+    <rect x="0" y="24" width="12" height="12" fill="#DCD5CC"/>
+    <rect x="12" y="24" width="12" height="12" fill="#B4AEA7"/>
+    <rect x="24" y="24" width="12" height="12" fill="#7E7A75"/>
+    <rect x="36" y="24" width="12" height="12" fill="#96918B"/>
+    <rect x="48" y="24" width="12" height="12" fill="#8C8782"/>
+    <rect x="60" y="24" width="12" height="12" fill="#C1BBB3"/>
+    <rect x="72" y="24" width="12" height="12" fill="#B7B1AA"/>
+    <rect x="0" y="36" width="12" height="12" fill="#BEB8B0"/>
+    <rect x="12" y="36" width="12" height="12" fill="#B5AFA8"/>
+    <rect x="24" y="36" width="12" height="12" fill="#8B8681"/>
+    <rect x="36" y="36" width="12" height="12" fill="#89847F"/>
+    <rect x="48" y="36" width="12" height="12" fill="#817D77"/>
+    <rect x="60" y="36" width="12" height="12" fill="#A09B94"/>
+    <rect x="72" y="36" width="12" height="12" fill="#D1CAC2"/>
+    <rect x="0" y="48" width="12" height="12" fill="#E1DAD1"/>
+    <rect x="12" y="48" width="12" height="12" fill="#ACA69F"/>
+    <rect x="24" y="48" width="12" height="12" fill="#8C8782"/>
+    <rect x="36" y="48" width="12" height="12" fill="#736F6A"/>
+    <rect x="48" y="48" width="12" height="12" fill="#98938D"/>
+    <rect x="60" y="48" width="12" height="12" fill="#9C9791"/>
+    <rect x="72" y="48" width="12" height="12" fill="#D9D2C9"/>
+    <rect x="0" y="60" width="12" height="12" fill="#EAE2D9"/>
+    <rect x="12" y="60" width="12" height="12" fill="#B5AFA8"/>
+    <rect x="24" y="60" width="12" height="12" fill="#C4BEB6"/>
+    <rect x="36" y="60" width="12" height="12" fill="#BCB6AE"/>
+    <rect x="48" y="60" width="12" height="12" fill="#D1CAC2"/>
+    <rect x="60" y="60" width="12" height="12" fill="#D1CAC2"/>
+    <rect x="72" y="60" width="12" height="12" fill="#C6C0B8"/>
+    <rect x="0" y="72" width="12" height="12" fill="#CFC8C0"/>
+    <rect x="12" y="72" width="12" height="12" fill="#EAE2D9"/>
+    <rect x="24" y="72" width="12" height="12" fill="#E7E0D6"/>
+    <rect x="36" y="72" width="12" height="12" fill="#BEB8B0"/>
+    <rect x="48" y="72" width="12" height="12" fill="#BDB7AF"/>
+    <rect x="60" y="72" width="12" height="12" fill="#BEB8B0"/>
+    <rect x="72" y="72" width="12" height="12" fill="#BBB5AD"/>
+  </g>
+  <g transform="translate(130 146)">
+    <rect x="-4" y="-4" width="92" height="92" rx="5" fill="#FFFFFF" stroke="#7A6A5C" stroke-width="2"/>
+    <rect x="0" y="0" width="12" height="12" fill="#A8A29C"/>
+    <rect x="12" y="0" width="12" height="12" fill="#817D77"/>
+    <rect x="24" y="0" width="12" height="12" fill="#DDD6CD"/>
+    <rect x="36" y="0" width="12" height="12" fill="#C2BCB4"/>
+    <rect x="48" y="0" width="12" height="12" fill="#7F7B76"/>
+    <rect x="60" y="0" width="12" height="12" fill="#B4AEA7"/>
+    <rect x="72" y="0" width="12" height="12" fill="#98938D"/>
+    <rect x="0" y="12" width="12" height="12" fill="#AEA8A1"/>
+    <rect x="12" y="12" width="12" height="12" fill="#89847F"/>
+    <rect x="24" y="12" width="12" height="12" fill="#7D7974"/>
+    <rect x="36" y="12" width="12" height="12" fill="#7C7873"/>
+    <rect x="48" y="12" width="12" height="12" fill="#98938D"/>
+    <rect x="60" y="12" width="12" height="12" fill="#C7C1B9"/>
+    <rect x="72" y="12" width="12" height="12" fill="#B5AFA8"/>
+    <rect x="0" y="24" width="12" height="12" fill="#736F6A"/>
+    <rect x="12" y="24" width="12" height="12" fill="#BFB9B1"/>
+    <rect x="24" y="24" width="12" height="12" fill="#C4BEB6"/>
+    <rect x="36" y="24" width="12" height="12" fill="#B3ADA6"/>
+    <rect x="48" y="24" width="12" height="12" fill="#BAB4AC"/>
+    <rect x="60" y="24" width="12" height="12" fill="#65615D"/>
+    <rect x="72" y="24" width="12" height="12" fill="#A9A39D"/>
+    <rect x="0" y="36" width="12" height="12" fill="#75716C"/>
+    <rect x="12" y="36" width="12" height="12" fill="#C0BAB2"/>
+    <rect x="24" y="36" width="12" height="12" fill="#66625E"/>
+    <rect x="36" y="36" width="12" height="12" fill="#A8A29C"/>
+    <rect x="48" y="36" width="12" height="12" fill="#706C68"/>
+    <rect x="60" y="36" width="12" height="12" fill="#B7B1AA"/>
+    <rect x="72" y="36" width="12" height="12" fill="#95908A"/>
+    <rect x="0" y="48" width="12" height="12" fill="#736F6A"/>
+    <rect x="12" y="48" width="12" height="12" fill="#96918B"/>
+    <rect x="24" y="48" width="12" height="12" fill="#7D7974"/>
+    <rect x="36" y="48" width="12" height="12" fill="#C4BEB6"/>
+    <rect x="48" y="48" width="12" height="12" fill="#7B7772"/>
+    <rect x="60" y="48" width="12" height="12" fill="#A5A099"/>
+    <rect x="72" y="48" width="12" height="12" fill="#B4AEA7"/>
+    <rect x="0" y="60" width="12" height="12" fill="#E8E1D7"/>
+    <rect x="12" y="60" width="12" height="12" fill="#797570"/>
+    <rect x="24" y="60" width="12" height="12" fill="#B4AEA7"/>
+    <rect x="36" y="60" width="12" height="12" fill="#A5A099"/>
+    <rect x="48" y="60" width="12" height="12" fill="#C5BFB7"/>
+    <rect x="60" y="60" width="12" height="12" fill="#E8E1D7"/>
+    <rect x="72" y="60" width="12" height="12" fill="#96918B"/>
+    <rect x="0" y="72" width="12" height="12" fill="#C8C2BA"/>
+    <rect x="12" y="72" width="12" height="12" fill="#B2ACA5"/>
+    <rect x="24" y="72" width="12" height="12" fill="#B6B0A9"/>
+    <rect x="36" y="72" width="12" height="12" fill="#76726D"/>
+    <rect x="48" y="72" width="12" height="12" fill="#D6CFC7"/>
+    <rect x="60" y="72" width="12" height="12" fill="#EBE3DA"/>
+    <rect x="72" y="72" width="12" height="12" fill="#9C9791"/>
+  </g>
+  <g transform="translate(100 168)">
+    <rect x="-4" y="-4" width="92" height="92" rx="5" fill="#FFFFFF" stroke="#7A6A5C" stroke-width="2"/>
+    <rect x="0" y="0" width="12" height="12" fill="#CAC3BB"/>
+    <rect x="12" y="0" width="12" height="12" fill="#ECE4DB"/>
+    <rect x="24" y="0" width="12" height="12" fill="#BEB8B0"/>
+    <rect x="36" y="0" width="12" height="12" fill="#BCB6AE"/>
+    <rect x="48" y="0" width="12" height="12" fill="#BCB6AE"/>
+    <rect x="60" y="0" width="12" height="12" fill="#E3DCD3"/>
+    <rect x="72" y="0" width="12" height="12" fill="#E1DAD1"/>
+    <rect x="0" y="12" width="12" height="12" fill="#D0C9C1"/>
+    <rect x="12" y="12" width="12" height="12" fill="#D3CCC4"/>
+    <rect x="24" y="12" width="12" height="12" fill="#A6A19A"/>
+    <rect x="36" y="12" width="12" height="12" fill="#BCB6AE"/>
+    <rect x="48" y="12" width="12" height="12" fill="#BCB6AE"/>
+    <rect x="60" y="12" width="12" height="12" fill="#CEC7BF"/>
+    <rect x="72" y="12" width="12" height="12" fill="#CDC6BE"/>
+    <rect x="0" y="24" width="12" height="12" fill="#CAC3BB"/>
+    <rect x="12" y="24" width="12" height="12" fill="#A7A19B"/>
+    <rect x="24" y="24" width="12" height="12" fill="#74706B"/>
+    <rect x="36" y="24" width="12" height="12" fill="#7B7772"/>
+    <rect x="48" y="24" width="12" height="12" fill="#7E7A75"/>
+    <rect x="60" y="24" width="12" height="12" fill="#C0BAB2"/>
+    <rect x="72" y="24" width="12" height="12" fill="#DFD8CF"/>
+    <rect x="0" y="36" width="12" height="12" fill="#D8D1C8"/>
+    <rect x="12" y="36" width="12" height="12" fill="#A29D96"/>
+    <rect x="24" y="36" width="12" height="12" fill="#6E6A66"/>
+    <rect x="36" y="36" width="12" height="12" fill="#6F6B67"/>
+    <rect x="48" y="36" width="12" height="12" fill="#7B7772"/>
+    <rect x="60" y="36" width="12" height="12" fill="#ABA59F"/>
+    <rect x="72" y="36" width="12" height="12" fill="#E4DDD4"/>
+    <rect x="0" y="48" width="12" height="12" fill="#BAB4AC"/>
+    <rect x="12" y="48" width="12" height="12" fill="#B4AEA7"/>
+    <rect x="24" y="48" width="12" height="12" fill="#8A8580"/>
+    <rect x="36" y="48" width="12" height="12" fill="#8A8580"/>
+    <rect x="48" y="48" width="12" height="12" fill="#9F9A93"/>
+    <rect x="60" y="48" width="12" height="12" fill="#C4BEB6"/>
+    <rect x="72" y="48" width="12" height="12" fill="#D6CFC7"/>
+    <rect x="0" y="60" width="12" height="12" fill="#E0D9D0"/>
+    <rect x="12" y="60" width="12" height="12" fill="#D6CFC7"/>
+    <rect x="24" y="60" width="12" height="12" fill="#D1CAC2"/>
+    <rect x="36" y="60" width="12" height="12" fill="#BFB9B1"/>
+    <rect x="48" y="60" width="12" height="12" fill="#C8C2BA"/>
+    <rect x="60" y="60" width="12" height="12" fill="#C0BAB2"/>
+    <rect x="72" y="60" width="12" height="12" fill="#E8E1D7"/>
+    <rect x="0" y="72" width="12" height="12" fill="#CEC7BF"/>
+    <rect x="12" y="72" width="12" height="12" fill="#D9D2C9"/>
+    <rect x="24" y="72" width="12" height="12" fill="#E2DBD2"/>
+    <rect x="36" y="72" width="12" height="12" fill="#E9E2D8"/>
+    <rect x="48" y="72" width="12" height="12" fill="#EBE3DA"/>
+    <rect x="60" y="72" width="12" height="12" fill="#BAB4AC"/>
+    <rect x="72" y="72" width="12" height="12" fill="#CAC3BB"/>
+  </g>
+  <text x="208" y="290" text-anchor="middle" font-size="17" font-weight="600" fill="#1F2937">RSVP stream</text>
+  <text x="208" y="312" text-anchor="middle" font-size="15" fill="#4B5563">phase-scrambled images,</text>
+  <text x="208" y="332" text-anchor="middle" font-size="15" fill="#4B5563">two noise levels</text>
+
+  <path d="M334 196 L374 196" stroke="#2B2B2B" stroke-width="2.4" marker-end="url(#ah)"/>
+
+  <!-- normal state -->
+  <use href="#person" x="390" y="112" width="80" height="138" fill="#3C6E9F"/>
+  <path d="M408 138 C412 108 448 108 452 138" fill="none" stroke="#2B2B2B" stroke-width="5" stroke-linecap="round"/>
+  <g fill="#E8EFF7" stroke="#2B2B2B" stroke-width="1.6"><circle cx="411" cy="132" r="4.5"/><circle cx="430" cy="116" r="4.5"/><circle cx="449" cy="132" r="4.5"/></g>
+  <g fill="#FFFFFF"><circle cx="422" cy="146" r="3"/><circle cx="438" cy="146" r="3"/></g>
+  <g transform="translate(470 128)">
+    <rect x="0" y="0" width="36" height="18" rx="3" fill="#FFFFFF" stroke="#2C5580" stroke-width="2"/>
+    <rect x="36" y="5" width="4" height="8" rx="1" fill="#2C5580"/>
+    <g fill="#3C6E9F"><rect x="3" y="3" width="6.5" height="12"/><rect x="11" y="3" width="6.5" height="12"/><rect x="19" y="3" width="6.5" height="12"/><rect x="27" y="3" width="6.5" height="12"/></g>
+  </g>
+  <text x="430" y="290" text-anchor="middle" font-size="17" font-weight="600" fill="#2C5580">normal state</text>
+  <text x="430" y="312" text-anchor="middle" font-size="15" fill="#4B5563">RSVP + EEG</text>
+
+  <!-- N-back block arrow -->
+  <g transform="translate(560 72)">
+    <g fill="#FFFFFF" stroke="#7A6A5C" stroke-width="2">
+      <rect x="0" y="0" width="34" height="44" rx="4"/><rect x="46" y="0" width="34" height="44" rx="4"/><rect x="92" y="0" width="34" height="44" rx="4"/><rect x="138" y="0" width="34" height="44" rx="4" stroke="#3C6E9F" stroke-width="3"/>
+    </g>
+    <g fill="#9C8C7E"><rect x="10" y="15" width="14" height="14" rx="2"/><circle cx="63" cy="22" r="8"/><path d="M109 13 L118 30 L100 30 Z"/><rect x="148" y="15" width="14" height="14" rx="2" fill="#3C6E9F"/></g>
+  </g>
+  <path d="M577 66 C600 50 682 50 715 66" fill="none" stroke="#3C6E9F" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ab)"/>
+  <text x="744" y="102" font-size="15" font-style="italic" fill="#2C5580">match?</text>
+  <path d="M510 160 L760 160 L760 140 L806 190 L760 240 L760 220 L510 220 Z" fill="#E9E3DC" stroke="#7A6A5C" stroke-width="2.4" stroke-linejoin="round"/>
+  <text x="640" y="196" text-anchor="middle" font-size="16" font-weight="700" fill="#4E4238">N-back working memory task</text>
+  <text x="640" y="268" text-anchor="middle" font-size="16" font-style="italic" fill="#5E5045">induces fatigue</text>
+
+  <!-- fatigue state -->
+  <g transform="rotate(10 880 170)">
+    <use href="#person" x="840" y="112" width="80" height="138" fill="#9C8C7E"/>
+    <path d="M858 138 C862 108 898 108 902 138" fill="none" stroke="#2B2B2B" stroke-width="5" stroke-linecap="round"/>
+    <g fill="#F1ECE6" stroke="#2B2B2B" stroke-width="1.6"><circle cx="861" cy="132" r="4.5"/><circle cx="880" cy="116" r="4.5"/><circle cx="899" cy="132" r="4.5"/></g>
+    <g fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round"><path d="M867 146 q5 4 10 0"/><path d="M883 146 q5 4 10 0"/></g>
+  </g>
+  <text x="928" y="120" font-size="17" font-weight="700" fill="#7A6A5C">z</text>
+  <text x="944" y="100" font-size="22" font-weight="700" fill="#7A6A5C">Z</text>
+  <g transform="translate(920 132)">
+    <rect x="0" y="0" width="36" height="18" rx="3" fill="#FFFFFF" stroke="#7A6A5C" stroke-width="2"/>
+    <rect x="36" y="5" width="4" height="8" rx="1" fill="#7A6A5C"/>
+    <rect x="3" y="3" width="6.5" height="12" fill="#B8573A"/>
+  </g>
+  <text x="880" y="290" text-anchor="middle" font-size="17" font-weight="600" fill="#5E5045">fatigue state</text>
+  <text x="880" y="312" text-anchor="middle" font-size="15" fill="#4B5563">RSVP + EEG</text>
+
+  <path d="M970 196 L1010 196" stroke="#2B2B2B" stroke-width="2.4" marker-end="url(#ah)"/>
+
+  <!-- connectivity analysis -->
+  <g transform="translate(1092 190)">
+    <circle r="66" fill="#FFFFFF" stroke="#C9C1B8" stroke-width="2"/>
+    <g stroke="#3C6E9F" stroke-width="2.4" fill="none" stroke-opacity="0.8">
+      <line x1="0" y1="28" x2="-30" y2="-26"/><line x1="0" y1="28" x2="30" y2="-26"/><line x1="0" y1="28" x2="-40" y2="10"/><line x1="0" y1="28" x2="40" y2="10"/>
+      <line x1="-30" y1="-26" x2="30" y2="-26"/><line x1="-40" y1="10" x2="-30" y2="-26"/><line x1="0" y1="-40" x2="30" y2="-26"/>
+    </g>
+    <g stroke="#FFFFFF" stroke-width="2.5" fill="#7A6A5C">
+      <circle cx="-30" cy="-26" r="8"/><circle cx="30" cy="-26" r="8"/><circle cx="-40" cy="10" r="8"/><circle cx="40" cy="10" r="8"/><circle cx="0" cy="-40" r="8"/>
+      <circle cx="0" cy="28" r="11" fill="#2C5580"/>
+    </g>
+  </g>
+  <text x="1092" y="290" text-anchor="middle" font-size="17" font-weight="600" fill="#1F2937">connectivity</text>
+  <text x="1092" y="312" text-anchor="middle" font-size="15" fill="#4B5563">eConnectome toolbox</text>
+
+  <!-- ============ 2 Findings ============ -->
+  <text x="86" y="414" font-size="23" fill="#1F2937">Parietal control connectivity weakens under fatigue</text>
+  <line x1="86" y1="426" x2="760" y2="426" stroke="#2B2B2B" stroke-width="1.6"/>
+
+  <!-- normal head -->
+  <g transform="translate(196 560)">
+    <use href="#scalp"/>
+    <ellipse cx="0" cy="38" rx="56" ry="24" fill="#3C6E9F" fill-opacity="0.16"/>
+    <g stroke="#2C5580" stroke-linecap="round" fill="none" marker-end="url(#ab)">
+      <line x1="0" y1="32" x2="0" y2="-24" stroke-width="4.5"/>
+      <line x1="-6" y1="32" x2="-34" y2="-22" stroke-width="4"/>
+      <line x1="6" y1="32" x2="34" y2="-22" stroke-width="4"/>
+      <line x1="-8" y1="36" x2="-62" y2="4" stroke-width="3.6"/>
+      <line x1="8" y1="36" x2="62" y2="4" stroke-width="3.6"/>
+      <line x1="-30" y1="30" x2="-34" y2="8" stroke-width="3"/>
+      <line x1="30" y1="30" x2="34" y2="8" stroke-width="3"/>
+      <line x1="-4" y1="44" x2="-18" y2="60" stroke-width="3"/>
+      <line x1="4" y1="44" x2="18" y2="60" stroke-width="3"/>
+    </g>
+    <use href="#nodes" fill="#A9B8C8"/>
+    <g fill="#2C5580" stroke="#FFFFFF" stroke-width="2.5"><circle cx="-36" cy="36" r="8"/><circle cx="36" cy="36" r="8"/><circle cx="0" cy="38" r="10"/></g>
+  </g>
+  <text x="196" y="684" text-anchor="middle" font-size="18" font-weight="700" fill="#2C5580">normal</text>
+
+  <path d="M302 560 L346 560" stroke="#2B2B2B" stroke-width="2.4" marker-end="url(#ah)"/>
+
+  <!-- fatigue head -->
+  <g transform="translate(456 560)">
+    <use href="#scalp"/>
+    <ellipse cx="0" cy="38" rx="56" ry="24" fill="#9C8C7E" fill-opacity="0.14"/>
+    <g stroke="#A9B8C8" stroke-linecap="round" fill="none" marker-end="url(#aw)">
+      <line x1="0" y1="32" x2="0" y2="-24" stroke-width="2"/>
+      <line x1="-6" y1="32" x2="-34" y2="-22" stroke-width="1.6"/>
+      <line x1="6" y1="32" x2="34" y2="-22" stroke-width="1.6"/>
+      <line x1="-8" y1="36" x2="-62" y2="4" stroke-width="1.6"/>
+      <line x1="8" y1="36" x2="62" y2="4" stroke-width="1.6"/>
+      <line x1="-4" y1="44" x2="-18" y2="60" stroke-width="1.6"/>
+      <line x1="4" y1="44" x2="18" y2="60" stroke-width="1.6"/>
+    </g>
+    <use href="#nodes" fill="#C9C1B8"/>
+    <g fill="#9C8C7E" stroke="#FFFFFF" stroke-width="2.5"><circle cx="-36" cy="36" r="8"/><circle cx="36" cy="36" r="8"/><circle cx="0" cy="38" r="10"/></g>
+  </g>
+  <text x="456" y="684" text-anchor="middle" font-size="18" font-weight="700" fill="#5E5045">fatigue</text>
+
+  <text x="326" y="728" text-anchor="middle" font-size="16" fill="#374151">Control areas lie mainly in the parietal region</text>
+  <text x="326" y="750" text-anchor="middle" font-size="16" fill="#374151">in both states (shaded)</text>
+
+  <!-- bar chart -->
+  <g transform="translate(616 470)">
+    <line x1="0" y1="196" x2="136" y2="196" stroke="#2B2B2B" stroke-width="2"/>
+    <line x1="0" y1="0" x2="0" y2="196" stroke="#2B2B2B" stroke-width="2"/>
+    <rect x="20" y="40" width="40" height="156" fill="#3C6E9F"/>
+    <rect x="80" y="118" width="40" height="78" fill="#9C8C7E"/>
+    <path d="M40 28 L40 18 L100 18 L100 106" fill="none" stroke="#2B2B2B" stroke-width="1.8"/>
+    <text x="70" y="12" text-anchor="middle" font-size="22" font-weight="700" fill="#2B2B2B">*</text>
+    <text x="40" y="218" text-anchor="middle" font-size="15" fill="#2C5580">normal</text>
+    <text x="100" y="218" text-anchor="middle" font-size="15" fill="#5E5045">fatigue</text>
+    <text transform="translate(-14 98) rotate(-90)" text-anchor="middle" font-size="14" fill="#4B5563">parietal connectivity power</text>
+  </g>
+  <text x="684" y="728" text-anchor="middle" font-size="16" fill="#374151">significantly weaker</text>
+  <text x="684" y="750" text-anchor="middle" font-size="16" fill="#374151">under fatigue</text>
+
+  <line x1="800" y1="398" x2="800" y2="782" stroke="#C9D3E0" stroke-width="2"/>
+
+  <!-- Implication -->
+  <text x="836" y="414" font-size="23" fill="#1F2937">Implication</text>
+  <line x1="836" y1="426" x2="1170" y2="426" stroke="#2B2B2B" stroke-width="1.6"/>
+  <g transform="translate(842 458)" font-size="17" fill="#1F2937">
+    <g fill="none" stroke="#3C6E9F" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 10 l6 6 l11 -13"/><path d="M0 70 l6 6 l11 -13"/><path d="M0 130 l6 6 l11 -13"/>
+    </g>
+    <text x="28" y="16">Reduced control ability</text>
+    <text x="28" y="37" font-size="15" fill="#4B5563">of the brain under fatigue</text>
+    <text x="28" y="76">Connectivity analysis</text>
+    <text x="28" y="97" font-size="15" fill="#4B5563">distinguishes mental states</text>
+    <text x="28" y="136">Fatigue may change</text>
+    <text x="28" y="157" font-size="15" fill="#4B5563">neural response characteristics</text>
+  </g>
+
+  <!-- control gauge -->
+  <g transform="translate(1000 736)">
+    <path d="M-76 0 A76 76 0 0 1 76 0" fill="none" stroke="#E5E7EB" stroke-width="18"/>
+    <path d="M-76 0 A76 76 0 0 1 -38 -65.8" fill="none" stroke="#C9B8A8" stroke-width="18"/>
+    <path d="M-38 -65.8 A76 76 0 0 1 38 -65.8" fill="none" stroke="#8FB0D0" stroke-width="18"/>
+    <path d="M38 -65.8 A76 76 0 0 1 76 0" fill="none" stroke="#3C6E9F" stroke-width="18"/>
+    <line x1="0" y1="0" x2="40" y2="-50" stroke="#A9B8C8" stroke-width="4" stroke-linecap="round" stroke-dasharray="5 4"/>
+    <line x1="0" y1="0" x2="-50" y2="-34" stroke="#5E5045" stroke-width="5" stroke-linecap="round"/>
+    <circle r="8" fill="#5E5045"/>
+    <text x="0" y="34" text-anchor="middle" font-size="16" fill="#374151">brain control ability</text>
+  </g>
+</svg>

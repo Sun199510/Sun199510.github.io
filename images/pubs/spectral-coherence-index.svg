@@ -1,0 +1,266 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" font-family="'Segoe UI', Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#2B2B2B"/>
+    </marker>
+    <g id="coh">
+      <g fill="none" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.8">
+        <path stroke="#1F5A40" d="M-2 75 L2 76 L6 75 L10 73 L15 69 L19 63 L24 58 L29 55 L33 54 L36 56 L40 60 L43 52 L49 46 L55 45 L61 49 L66 56 L68 64 L67 71 L65 75 L63 74 L61 68 L62 60 L65 52 L71 46 L77 45 L83 49 L88 56 L90 64 L89 71 L87 75 L85 74 L83 68 L84 60 L87 52 L93 46 L99 45 L105 49 L110 56 L112 64 L111 71 L109 75 L107 74 L105 68 L106 60 L109 52 L115 46 L121 45 L127 49 L132 56 L134 64 L133 71 L131 75 L129 74 L127 68 L128 60 L131 52 L137 46 L143 45 L149 49 L154 56 L156 64 L155 71 L153 75 L151 74 L149 68 L150 60 L154 69 L158 76 L163 82 L167 87 L171 91 L175 94 L178 95 L181 94 L183 92 L186 88 L188 83 L189 77 L191 69 L192 61 L193 53 L191 44 L191 37 L195 32 L202 30 L210 33 L217 38 L222 44 L222 48 L220 49 L215 45 L210 39 L208 30 L208 23 L212 18 L219 16 L227 19 L234 24 L238 30 L239 34 L236 35 L232 31 L227 25 L224 16 L225 8 L229 3 L236 2 L244 5 L251 10 L255 16 L256 20 L253 20 L249 17 L244 10 L241 2 L242 -6 L246 -11 L253 -12 L261 -9 L268 -4 L272 2 L273 6 L270 6 L265 3 L261 -4 L258 -12 L259 -20 L263 -25 L270 -26 L278 -23 L285 -18 L285 -18"/>
+        <path stroke="#2E6B4E" d="M-2 77 L2 77 L6 77 L11 74 L15 70 L20 64 L24 59 L28 55 L32 55 L36 56 L40 60 L43 52 L49 46 L55 45 L61 49 L66 56 L68 64 L67 71 L65 75 L63 74 L61 68 L62 60 L65 52 L71 46 L77 45 L83 49 L88 56 L90 64 L89 71 L87 75 L85 74 L83 68 L84 60 L87 52 L93 46 L99 45 L105 49 L110 56 L112 64 L111 71 L109 75 L107 74 L105 68 L106 60 L109 52 L115 46 L121 45 L127 49 L132 56 L134 64 L133 71 L131 75 L129 74 L127 68 L128 60 L131 52 L137 46 L143 45 L149 49 L154 56 L156 64 L155 71 L153 75 L151 74 L149 68 L150 60 L154 69 L158 76 L162 82 L165 88 L169 92 L172 95 L176 96 L179 96 L181 93 L184 90 L186 85 L188 79 L190 71 L192 63 L194 55 L192 47 L193 39 L198 34 L205 34 L212 37 L219 42 L223 48 L223 52 L220 53 L216 49 L212 42 L210 34 L211 26 L215 21 L222 21 L230 24 L237 29 L241 35 L241 39 L238 40 L234 36 L230 29 L228 21 L229 13 L233 8 L240 8 L248 11 L255 16 L258 22 L259 27 L256 27 L252 23 L247 16 L245 8 L246 0 L251 -5 L258 -5 L266 -2 L272 4 L276 10 L277 14 L274 14 L269 10 L265 3 L263 -5 L264 -13 L269 -17 L276 -18 L284 -15 L290 -9 L290 -9"/>
+        <path stroke="#3D7E5E" d="M-1 78 L3 79 L7 78 L11 75 L16 71 L20 65 L24 60 L28 56 L32 55 L36 57 L40 60 L43 52 L49 46 L55 45 L61 49 L66 56 L68 64 L67 71 L65 75 L63 74 L61 68 L62 60 L65 52 L71 46 L77 45 L83 49 L88 56 L90 64 L89 71 L87 75 L85 74 L83 68 L84 60 L87 52 L93 46 L99 45 L105 49 L110 56 L112 64 L111 71 L109 75 L107 74 L105 68 L106 60 L109 52 L115 46 L121 45 L127 49 L132 56 L134 64 L133 71 L131 75 L129 74 L127 68 L128 60 L131 52 L137 46 L143 45 L149 49 L154 56 L156 64 L155 71 L153 75 L151 74 L149 68 L150 60 L153 68 L157 76 L160 82 L164 88 L167 92 L170 96 L173 97 L176 97 L179 95 L182 91 L185 87 L187 80 L190 73 L192 66 L195 58 L193 49 L195 41 L200 37 L207 37 L214 40 L220 46 L224 53 L224 57 L221 57 L217 53 L213 46 L212 37 L213 30 L218 25 L225 25 L233 29 L239 35 L242 41 L242 45 L240 45 L236 42 L232 34 L230 26 L232 18 L237 14 L244 13 L251 17 L258 23 L261 29 L261 34 L258 34 L254 30 L251 23 L249 14 L251 6 L256 2 L263 2 L270 5 L276 12 L280 18 L280 22 L277 22 L273 18 L269 11 L268 2 L269 -5 L274 -10 L281 -10 L289 -6 L295 -0 L295 -0"/>
+        <path stroke="#4F9070" d="M0 80 L4 80 L8 80 L12 77 L16 72 L20 66 L24 60 L28 56 L32 55 L36 57 L40 60 L43 52 L49 46 L55 45 L61 49 L66 56 L68 64 L67 71 L65 75 L63 74 L61 68 L62 60 L65 52 L71 46 L77 45 L83 49 L88 56 L90 64 L89 71 L87 75 L85 74 L83 68 L84 60 L87 52 L93 46 L99 45 L105 49 L110 56 L112 64 L111 71 L109 75 L107 74 L105 68 L106 60 L109 52 L115 46 L121 45 L127 49 L132 56 L134 64 L133 71 L131 75 L129 74 L127 68 L128 60 L131 52 L137 46 L143 45 L149 49 L154 56 L156 64 L155 71 L153 75 L151 74 L149 68 L150 60 L153 68 L156 75 L159 82 L162 88 L165 93 L168 96 L171 98 L174 98 L177 96 L180 93 L183 88 L186 82 L189 75 L192 68 L195 60 L194 51 L196 44 L201 40 L208 40 L216 44 L221 51 L224 57 L224 61 L221 61 L218 57 L214 50 L214 41 L216 34 L221 29 L228 30 L235 34 L241 40 L244 47 L244 51 L241 51 L237 47 L234 39 L233 31 L235 23 L240 19 L247 19 L255 24 L260 30 L263 37 L263 41 L260 41 L256 37 L253 29 L252 20 L255 13 L260 9 L267 9 L274 13 L280 20 L283 26 L282 30 L280 30 L276 26 L273 19 L272 10 L274 3 L279 -2 L286 -1 L293 3 L299 9 L299 9"/>
+        <path stroke="#62A182" d="M1 82 L5 82 L9 81 L13 78 L17 73 L20 67 L24 61 L28 57 L32 56 L36 57 L40 60 L43 52 L49 46 L55 45 L61 49 L66 56 L68 64 L67 71 L65 75 L63 74 L61 68 L62 60 L65 52 L71 46 L77 45 L83 49 L88 56 L90 64 L89 71 L87 75 L85 74 L83 68 L84 60 L87 52 L93 46 L99 45 L105 49 L110 56 L112 64 L111 71 L109 75 L107 74 L105 68 L106 60 L109 52 L115 46 L121 45 L127 49 L132 56 L134 64 L133 71 L131 75 L129 74 L127 68 L128 60 L131 52 L137 46 L143 45 L149 49 L154 56 L156 64 L155 71 L153 75 L151 74 L149 68 L150 60 L153 67 L155 75 L158 82 L160 88 L163 93 L166 97 L169 98 L172 99 L175 97 L178 94 L181 90 L185 84 L188 77 L192 70 L195 62 L195 54 L198 46 L203 43 L210 43 L217 48 L222 55 L225 62 L224 66 L221 66 L218 61 L215 54 L215 45 L218 38 L223 34 L230 35 L237 39 L242 46 L245 53 L244 57 L242 57 L238 52 L235 45 L235 36 L238 29 L243 25 L250 26 L257 30 L262 37 L265 44 L264 48 L262 48 L258 43 L255 36 L255 27 L258 20 L263 16 L270 17 L277 21 L282 28 L285 35 L284 39 L282 39 L278 34 L276 27 L275 18 L278 11 L283 7 L290 8 L297 12 L303 19 L303 19"/>
+        <path stroke="#3A7558" d="M2 83 L6 83 L10 82 L13 79 L17 74 L21 68 L24 62 L28 57 L32 56 L36 57 L40 60 L43 52 L49 46 L55 45 L61 49 L66 56 L68 64 L67 71 L65 75 L63 74 L61 68 L62 60 L65 52 L71 46 L77 45 L83 49 L88 56 L90 64 L89 71 L87 75 L85 74 L83 68 L84 60 L87 52 L93 46 L99 45 L105 49 L110 56 L112 64 L111 71 L109 75 L107 74 L105 68 L106 60 L109 52 L115 46 L121 45 L127 49 L132 56 L134 64 L133 71 L131 75 L129 74 L127 68 L128 60 L131 52 L137 46 L143 45 L149 49 L154 56 L156 64 L155 71 L153 75 L151 74 L149 68 L150 60 L153 67 L154 75 L156 82 L159 88 L161 93 L163 97 L166 99 L169 99 L172 98 L176 95 L179 91 L183 86 L187 79 L191 72 L195 65 L196 56 L199 49 L204 46 L211 47 L218 52 L223 59 L225 66 L224 70 L221 70 L218 65 L216 57 L216 49 L219 42 L225 38 L232 39 L239 45 L243 52 L245 59 L245 63 L242 62 L239 58 L237 50 L237 41 L240 34 L246 31 L253 32 L259 37 L264 44 L266 51 L265 55 L263 55 L259 50 L257 42 L258 34 L261 27 L266 23 L273 24 L280 30 L285 37 L287 44 L286 48 L283 47 L280 43 L278 35 L278 26 L281 19 L287 16 L294 17 L301 22 L305 29 L305 29"/>
+        <path stroke="#2A6248" d="M3 85 L7 85 L11 83 L14 80 L18 75 L21 68 L24 62 L28 58 L31 56 L36 57 L40 60 L43 52 L49 46 L55 45 L61 49 L66 56 L68 64 L67 71 L65 75 L63 74 L61 68 L62 60 L65 52 L71 46 L77 45 L83 49 L88 56 L90 64 L89 71 L87 75 L85 74 L83 68 L84 60 L87 52 L93 46 L99 45 L105 49 L110 56 L112 64 L111 71 L109 75 L107 74 L105 68 L106 60 L109 52 L115 46 L121 45 L127 49 L132 56 L134 64 L133 71 L131 75 L129 74 L127 68 L128 60 L131 52 L137 46 L143 45 L149 49 L154 56 L156 64 L155 71 L153 75 L151 74 L149 68 L150 60 L152 66 L154 74 L155 82 L157 88 L159 93 L161 97 L164 99 L167 100 L170 99 L174 96 L177 92 L182 87 L186 81 L190 74 L195 67 L196 59 L200 52 L206 49 L212 51 L219 56 L223 64 L224 71 L223 75 L221 74 L218 69 L216 61 L217 53 L221 46 L227 43 L234 45 L240 50 L244 58 L246 65 L244 69 L242 68 L239 63 L237 55 L238 47 L242 40 L248 37 L255 38 L261 44 L265 52 L267 59 L266 63 L263 62 L260 57 L259 49 L259 40 L263 34 L269 31 L276 32 L282 38 L286 46 L288 53 L287 57 L284 56 L281 51 L280 43 L281 34 L284 28 L290 25 L297 26 L303 32 L307 40 L307 40"/>
+      </g>
+    </g>
+    <g id="inc">
+      <g fill="none" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="0.75">
+        <path stroke="#7A4C68" d="M-2 80 L2 80 L7 80 L12 78 L18 74 L23 70 L28 65 L33 61 L36 59 L39 59 L42 61 L44 50 L48 43 L53 40 L59 43 L64 50 L65 60 L65 69 L63 74 L60 75 L58 70 L59 63 L62 55 L67 49 L72 48 L77 52 L80 59 L82 68 L81 75 L79 78 L78 75 L77 68 L80 58 L84 48 L90 41 L97 39 L104 44 L110 54 L114 67 L117 78 L117 86 L116 88 L115 84 L116 75 L118 65 L122 58 L127 54 L132 56 L136 61 L137 69 L137 77 L136 81 L135 81 L134 77 L136 70 L140 62 L146 57 L152 55 L157 56 L160 60 L161 65 L159 69 L156 70 L153 68 L152 62 L152 54 L156 62 L159 69 L162 76 L165 82 L169 86 L171 90 L174 92 L177 93 L179 92 L182 89 L185 85 L188 79 L190 72 L191 65 L190 58 L186 50 L184 43 L187 39 L193 39 L202 44 L211 51 L218 59 L223 64 L225 66 L224 63 L222 55 L221 46 L223 39 L227 34 L234 33 L240 37 L246 43 L248 49 L248 53 L245 52 L242 47 L238 38 L237 28 L240 20 L245 15 L251 15 L255 19 L257 24 L256 30 L252 33 L246 32 L241 28 L238 21 L237 12 L239 6 L244 3 L251 4 L258 8 L264 15 L267 22 L268 29 L267 32 L265 31 L263 27 L263 20 L266 14 L271 9 L279 6 L287 7 L293 9 L293 9"/>
+        <path stroke="#8A5C78" d="M4 69 L7 69 L9 69 L9 66 L9 62 L10 57 L11 51 L15 48 L19 47 L25 49 L32 53 L38 46 L47 41 L55 40 L62 44 L67 52 L70 63 L72 73 L72 80 L72 82 L72 79 L74 72 L76 62 L77 52 L77 45 L77 42 L75 43 L73 47 L71 53 L70 57 L69 56 L71 52 L75 45 L82 38 L89 33 L96 32 L102 36 L107 46 L110 57 L110 68 L108 74 L106 75 L104 70 L105 63 L107 56 L111 53 L116 54 L121 60 L125 68 L126 77 L126 84 L126 86 L126 84 L127 76 L130 67 L135 57 L141 52 L147 49 L153 50 L156 52 L157 56 L156 58 L153 59 L150 57 L148 51 L147 42 L148 49 L148 55 L148 61 L149 66 L152 70 L156 75 L162 80 L169 85 L176 89 L184 91 L189 90 L193 86 L196 78 L199 69 L202 59 L201 49 L203 39 L207 34 L214 33 L222 37 L228 43 L231 49 L232 53 L229 52 L226 47 L223 40 L222 32 L225 27 L231 27 L239 31 L247 39 L254 48 L257 56 L256 60 L252 60 L246 56 L241 49 L238 40 L239 33 L244 29 L250 29 L257 32 L263 37 L265 41 L265 44 L261 43 L258 38 L254 30 L251 22 L251 15 L253 11 L257 11 L263 15 L268 22 L272 29 L274 33 L275 33 L275 29 L275 22 L276 14 L279 6 L284 3 L290 5 L295 11 L298 20 L298 20"/>
+        <path stroke="#9C7089" d="M5 76 L9 77 L13 78 L17 78 L21 76 L25 73 L29 69 L33 66 L36 64 L37 64 L38 66 L37 56 L38 48 L42 46 L47 49 L53 56 L58 63 L63 68 L67 70 L69 67 L72 61 L74 52 L77 45 L82 42 L88 44 L93 51 L97 61 L98 72 L98 80 L96 84 L93 83 L90 78 L90 71 L93 64 L98 59 L104 58 L109 61 L110 66 L108 71 L102 74 L96 74 L90 70 L88 64 L89 56 L94 46 L102 39 L111 36 L119 38 L125 44 L128 52 L128 59 L128 65 L128 66 L130 63 L133 57 L138 50 L144 45 L150 44 L152 47 L152 55 L149 63 L143 70 L138 74 L134 72 L134 67 L136 58 L142 66 L149 73 L155 80 L160 86 L163 90 L167 94 L171 98 L177 101 L182 103 L187 103 L192 100 L195 95 L197 87 L197 76 L196 64 L190 51 L188 39 L191 32 L197 31 L205 36 L215 45 L223 56 L228 65 L231 69 L231 68 L229 61 L228 51 L228 41 L232 32 L237 27 L242 27 L246 30 L249 35 L248 40 L245 40 L240 37 L235 31 L233 23 L234 16 L239 12 L246 13 L254 19 L261 28 L264 37 L265 44 L263 46 L259 42 L256 35 L256 27 L259 20 L264 17 L272 18 L280 23 L286 30 L288 36 L287 40 L284 40 L279 35 L275 27 L273 18 L275 10 L281 6 L289 6 L298 9 L306 14 L306 14"/>
+        <path stroke="#B08AA0" d="M1 82 L6 82 L10 81 L15 76 L20 70 L24 63 L29 57 L33 53 L37 52 L40 55 L43 60 L44 54 L48 50 L54 51 L60 55 L64 62 L67 69 L67 76 L66 79 L64 77 L64 71 L64 63 L68 54 L74 48 L81 45 L87 47 L92 52 L95 60 L94 67 L92 71 L89 74 L86 74 L86 72 L88 69 L93 67 L99 67 L106 70 L111 74 L114 79 L115 82 L115 82 L113 78 L112 71 L113 63 L116 54 L121 46 L127 43 L133 45 L137 51 L139 59 L139 67 L139 71 L139 70 L140 66 L144 58 L149 51 L155 45 L160 44 L164 48 L166 54 L164 63 L161 70 L157 73 L154 72 L152 66 L152 58 L153 66 L155 74 L156 81 L158 88 L161 92 L164 94 L167 93 L170 88 L173 81 L177 73 L180 65 L183 58 L186 52 L189 47 L193 43 L193 39 L196 36 L201 34 L208 36 L216 40 L223 49 L228 58 L229 65 L228 68 L225 66 L223 59 L221 49 L222 39 L225 31 L229 27 L234 27 L238 31 L241 36 L241 41 L239 42 L237 40 L235 35 L235 28 L238 22 L244 19 L251 19 L260 25 L269 33 L275 42 L277 48 L276 49 L273 45 L268 38 L261 29 L256 21 L252 17 L251 17 L253 21 L257 27 L260 34 L262 39 L262 40 L261 37 L260 31 L261 23 L264 16 L270 10 L278 7 L288 5 L297 5 L297 5"/>
+        <path stroke="#6E5664" d="M-3 78 L1 78 L7 78 L12 76 L18 72 L24 66 L29 61 L34 58 L38 57 L42 59 L47 63 L51 56 L58 52 L65 51 L71 55 L74 62 L71 70 L64 76 L54 79 L45 76 L39 70 L38 62 L43 54 L53 49 L66 49 L80 53 L91 61 L98 70 L99 77 L96 80 L90 76 L84 66 L80 54 L79 42 L81 34 L86 31 L93 35 L100 42 L106 51 L110 58 L112 61 L112 60 L111 55 L111 47 L112 42 L113 40 L115 43 L117 51 L119 60 L120 70 L121 76 L121 78 L121 74 L123 65 L127 54 L132 44 L138 38 L145 36 L153 40 L159 47 L163 55 L164 62 L163 66 L161 64 L159 59 L158 50 L159 57 L159 64 L160 70 L161 75 L164 80 L167 84 L170 89 L174 94 L178 98 L181 100 L185 98 L188 94 L191 87 L195 78 L199 70 L199 60 L202 51 L208 47 L216 47 L223 51 L227 59 L229 66 L228 72 L224 73 L219 70 L216 63 L215 53 L217 43 L221 34 L228 30 L235 30 L240 33 L243 38 L244 43 L243 44 L242 42 L242 36 L244 29 L248 23 L254 19 L261 19 L268 22 L272 26 L274 30 L273 32 L270 31 L266 26 L262 20 L260 13 L259 9 L262 9 L266 13 L272 19 L277 27 L281 33 L285 39 L288 40 L290 38 L292 32 L295 24 L299 17 L302 12 L304 9 L304 9 L302 10 L302 10"/>
+        <path stroke="#94788A" d="M9 77 L12 76 L15 74 L17 68 L18 60 L20 52 L23 44 L26 40 L30 40 L31 45 L32 53 L32 50 L34 49 L38 51 L43 56 L49 63 L56 71 L61 77 L66 79 L70 77 L72 71 L75 63 L77 54 L81 48 L85 45 L88 46 L89 52 L89 59 L88 66 L86 70 L83 69 L81 65 L80 58 L83 51 L87 46 L94 45 L100 49 L106 57 L110 67 L111 76 L111 81 L110 81 L109 76 L110 67 L113 58 L118 51 L125 49 L131 51 L135 57 L137 65 L137 73 L137 78 L136 79 L137 76 L140 70 L144 63 L150 58 L155 56 L158 58 L158 63 L155 69 L150 73 L145 75 L141 73 L141 68 L144 61 L151 71 L159 81 L166 90 L171 97 L175 102 L178 106 L182 108 L185 109 L189 108 L193 106 L196 101 L199 96 L202 89 L205 82 L208 74 L207 65 L209 58 L214 54 L222 55 L228 58 L232 61 L232 64 L228 63 L223 59 L217 52 L213 44 L212 36 L213 30 L217 29 L223 32 L229 39 L234 48 L237 55 L238 58 L237 54 L236 45 L237 32 L239 18 L243 8 L249 2 L256 3 L262 8 L266 16 L267 24 L266 30 L262 31 L257 27 L254 19 L253 9 L256 0 L261 -6 L268 -7 L275 -4 L281 2 L284 10 L286 18 L285 23 L284 25 L283 23 L284 18 L287 12 L291 7 L296 4 L300 4 L303 6 L303 6"/>
+        <path stroke="#A9667F" d="M-2 74 L2 75 L7 76 L11 76 L15 75 L19 72 L24 68 L28 65 L31 63 L35 63 L38 63 L40 52 L44 44 L50 41 L56 44 L61 51 L64 59 L65 65 L64 68 L63 66 L63 60 L64 52 L68 44 L75 38 L85 37 L94 41 L101 49 L105 57 L105 64 L102 68 L98 65 L93 59 L91 49 L91 39 L94 33 L100 31 L106 36 L111 44 L114 55 L114 65 L113 71 L111 72 L110 67 L111 58 L115 49 L121 42 L129 38 L135 40 L140 46 L143 54 L142 61 L138 67 L133 68 L130 66 L128 61 L130 54 L135 50 L141 47 L146 47 L148 50 L148 53 L146 55 L142 55 L139 52 L138 48 L140 43 L144 56 L149 69 L153 81 L157 90 L160 96 L164 99 L169 99 L175 97 L181 94 L187 89 L192 83 L196 77 L197 69 L197 60 L195 50 L189 38 L186 29 L188 23 L194 23 L201 28 L208 38 L213 49 L215 58 L214 63 L212 63 L209 56 L209 47 L213 38 L221 32 L231 31 L241 33 L249 38 L253 44 L253 48 L250 45 L245 38 L242 26 L240 14 L242 4 L247 -1 L254 -0 L260 6 L265 15 L266 24 L264 30 L261 32 L257 29 L254 22 L254 14 L257 9 L264 7 L273 10 L281 15 L287 22 L290 29 L289 32 L285 30 L280 25 L275 16 L274 6 L275 -2 L280 -5 L285 -3 L290 3 L293 12 L293 12"/>
+      </g>
+    </g>
+  </defs>
+
+  <rect width="1200" height="800" fill="#FFFFFF"/>
+
+  <!-- ============ band strips ============ -->
+  <rect x="0" y="0" width="46" height="272" fill="#2E6B4E"/>
+  <rect x="0" y="272" width="46" height="262" fill="#6B7F74"/>
+  <rect x="0" y="534" width="46" height="266" fill="#8A5C78"/>
+  <g fill="#FFFFFF" font-size="21" font-weight="600" text-anchor="middle">
+    <text transform="translate(31 136) rotate(-90)">Ensembles</text>
+    <text transform="translate(31 403) rotate(-90)">Method</text>
+    <text transform="translate(31 667) rotate(-90)">Findings</text>
+  </g>
+  <rect x="46" y="0" width="1154" height="272" fill="#F3F6F4"/>
+  <rect x="46" y="534" width="1154" height="266" fill="#F3F6F4"/>
+  <g stroke="#2B2B2B" stroke-width="2"><line x1="0" y1="272" x2="1200" y2="272"/><line x1="0" y1="534" x2="1200" y2="534"/></g>
+  <rect x="1" y="1" width="1198" height="798" fill="none" stroke="#2B2B2B" stroke-width="2"/>
+
+  <!-- ============ 1 Ensembles ============ -->
+  <text x="86" y="42" font-size="25" fill="#1F2937">Coordinated motion or noise-like variation?</text>
+
+  <!-- coherent ensemble -->
+  <rect x="86" y="62" width="350" height="152" rx="12" fill="#FFFFFF" stroke="#BFD3C6" stroke-width="2"/>
+  <g transform="translate(118 104) scale(0.95)"><use href="#coh"/></g>
+  <text x="261" y="240" text-anchor="middle" font-size="17" font-weight="600" fill="#1F3D2E">Experimental NMR ensemble</text>
+  <text x="261" y="261" text-anchor="middle" font-size="15" fill="#4B5563">coordinated motion</text>
+
+  <!-- vs -->
+  <circle cx="481" cy="138" r="24" fill="#FFFFFF" stroke="#2B2B2B" stroke-width="2"/>
+  <text x="481" y="145" text-anchor="middle" font-size="18" font-weight="700" fill="#2B2B2B">vs</text>
+
+  <!-- incoherent control -->
+  <rect x="526" y="62" width="350" height="152" rx="12" fill="#FFFFFF" stroke="#D9C6D1" stroke-width="2"/>
+  <g transform="translate(558 104) scale(0.95)"><use href="#inc"/></g>
+  <text x="701" y="240" text-anchor="middle" font-size="17" font-weight="600" fill="#5A3A4E">Synthetic incoherent control</text>
+  <text x="701" y="261" text-anchor="middle" font-size="15" fill="#4B5563">matched, noise-like variation</text>
+
+  <!-- cohort facts -->
+  <g transform="translate(922 70)">
+    <g fill="#FFFFFF" stroke="#8FA89A" stroke-width="2">
+      <rect x="16" y="0" width="70" height="88" rx="6"/>
+      <rect x="8" y="8" width="70" height="88" rx="6"/>
+      <rect x="0" y="16" width="70" height="88" rx="6"/>
+    </g>
+    <g stroke="#BFD3C6" stroke-width="4" stroke-linecap="round">
+      <line x1="12" y1="40" x2="58" y2="40"/><line x1="12" y1="56" x2="58" y2="56"/><line x1="12" y1="72" x2="46" y2="72"/><line x1="12" y1="88" x2="52" y2="88"/>
+    </g>
+    <text x="104" y="54" font-size="44" font-weight="800" fill="#2E6B4E">110</text>
+    <text x="106" y="80" font-size="16" fill="#374151">NMR ensembles</text>
+    <text x="0" y="140" font-size="15" fill="#4B5563">30–403 residues</text>
+    <text x="0" y="162" font-size="15" fill="#4B5563">10–30 models per entry</text>
+  </g>
+
+  <!-- ============ 2 Method ============ -->
+  <text x="86" y="314" font-size="25" fill="#1F2937">Spectral Coherence Index (SCI)</text>
+
+  <!-- stacked models -->
+  <g transform="translate(86 336)">
+    <rect x="28" y="0" width="128" height="92" rx="8" fill="#FFFFFF" stroke="#9FB5A8" stroke-width="2"/>
+    <rect x="14" y="14" width="128" height="92" rx="8" fill="#FFFFFF" stroke="#9FB5A8" stroke-width="2"/>
+    <rect x="0" y="28" width="128" height="92" rx="8" fill="#FFFFFF" stroke="#2E6B4E" stroke-width="2"/>
+    <g transform="translate(12 64) scale(0.35)"><use href="#coh"/></g>
+  </g>
+  <text x="164" y="496" text-anchor="middle" font-size="15" fill="#374151">ensemble models</text>
+
+  <path d="M254 400 L300 400" stroke="#2B2B2B" stroke-width="2.4" marker-end="url(#ah)"/>
+
+  <!-- distance-variance matrix -->
+  <g transform="translate(318 332)">
+    <rect x="-2" y="-2" width="132" height="132" fill="none" stroke="#6B7F74" stroke-width="2"/>
+    <rect x="0" y="0" width="16" height="16" fill="#ECF1EE"/>
+    <rect x="16" y="0" width="16" height="16" fill="#6A8D7D"/>
+    <rect x="32" y="0" width="16" height="16" fill="#9FB6AB"/>
+    <rect x="48" y="0" width="16" height="16" fill="#B3C6BD"/>
+    <rect x="64" y="0" width="16" height="16" fill="#D8E2DD"/>
+    <rect x="80" y="0" width="16" height="16" fill="#EEF3F0"/>
+    <rect x="96" y="0" width="16" height="16" fill="#F2F5F3"/>
+    <rect x="112" y="0" width="16" height="16" fill="#D6E0DB"/>
+    <rect x="0" y="16" width="16" height="16" fill="#6A8D7D"/>
+    <rect x="16" y="16" width="16" height="16" fill="#ECF1EE"/>
+    <rect x="32" y="16" width="16" height="16" fill="#759587"/>
+    <rect x="48" y="16" width="16" height="16" fill="#89A598"/>
+    <rect x="64" y="16" width="16" height="16" fill="#D9E2DE"/>
+    <rect x="80" y="16" width="16" height="16" fill="#D1DCD6"/>
+    <rect x="96" y="16" width="16" height="16" fill="#E0E8E4"/>
+    <rect x="112" y="16" width="16" height="16" fill="#DCE4E0"/>
+    <rect x="0" y="32" width="16" height="16" fill="#9FB6AB"/>
+    <rect x="16" y="32" width="16" height="16" fill="#759587"/>
+    <rect x="32" y="32" width="16" height="16" fill="#ECF1EE"/>
+    <rect x="48" y="32" width="16" height="16" fill="#678B7A"/>
+    <rect x="64" y="32" width="16" height="16" fill="#C4D2CB"/>
+    <rect x="80" y="32" width="16" height="16" fill="#D7E1DC"/>
+    <rect x="96" y="32" width="16" height="16" fill="#D4DED9"/>
+    <rect x="112" y="32" width="16" height="16" fill="#D9E2DE"/>
+    <rect x="0" y="48" width="16" height="16" fill="#B3C6BD"/>
+    <rect x="16" y="48" width="16" height="16" fill="#89A598"/>
+    <rect x="32" y="48" width="16" height="16" fill="#678B7A"/>
+    <rect x="48" y="48" width="16" height="16" fill="#ECF1EE"/>
+    <rect x="64" y="48" width="16" height="16" fill="#BCCCC5"/>
+    <rect x="80" y="48" width="16" height="16" fill="#CEDAD4"/>
+    <rect x="96" y="48" width="16" height="16" fill="#DFE7E3"/>
+    <rect x="112" y="48" width="16" height="16" fill="#EDF2EF"/>
+    <rect x="0" y="64" width="16" height="16" fill="#D8E2DD"/>
+    <rect x="16" y="64" width="16" height="16" fill="#D9E2DE"/>
+    <rect x="32" y="64" width="16" height="16" fill="#C4D2CB"/>
+    <rect x="48" y="64" width="16" height="16" fill="#BCCCC5"/>
+    <rect x="64" y="64" width="16" height="16" fill="#ECF1EE"/>
+    <rect x="80" y="64" width="16" height="16" fill="#6C8F7F"/>
+    <rect x="96" y="64" width="16" height="16" fill="#93ADA1"/>
+    <rect x="112" y="64" width="16" height="16" fill="#AABEB5"/>
+    <rect x="0" y="80" width="16" height="16" fill="#EEF3F0"/>
+    <rect x="16" y="80" width="16" height="16" fill="#D1DCD6"/>
+    <rect x="32" y="80" width="16" height="16" fill="#D7E1DC"/>
+    <rect x="48" y="80" width="16" height="16" fill="#CEDAD4"/>
+    <rect x="64" y="80" width="16" height="16" fill="#6C8F7F"/>
+    <rect x="80" y="80" width="16" height="16" fill="#ECF1EE"/>
+    <rect x="96" y="80" width="16" height="16" fill="#5D8372"/>
+    <rect x="112" y="80" width="16" height="16" fill="#9EB5AB"/>
+    <rect x="0" y="96" width="16" height="16" fill="#F2F5F3"/>
+    <rect x="16" y="96" width="16" height="16" fill="#E0E8E4"/>
+    <rect x="32" y="96" width="16" height="16" fill="#D4DED9"/>
+    <rect x="48" y="96" width="16" height="16" fill="#DFE7E3"/>
+    <rect x="64" y="96" width="16" height="16" fill="#93ADA1"/>
+    <rect x="80" y="96" width="16" height="16" fill="#5D8372"/>
+    <rect x="96" y="96" width="16" height="16" fill="#ECF1EE"/>
+    <rect x="112" y="96" width="16" height="16" fill="#6D9080"/>
+    <rect x="0" y="112" width="16" height="16" fill="#D6E0DB"/>
+    <rect x="16" y="112" width="16" height="16" fill="#DCE4E0"/>
+    <rect x="32" y="112" width="16" height="16" fill="#D9E2DE"/>
+    <rect x="48" y="112" width="16" height="16" fill="#EDF2EF"/>
+    <rect x="64" y="112" width="16" height="16" fill="#AABEB5"/>
+    <rect x="80" y="112" width="16" height="16" fill="#9EB5AB"/>
+    <rect x="96" y="112" width="16" height="16" fill="#6D9080"/>
+    <rect x="112" y="112" width="16" height="16" fill="#ECF1EE"/>
+  </g>
+  <text x="382" y="496" text-anchor="middle" font-size="15" fill="#374151">pairwise distance-</text>
+  <text x="382" y="515" text-anchor="middle" font-size="15" fill="#374151">variance matrix</text>
+
+  <path d="M466 400 L512 400" stroke="#2B2B2B" stroke-width="2.4" marker-end="url(#ah)"/>
+
+  <!-- eigenvalue spectrum -->
+  <g transform="translate(536 330)">
+    <line x1="0" y1="136" x2="210" y2="136" stroke="#2B2B2B" stroke-width="2"/>
+    <line x1="0" y1="0" x2="0" y2="136" stroke="#2B2B2B" stroke-width="2"/>
+    <g fill="#2E6B4E">
+      <rect x="10" y="16" width="16" height="120"/><rect x="34" y="66" width="16" height="70"/><rect x="58" y="98" width="16" height="38"/>
+      <rect x="82" y="116" width="16" height="20"/><rect x="106" y="124" width="16" height="12"/><rect x="130" y="128" width="16" height="8"/>
+      <rect x="154" y="130" width="16" height="6"/><rect x="178" y="131" width="16" height="5"/>
+    </g>
+    <path d="M18 96 L42 99 L66 101 L90 103 L114 104 L138 106 L162 107 L186 108" fill="none" stroke="#8A5C78" stroke-width="2.6" stroke-dasharray="6 4"/>
+    <g fill="#FFFFFF" stroke="#8A5C78" stroke-width="2.6">
+      <circle cx="18" cy="96" r="5"/><circle cx="42" cy="99" r="5"/><circle cx="66" cy="101" r="5"/><circle cx="90" cy="103" r="5"/>
+      <circle cx="114" cy="104" r="5"/><circle cx="138" cy="106" r="5"/><circle cx="162" cy="107" r="5"/><circle cx="186" cy="108" r="5"/>
+    </g>
+    <rect x="100" y="8" width="14" height="14" fill="#2E6B4E"/>
+    <text x="120" y="20" font-size="14" fill="#374151">coherent</text>
+    <circle cx="107" cy="44" r="6" fill="#FFFFFF" stroke="#8A5C78" stroke-width="2.6"/>
+    <text x="120" y="49" font-size="14" fill="#374151">noise-like</text>
+  </g>
+  <text x="641" y="496" text-anchor="middle" font-size="15" fill="#374151">eigenvalue spectrum</text>
+
+  <path d="M770 400 L816 400" stroke="#2B2B2B" stroke-width="2.4" marker-end="url(#ah)"/>
+
+  <!-- participation ratio -->
+  <g transform="translate(834 344)">
+    <rect x="0" y="0" width="160" height="108" rx="12" fill="#EEF4F0" stroke="#2E6B4E" stroke-width="2"/>
+    <text x="80" y="40" text-anchor="middle" font-size="19" font-style="italic" fill="#1F3D2E">(Σλ)²</text>
+    <line x1="34" y1="54" x2="126" y2="54" stroke="#1F3D2E" stroke-width="2"/>
+    <text x="80" y="82" text-anchor="middle" font-size="19" font-style="italic" fill="#1F3D2E">Σλ²</text>
+  </g>
+  <text x="914" y="496" text-anchor="middle" font-size="15" fill="#374151">participation-ratio</text>
+  <text x="914" y="515" text-anchor="middle" font-size="15" fill="#374151">effective rank</text>
+
+  <path d="M1006 400 L1046 400" stroke="#2B2B2B" stroke-width="2.4" marker-end="url(#ah)"/>
+
+  <!-- SCI badge -->
+  <g transform="translate(1110 384)">
+    <circle r="50" fill="#2E6B4E"/>
+    <circle r="50" fill="none" stroke="#A9C7B5" stroke-width="6" stroke-dasharray="230 84" transform="rotate(-90)"/>
+    <text x="0" y="11" text-anchor="middle" font-size="30" font-weight="800" fill="#FFFFFF">SCI</text>
+  </g>
+  <text x="1110" y="477" text-anchor="middle" font-size="15" fill="#374151">model-free</text>
+  <text x="1110" y="496" text-anchor="middle" font-size="15" fill="#374151">rotation-invariant</text>
+  <text x="1110" y="515" text-anchor="middle" font-size="15" fill="#374151">bounded</text>
+
+  <!-- ============ 3 Findings ============ -->
+  <text x="86" y="576" font-size="23" fill="#1F2937">Real ensembles separated from controls</text>
+  <line x1="86" y1="588" x2="600" y2="588" stroke="#2B2B2B" stroke-width="1.6"/>
+
+  <!-- ROC -->
+  <g transform="translate(116 606)">
+    <path d="M0 160 C6 40 30 8 160 2 L160 160 Z" fill="#DDEBE2"/>
+    <line x1="0" y1="160" x2="160" y2="0" stroke="#9AA3AE" stroke-width="2" stroke-dasharray="6 5"/>
+    <path d="M0 160 C6 40 30 8 160 2" fill="none" stroke="#2E6B4E" stroke-width="4"/>
+    <line x1="0" y1="160" x2="164" y2="160" stroke="#2B2B2B" stroke-width="2"/>
+    <line x1="0" y1="-4" x2="0" y2="160" stroke="#2B2B2B" stroke-width="2"/>
+    <text x="80" y="182" text-anchor="middle" font-size="14" fill="#4B5563">false positive rate</text>
+    <text transform="translate(-14 80) rotate(-90)" text-anchor="middle" font-size="14" fill="#4B5563">true positive rate</text>
+  </g>
+  <g transform="translate(316 610)">
+    <text x="0" y="24" font-size="17" fill="#374151">AUC-ROC</text>
+    <text x="-2" y="74" font-size="50" font-weight="800" fill="#2E6B4E">0.973</text>
+    <text x="0" y="102" font-size="16" fill="#374151">110 NMR ensembles</text>
+    <text x="0" y="128" font-size="15" fill="#4B5563">95.5% sensitivity</text>
+    <text x="0" y="148" font-size="15" fill="#4B5563">89.1% specificity</text>
+    <text x="0" y="174" font-size="15" fill="#4B5563">11-protein holdout: AUC 0.983</text>
+  </g>
+
+  <line x1="640" y1="560" x2="640" y2="782" stroke="#C9D3CC" stroke-width="2"/>
+
+  <text x="680" y="576" font-size="23" fill="#1F2937">Implication</text>
+  <line x1="680" y1="588" x2="1170" y2="588" stroke="#2B2B2B" stroke-width="1.6"/>
+  <g transform="translate(686 618)" font-size="17" fill="#1F2937">
+    <g fill="none" stroke="#8A5C78" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 10 l6 6 l11 -13"/><path d="M0 66 l6 6 l11 -13"/><path d="M0 122 l6 6 l11 -13"/>
+    </g>
+    <text x="28" y="16">Interpretable, bounded</text>
+    <text x="28" y="37" font-size="15" fill="#4B5563">coherence summary</text>
+    <text x="28" y="72">Residue contributions</text>
+    <text x="28" y="93" font-size="15" fill="#4B5563">linked to experimental RMSF</text>
+    <text x="28" y="128">Best used within a</text>
+    <text x="28" y="149" font-size="15" fill="#4B5563">multimetric QC workflow</text>
+  </g>
+
+  <!-- QC workflow mini illustration -->
+  <g transform="translate(1000 616)">
+    <rect x="0" y="0" width="76" height="32" rx="16" fill="#2E6B4E"/>
+    <text x="38" y="22" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">SCI</text>
+    <rect x="0" y="46" width="76" height="32" rx="16" fill="#FFFFFF" stroke="#8A5C78" stroke-width="2"/>
+    <text x="38" y="68" text-anchor="middle" font-size="15" fill="#5A3A4E">σ Rg</text>
+    <rect x="0" y="92" width="76" height="32" rx="16" fill="#FFFFFF" stroke="#8A5C78" stroke-width="2"/>
+    <text x="38" y="114" text-anchor="middle" font-size="15" fill="#5A3A4E">QC</text>
+    <path d="M84 16 L100 16 L100 108 L84 108 M84 62 L100 62 M100 62 L116 62" fill="none" stroke="#2B2B2B" stroke-width="2"/>
+    <path d="M116 62 L124 62" stroke="#2B2B2B" stroke-width="2" marker-end="url(#ah)"/>
+    <path d="M150 34 L172 42 L172 64 C172 78 162 86 150 92 C138 86 128 78 128 64 L128 42 Z" fill="#EEF4F0" stroke="#2E6B4E" stroke-width="2.4"/>
+    <path d="M140 62 l7 7 l12 -14" fill="none" stroke="#2E6B4E" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="88" y="150" text-anchor="middle" font-size="14" fill="#4B5563">ensemble QC</text>
+  </g>
+</svg>

@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" font-family="'Segoe UI', Arial, Helvetica, sans-serif">
+  <defs>
+    <symbol id="person" viewBox="-22 -50 44 76" overflow="visible">
+      <circle cx="0" cy="-33" r="13"/>
+      <path d="M-19 26 L-19 -4 Q-19 -17 -6 -17 L6 -17 Q19 -17 19 -4 L19 26 Z"/>
+    </symbol>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBE3D6"/><stop offset="1" stop-color="#EFC4AE"/></linearGradient>
+    <linearGradient id="coilTop" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8D73BE"/><stop offset="1" stop-color="#5B3F8C"/></linearGradient>
+    <radialGradient id="field" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#D9AE52" stop-opacity="0.95"/><stop offset="1" stop-color="#D9AE52" stop-opacity="0"/></radialGradient>
+    <radialGradient id="vio" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#7E63B0" stop-opacity="0.9"/><stop offset="1" stop-color="#7E63B0" stop-opacity="0"/></radialGradient>
+    <radialGradient id="mus" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#D9AE52" stop-opacity="0.95"/><stop offset="1" stop-color="#D9AE52" stop-opacity="0"/></radialGradient>
+    <radialGradient id="pacHi" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#4A2F7A"/><stop offset="0.45" stop-color="#8D73BE" stop-opacity="0.85"/><stop offset="1" stop-color="#C9BCE3" stop-opacity="0"/></radialGradient>
+    <radialGradient id="pacLo" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#A893CF" stop-opacity="0.8"/><stop offset="1" stop-color="#C9BCE3" stop-opacity="0"/></radialGradient>
+    <clipPath id="scalpB"><circle cx="0" cy="0" r="70"/></clipPath>
+    <clipPath id="mapPre"><rect x="866" y="330" width="116" height="116"/></clipPath>
+    <clipPath id="mapPost"><rect x="1040" y="330" width="116" height="116"/></clipPath>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#2B2B2B"/></marker>
+    <marker id="av" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5B3F8C"/></marker>
+  </defs>
+
+  <rect width="1200" height="800" fill="#FFFFFF"/>
+
+  <!-- ============ 色带与分隔 ============ -->
+  <rect x="0" y="0" width="46" height="232" fill="#5B3F8C"/>
+  <rect x="0" y="232" width="46" height="328" fill="#A87C1E"/>
+  <rect x="0" y="560" width="46" height="240" fill="#7E63B0"/>
+  <g fill="#FFFFFF" font-size="21" font-weight="600" text-anchor="middle">
+    <text transform="translate(31 116) rotate(-90)">Intervention</text>
+    <text transform="translate(31 396) rotate(-90)">Mechanism</text>
+    <text transform="translate(31 680) rotate(-90)">Outcome</text>
+  </g>
+  <rect x="46" y="0" width="1154" height="232" fill="#F5F4F9"/>
+  <rect x="46" y="560" width="1154" height="240" fill="#F5F4F9"/>
+  <g stroke="#2B2B2B" stroke-width="2"><line x1="0" y1="232" x2="1200" y2="232"/><line x1="0" y1="560" x2="1200" y2="560"/></g>
+  <rect x="1" y="1" width="1198" height="798" fill="none" stroke="#2B2B2B" stroke-width="2"/>
+
+  <!-- ============ 1 干预 ============ -->
+  <text x="86" y="42" font-size="25" fill="#1F2937">10 Hz rTMS over the left DLPFC</text>
+
+  <circle cx="160" cy="142" r="66" fill="#FFFFFF" stroke="#D9D2EA" stroke-width="2"/>
+  <use href="#person" x="108" y="92" width="40" height="69" fill="#9A84C6"/>
+  <use href="#person" x="140" y="84" width="40" height="69" fill="#D9AE52"/>
+  <use href="#person" x="172" y="92" width="40" height="69" fill="#5B3F8C"/>
+  <use href="#person" x="122" y="126" width="40" height="69" fill="#C9962B"/>
+  <use href="#person" x="158" y="126" width="40" height="69" fill="#7E63B0"/>
+  <text x="244" y="124" font-size="20" font-weight="700" fill="#5B3F8C">20 MCI</text>
+  <text x="244" y="144" font-size="15" fill="#4B5563">patients</text>
+  <text x="244" y="178" font-size="20" font-weight="700" fill="#8A6417">20 healthy</text>
+  <text x="244" y="198" font-size="15" fill="#4B5563">controls</text>
+
+  <path d="M356 142 L402 142" stroke="#2B2B2B" stroke-width="2.4" marker-end="url(#ah)"/>
+
+  <!-- 镜像侧脸（朝左，显示左半球）+ 8 字线圈 -->
+  <g transform="translate(576 74) scale(-0.36 0.36)">
+    <path d="M120 400 C120 345 108 318 94 292 C70 250 64 198 80 158 C100 100 160 62 226 62 C292 62 336 106 343 160 C346 180 345 194 351 207 C359 221 373 235 377 247 C379 254 372 258 362 260 C365 268 366 274 360 278 C364 285 362 292 354 296 C351 312 343 322 325 324 C305 326 290 326 284 332 L280 400 Z" fill="url(#skin)" stroke="#B98A74" stroke-width="4.5"/>
+    <circle cx="287" cy="96" r="46" fill="url(#field)"/>
+  </g>
+  <g transform="translate(470 95) scale(-1 1) rotate(29) scale(0.4)">
+    <path d="M-4 -8 L-40 -104" stroke="#3E2A63" stroke-width="28" stroke-linecap="round"/>
+    <path d="M-10 -24 L-36 -94" stroke="#8D73BE" stroke-width="7" stroke-linecap="round"/>
+    <path d="M-42 -112 C-50 -140 -80 -150 -112 -140" fill="none" stroke="#6B7280" stroke-width="8" stroke-linecap="round"/>
+    <ellipse cx="-46" cy="10" rx="46" ry="18" fill="#3E2A63"/>
+    <ellipse cx="46" cy="10" rx="46" ry="18" fill="#3E2A63"/>
+    <ellipse cx="-46" cy="0" rx="46" ry="18" fill="url(#coilTop)" stroke="#3E2A63" stroke-width="3"/>
+    <ellipse cx="46" cy="0" rx="46" ry="18" fill="url(#coilTop)" stroke="#3E2A63" stroke-width="3"/>
+    <g fill="none" stroke="#D9CFEE" stroke-width="3.2">
+      <ellipse cx="-46" cy="0" rx="33" ry="12.5"/><ellipse cx="-46" cy="0" rx="20" ry="7.5"/>
+      <ellipse cx="46" cy="0" rx="33" ry="12.5"/><ellipse cx="46" cy="0" rx="20" ry="7.5"/>
+    </g>
+    <rect x="-13" y="-10" width="26" height="20" rx="6" fill="#3E2A63"/>
+  </g>
+  <text x="424" y="84" text-anchor="end" font-size="16" font-weight="600" fill="#5B3F8C">left DLPFC</text>
+
+  <!-- 10 Hz 脉冲 -->
+  <rect x="596" y="86" width="120" height="82" rx="10" fill="#FFFFFF" stroke="#C9BCE3" stroke-width="2"/>
+  <text x="656" y="114" text-anchor="middle" font-size="22" font-weight="800" fill="#A87C1E">10 Hz</text>
+  <g fill="#5B3F8C">
+    <rect x="608" y="128" width="3.5" height="28"/><rect x="617" y="128" width="3.5" height="28"/><rect x="626" y="128" width="3.5" height="28"/>
+    <rect x="635" y="128" width="3.5" height="28"/><rect x="644" y="128" width="3.5" height="28"/><rect x="653" y="128" width="3.5" height="28"/>
+    <rect x="662" y="128" width="3.5" height="28"/><rect x="671" y="128" width="3.5" height="28"/><rect x="680" y="128" width="3.5" height="28"/>
+    <rect x="689" y="128" width="3.5" height="28"/><rect x="698" y="128" width="3.5" height="28"/>
+  </g>
+  <text x="656" y="194" text-anchor="middle" font-size="15" fill="#4B5563">high-frequency pulses</text>
+
+  <path d="M732 128 L780 128" stroke="#2B2B2B" stroke-width="2.4" marker-end="url(#ah)"/>
+
+  <!-- VWM 任务：低/高负荷 -->
+  <rect x="800" y="84" width="140" height="84" rx="8" fill="#FFFFFF" stroke="#8C96A6" stroke-width="2.4"/>
+  <rect x="836" y="112" width="20" height="20" fill="#7E63B0"/><rect x="884" y="120" width="20" height="20" fill="#D9AE52"/>
+  <rect x="980" y="84" width="140" height="84" rx="8" fill="#FFFFFF" stroke="#8C96A6" stroke-width="2.4"/>
+  <rect x="998" y="98" width="20" height="20" fill="#7E63B0"/><rect x="1040" y="94" width="20" height="20" fill="#D9AE52"/>
+  <rect x="1084" y="102" width="20" height="20" fill="#6B7A90"/><rect x="1006" y="134" width="20" height="20" fill="#B9A6DA"/>
+  <rect x="1050" y="138" width="20" height="20" fill="#A87C1E"/><rect x="1090" y="136" width="20" height="20" fill="#5B3F8C"/>
+  <text x="870" y="190" text-anchor="middle" font-size="16" font-weight="600" fill="#1F2937">low load</text>
+  <text x="1050" y="190" text-anchor="middle" font-size="16" font-weight="600" fill="#1F2937">high load</text>
+  <text x="960" y="216" text-anchor="middle" font-size="15" fill="#4B5563">visual working memory task</text>
+
+  <!-- ============ 2 机制 ============ -->
+  <text x="86" y="276" font-size="25" fill="#1F2937">Cross-frequency coupling after rTMS</text>
+
+  <!-- 俯视头 -->
+  <g transform="translate(200 420)">
+    <path d="M-11 -68 L0 -86 L11 -68 Z" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+    <ellipse cx="-74" cy="0" rx="8" ry="18" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+    <ellipse cx="74" cy="0" rx="8" ry="18" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+    <circle r="70" fill="#F6F5F9"/>
+    <g clip-path="url(#scalpB)">
+      <circle cx="0" cy="-40" r="42" fill="url(#vio)"/>
+      <circle cx="0" cy="46" r="42" fill="url(#mus)"/>
+    </g>
+    <circle r="70" fill="none" stroke="#6B7280" stroke-width="2"/>
+    <g fill="#2B2B2B">
+      <circle cx="-22" cy="-50" r="3"/><circle cx="22" cy="-50" r="3"/><circle cx="0" cy="-40" r="3"/><circle cx="-44" cy="-20" r="3"/><circle cx="44" cy="-20" r="3"/>
+      <circle cx="-50" cy="12" r="3"/><circle cx="-18" cy="4" r="3"/><circle cx="18" cy="4" r="3"/><circle cx="50" cy="12" r="3"/>
+      <circle cx="-26" cy="44" r="3"/><circle cx="0" cy="48" r="3"/><circle cx="26" cy="44" r="3"/>
+    </g>
+    <path d="M-30 -36 C-70 -18 -70 24 -30 42" fill="none" stroke="#5B3F8C" stroke-width="3.4" marker-end="url(#av)"/>
+  </g>
+  <g stroke="#9AA3AE" stroke-width="1.6" stroke-dasharray="4 4">
+    <line x1="214" y1="380" x2="336" y2="372"/><line x1="214" y1="466" x2="320" y2="468"/>
+  </g>
+  <text x="430" y="378" text-anchor="end" font-size="18" font-weight="700" fill="#5B3F8C">frontal α</text>
+  <text x="430" y="474" text-anchor="end" font-size="18" font-weight="700" fill="#8A6417">occipital γ</text>
+
+  <!-- PAC 波形 -->
+  <g stroke="#B7BDC8" stroke-width="1.6" stroke-dasharray="5 5">
+    <line x1="470" y1="340" x2="470" y2="498"/><line x1="590" y1="340" x2="590" y2="498"/><line x1="710" y1="340" x2="710" y2="498"/>
+  </g>
+  <path d="M440 372 C459 338 481 338 500 372 C519 406 541 406 560 372 C579 338 601 338 620 372 C639 406 661 406 680 372 C699 338 721 338 740 372 C759 406 781 406 800 372" fill="none" stroke="#5B3F8C" stroke-width="3.2"/>
+  <path d="M440 459.8 L444 457.3 L448 454.6 L452 451.8 L456 449 L460 446.7 L464 445 L468 444.1 L472 444.1 L476 445 L480 446.7 L484 449 L488 451.8 L492 454.6 L496 457.3 L500 459.8 L504 461.7 L508 463.2 L512 464.1 L516 464.7 L520 464.9 L524 465 L528 465 L532 465 L536 465 L540 464.9 L544 464.7 L548 464.1 L552 463.2 L556 461.7 L560 459.8 L564 457.3 L568 454.6 L572 451.8 L576 449 L580 446.7 L584 445 L588 444.1 L592 444.1 L596 445 L600 446.7 L604 449 L608 451.8 L612 454.6 L616 457.3 L620 459.8 L624 461.7 L628 463.2 L632 464.1 L636 464.7 L640 464.9 L644 465 L648 465 L652 465 L656 465 L660 464.9 L664 464.7 L668 464.1 L672 463.2 L676 461.7 L680 459.8 L684 457.3 L688 454.6 L692 451.8 L696 449 L700 446.7 L704 445 L708 444.1 L712 444.1 L716 445 L720 446.7 L724 449 L728 451.8 L732 454.6 L736 457.3 L740 459.8 L744 461.7 L748 463.2 L752 464.1 L756 464.7 L760 464.9 L764 465 L768 465 L772 465 L776 465 L780 464.9 L784 464.7 L788 464.1 L792 463.2 L796 461.7 L800 459.8" fill="none" stroke="#C9962B" stroke-width="1.6" stroke-dasharray="4 3"/>
+  <path d="M440 476.3 L444 478.7 L448 481.4 L452 484.2 L456 487 L460 489.3 L464 491 L468 491.9 L472 491.9 L476 491 L480 489.3 L484 487 L488 484.2 L492 481.4 L496 478.7 L500 476.3 L504 474.3 L508 472.8 L512 471.9 L516 471.3 L520 471.1 L524 471 L528 471 L532 471 L536 471 L540 471.1 L544 471.3 L548 471.9 L552 472.8 L556 474.3 L560 476.3 L564 478.7 L568 481.4 L572 484.2 L576 487 L580 489.3 L584 491 L588 491.9 L592 491.9 L596 491 L600 489.3 L604 487 L608 484.2 L612 481.4 L616 478.7 L620 476.3 L624 474.3 L628 472.8 L632 471.9 L636 471.3 L640 471.1 L644 471 L648 471 L652 471 L656 471 L660 471.1 L664 471.3 L668 471.9 L672 472.8 L676 474.3 L680 476.3 L684 478.7 L688 481.4 L692 484.2 L696 487 L700 489.3 L704 491 L708 491.9 L712 491.9 L716 491 L720 489.3 L724 487 L728 484.2 L732 481.4 L736 478.7 L740 476.3 L744 474.3 L748 472.8 L752 471.9 L756 471.3 L760 471.1 L764 471 L768 471 L772 471 L776 471 L780 471.1 L784 471.3 L788 471.9 L792 472.8 L796 474.3 L800 476.3" fill="none" stroke="#C9962B" stroke-width="1.6" stroke-dasharray="4 3"/>
+  <path d="M440 468 L441 463.2 L442 459.4 L443 458.1 L444 459.9 L445 464.8 L446 471.4 L447 477.6 L448 481.3 L449 480.8 L450 476 L451 468 L452 459.2 L453 452.6 L454 450.6 L455 454.2 L456 462.7 L457 473.5 L458 483.3 L459 488.5 L460 487.4 L461 479.8 L462 468 L463 455.8 L464 447.1 L465 444.9 L466 450.2 L467 461.3 L468 474.7 L469 486.1 L470 491.8 L471 489.8 L472 480.9 L473 468 L474 455.3 L475 446.8 L476 445.2 L477 450.9 L478 461.7 L479 474.1 L480 484.1 L481 488.5 L482 486.4 L483 478.6 L484 468 L485 458.1 L486 452 L487 451.2 L488 455.7 L489 463.6 L490 472.2 L491 478.7 L492 481.3 L493 479.5 L494 474.5 L495 468 L496 462.2 L497 458.9 L498 458.7 L499 461.3 L500 465.7 L501 470.2 L502 473.4 L503 474.7 L504 473.7 L505 471.2 L506 468 L507 465.2 L508 463.6 L509 463.5 L510 464.7 L511 466.8 L512 469.1 L513 470.8 L514 471.5 L515 471.1 L516 469.8 L517 468 L518 466.3 L519 465.1 L520 464.9 L521 465.7 L522 467.1 L523 468.9 L524 470.3 L525 471 L526 470.7 L527 469.6 L528 468 L529 466.4 L530 465.3 L531 465 L532 465.7 L533 467.2 L534 468.8 L535 470.3 L536 471 L537 470.7 L538 469.6 L539 468 L540 466.3 L541 465.1 L542 464.8 L543 465.5 L544 467.1 L545 469 L546 470.7 L547 471.7 L548 471.5 L549 470.2 L550 468 L551 465.5 L552 463.6 L553 462.9 L554 463.8 L555 466.3 L556 469.8 L557 473.1 L558 475.1 L559 475 L560 472.5 L561 468 L562 462.9 L563 458.9 L564 457.4 L565 459.4 L566 464.6 L567 471.6 L568 478.1 L569 482 L570 481.5 L571 476.4 L572 468 L573 458.8 L574 452 L575 449.9 L576 453.7 L577 462.5 L578 473.7 L579 483.7 L580 489.1 L581 487.8 L582 480 L583 468 L584 455.6 L585 446.8 L586 444.7 L587 450.1 L588 461.3 L589 474.8 L590 486.1 L591 491.7 L592 489.7 L593 480.8 L594 468 L595 455.4 L596 447.1 L597 445.6 L598 451.2 L599 461.9 L600 474 L601 483.7 L602 488 L603 485.8 L604 478.2 L605 468 L606 458.5 L607 452.6 L608 451.9 L609 456.3 L610 463.8 L611 472 L612 478.1 L613 480.6 L614 478.9 L615 474.1 L616 468 L617 462.6 L618 459.4 L619 459.3 L620 461.8 L621 465.8 L622 470 L623 473.1 L624 474.2 L625 473.4 L626 471 L627 468 L628 465.4 L629 463.8 L630 463.7 L631 464.9 L632 466.9 L633 469 L634 470.7 L635 471.4 L636 471 L637 469.8 L638 468 L639 466.3 L640 465.2 L641 465 L642 465.7 L643 467.1 L644 468.8 L645 470.3 L646 471 L647 470.7 L648 469.6 L649 468 L650 466.4 L651 465.3 L652 465 L653 465.7 L654 467.2 L655 468.8 L656 470.3 L657 471 L658 470.8 L659 469.7 L660 468 L661 466.3 L662 465.1 L663 464.8 L664 465.5 L665 467 L666 469 L667 470.8 L668 471.9 L669 471.7 L670 470.3 L671 468 L672 465.4 L673 463.3 L674 462.5 L675 463.6 L676 466.2 L677 469.9 L678 473.4 L679 475.6 L680 475.5 L681 472.8 L682 468 L683 462.6 L684 458.3 L685 456.8 L686 458.9 L687 464.4 L688 471.8 L689 478.7 L690 482.7 L691 482.1 L692 476.8 L693 468 L694 458.5 L695 451.4 L696 449.2 L697 453.2 L698 462.3 L699 473.8 L700 484.1 L701 489.6 L702 488.2 L703 480.2 L704 468 L705 455.4 L706 446.6 L707 444.5 L708 449.9 L709 461.2 L710 474.8 L711 486.1 L712 491.6 L713 489.6 L714 480.7 L715 468 L716 455.6 L717 447.4 L718 446 L719 451.5 L720 462 L721 473.8 L722 483.3 L723 487.4 L724 485.2 L725 477.9 L726 468 L727 458.8 L728 453.2 L729 452.6 L730 456.8 L731 464 L732 471.8 L733 477.6 L734 479.9 L735 478.3 L736 473.8 L737 468 L738 462.9 L739 460 L740 459.8 L741 462.2 L742 466 L743 469.9 L744 472.8 L745 473.8 L746 473 L747 470.8 L748 468 L749 465.5 L750 464.1 L751 464 L752 465.1 L753 467 L754 469 L755 470.6 L756 471.3 L757 471 L758 469.7 L759 468 L760 466.3 L761 465.2 L762 465 L763 465.7 L764 467.2 L765 468.8 L766 470.3 L767 471 L768 470.7 L769 469.6 L770 468 L771 466.4 L772 465.3 L773 465 L774 465.7 L775 467.2 L776 468.8 L777 470.3 L778 471 L779 470.8 L780 469.7 L781 468 L782 466.3 L783 465 L784 464.7 L785 465.4 L786 467 L787 469 L788 470.9 L789 472 L790 471.9 L791 470.5 L792 468 L793 465.2 L794 463 L795 462.2 L796 463.2 L797 466.1 L798 470 L799 473.8 L800 476.2" fill="none" stroke="#A87C1E" stroke-width="1.8" stroke-linejoin="round"/>
+  <text x="620" y="530" text-anchor="middle" font-size="17" font-weight="700" fill="#1F2937">phase–amplitude coupling (PAC)</text>
+
+  <!-- 共调制图 pre / post -->
+  <text x="924" y="320" text-anchor="middle" font-size="16" font-weight="600" fill="#4B5563">pre</text>
+  <text x="1098" y="320" text-anchor="middle" font-size="16" font-weight="600" fill="#4B5563">post</text>
+  <rect x="866" y="330" width="116" height="116" fill="#F3F0F8"/>
+  <g clip-path="url(#mapPre)"><ellipse cx="900" cy="366" rx="34" ry="30" fill="url(#pacLo)"/></g>
+  <rect x="866" y="330" width="116" height="116" fill="none" stroke="#6B7280" stroke-width="1.6"/>
+  <rect x="1040" y="330" width="116" height="116" fill="#F3F0F8"/>
+  <g clip-path="url(#mapPost)"><ellipse cx="1074" cy="366" rx="46" ry="40" fill="url(#pacHi)"/></g>
+  <rect x="1040" y="330" width="116" height="116" fill="none" stroke="#6B7280" stroke-width="1.6"/>
+  <path d="M990 388 L1030 388" stroke="#2B2B2B" stroke-width="2.4" marker-end="url(#ah)"/>
+  <g font-size="16" fill="#4B5563" font-weight="600">
+    <text x="900" y="466" text-anchor="middle">α</text><text x="1074" y="466" text-anchor="middle">α</text>
+    <text x="856" y="372" text-anchor="end">γ</text>
+  </g>
+  <text x="1011" y="490" text-anchor="middle" font-size="14" fill="#6B7280">phase freq. (x) × amplitude freq. (y)</text>
+  <text x="1011" y="530" text-anchor="middle" font-size="17" font-weight="700" fill="#1F2937">frontal α – occipital γ PAC ↑</text>
+
+  <!-- ============ 3 结果 ============ -->
+  <text x="86" y="600" font-size="23" fill="#1F2937">Better working memory</text>
+  <line x1="86" y1="612" x2="420" y2="612" stroke="#2B2B2B" stroke-width="1.6"/>
+  <g>
+    <line x1="112" y1="756" x2="340" y2="756" stroke="#2B2B2B" stroke-width="2"/>
+    <line x1="112" y1="632" x2="112" y2="756" stroke="#2B2B2B" stroke-width="2"/>
+    <rect x="134" y="704" width="32" height="52" rx="2" fill="#B7C0CE"/>
+    <rect x="172" y="656" width="32" height="100" rx="2" fill="#7E63B0"/>
+    <rect x="248" y="712" width="32" height="44" rx="2" fill="#B7C0CE"/>
+    <rect x="286" y="704" width="32" height="52" rx="2" fill="#7E63B0"/>
+    <text x="188" y="648" text-anchor="middle" font-size="20" font-weight="700" fill="#A87C1E">*</text>
+    <text x="169" y="778" text-anchor="middle" font-size="14" fill="#4B5563">low load</text>
+    <text x="283" y="778" text-anchor="middle" font-size="14" fill="#4B5563">high load</text>
+    <rect x="352" y="652" width="16" height="16" rx="2" fill="#B7C0CE"/><text x="374" y="666" font-size="14" fill="#4B5563">pre</text>
+    <rect x="352" y="678" width="16" height="16" rx="2" fill="#7E63B0"/><text x="374" y="692" font-size="14" fill="#4B5563">post</text>
+  </g>
+
+  <line x1="440" y1="580" x2="440" y2="782" stroke="#C9C3DA" stroke-width="2"/>
+
+  <text x="466" y="600" font-size="23" fill="#1F2937">Lower occipital γ</text>
+  <line x1="466" y1="612" x2="790" y2="612" stroke="#2B2B2B" stroke-width="1.6"/>
+  <g>
+    <line x1="468" y1="756" x2="566" y2="756" stroke="#2B2B2B" stroke-width="2"/>
+    <line x1="468" y1="632" x2="468" y2="756" stroke="#2B2B2B" stroke-width="2"/>
+    <rect x="480" y="652" width="34" height="104" rx="2" fill="#D9AE52"/>
+    <rect x="524" y="700" width="34" height="56" rx="2" fill="#A87C1E"/>
+    <text x="497" y="778" text-anchor="middle" font-size="14" fill="#4B5563">pre</text>
+    <text x="541" y="778" text-anchor="middle" font-size="14" fill="#4B5563">post</text>
+  </g>
+  <g>
+    <line x1="618" y1="750" x2="788" y2="750" stroke="#2B2B2B" stroke-width="2"/>
+    <line x1="618" y1="636" x2="618" y2="750" stroke="#2B2B2B" stroke-width="2"/>
+    <line x1="626" y1="738" x2="780" y2="648" stroke="#9AA3AE" stroke-width="2" stroke-dasharray="6 5"/>
+    <g fill="#7E63B0" fill-opacity="0.75">
+      <circle cx="636" cy="728" r="5"/><circle cx="648" cy="736" r="5"/><circle cx="660" cy="716" r="5"/><circle cx="672" cy="722" r="5"/>
+      <circle cx="684" cy="700" r="5"/><circle cx="696" cy="708" r="5"/><circle cx="708" cy="688" r="5"/><circle cx="720" cy="694" r="5"/>
+      <circle cx="732" cy="672" r="5"/><circle cx="744" cy="680" r="5"/><circle cx="756" cy="660" r="5"/><circle cx="768" cy="666" r="5"/>
+    </g>
+    <text x="703" y="772" text-anchor="middle" font-size="14" fill="#4B5563">γ reduction</text>
+    <text transform="translate(604 693) rotate(-90)" text-anchor="middle" font-size="14" fill="#4B5563">VWM gain</text>
+  </g>
+
+  <line x1="812" y1="580" x2="812" y2="782" stroke="#C9C3DA" stroke-width="2"/>
+
+  <text x="838" y="600" font-size="23" fill="#1F2937">Implication</text>
+  <line x1="838" y1="612" x2="1170" y2="612" stroke="#2B2B2B" stroke-width="1.6"/>
+  <g transform="translate(840 642)" font-size="17" fill="#1F2937">
+    <g fill="none" stroke="#7E63B0" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 -4 l6 6 l11 -13"/><path d="M0 50 l6 6 l11 -13"/><path d="M0 104 l6 6 l11 -13"/>
+    </g>
+    <text x="28" y="2">Non-invasive option for MCI</text>
+    <text x="28" y="22" font-size="15" fill="#4B5563">to enhance working memory</text>
+    <text x="28" y="56">rTMS modulates α–γ coupling</text>
+    <text x="28" y="76" font-size="15" fill="#4B5563">and occipital γ activity</text>
+    <text x="28" y="110">Neural correlates of VWM gain</text>
+    <text x="28" y="130" font-size="15" fill="#4B5563">occipital γ and frontal–occipital PAC</text>
+  </g>
+</svg>

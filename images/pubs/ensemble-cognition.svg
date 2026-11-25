@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" font-family="'Segoe UI', Arial, Helvetica, sans-serif">
+  <defs>
+    <symbol id="person" viewBox="-22 -50 44 76" overflow="visible">
+      <circle cx="0" cy="-33" r="13"/>
+      <path d="M-19 26 L-19 -4 Q-19 -17 -6 -17 L6 -17 Q19 -17 19 -4 L19 26 Z"/>
+    </symbol>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBE3D6"/><stop offset="1" stop-color="#EFC4AE"/></linearGradient>
+    <linearGradient id="scale" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2C3E63"/><stop offset="0.5" stop-color="#7D8F9E"/><stop offset="1" stop-color="#8E9B4E"/></linearGradient>
+    <marker id="an" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#2C3E63"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#5F6B2E"/></marker>
+    <marker id="ak" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#2B2B2B"/></marker>
+    <path id="headP" d="M120 400 C120 345 108 318 94 292 C70 250 64 198 80 158 C100 100 160 62 226 62 C292 62 336 106 343 160 C346 180 345 194 351 207 C359 221 373 235 377 247 C379 254 372 258 362 260 C365 268 366 274 360 278 C364 285 362 292 354 296 C351 312 343 322 325 324 C305 326 290 326 284 332 L280 400 Z"/>
+    <path id="capP" d="M78 176 C86 104 150 52 226 52 C300 52 346 102 352 170 C300 150 150 146 78 176 Z"/>
+    <g id="svmCard">
+      <rect x="0" y="0" width="120" height="56" rx="8" fill="#FFFFFF" stroke="#8E9B4E" stroke-width="2"/>
+      <g fill="#2C3E63"><circle cx="18" cy="16" r="4"/><circle cx="30" cy="28" r="4"/><circle cx="16" cy="40" r="4"/><circle cx="40" cy="14" r="4"/></g>
+      <g fill="#8E9B4E"><circle cx="78" cy="38" r="4"/><circle cx="92" cy="22" r="4"/><circle cx="100" cy="42" r="4"/><circle cx="84" cy="12" r="4"/></g>
+      <path d="M48 4 C62 20 54 36 68 52" fill="none" stroke="#5F6B2E" stroke-width="2.6"/>
+      <path d="M38 4 C52 20 44 36 58 52 M58 4 C72 20 64 36 78 52" fill="none" stroke="#A9B37A" stroke-width="1.4" stroke-dasharray="4 3"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="800" fill="#FFFFFF"/>
+
+  <!-- 标题 + 问题 -->
+  <text x="600" y="46" text-anchor="middle" font-size="30" font-weight="700" fill="#22314F">Continuous cognition assessment from resting-state EEG</text>
+  <rect x="170" y="64" width="860" height="42" rx="10" fill="#FDF0C2" stroke="#E2BC52" stroke-width="2"/>
+  <text x="600" y="92" text-anchor="middle" font-size="19" fill="#3D3420">Can resting-state EEG replace subjective scales with a continuous, robust score?</text>
+
+  <!-- ===== PARTICIPANTS ===== -->
+  <rect x="28" y="146" width="372" height="630" rx="18" fill="#EEF1F6" stroke="#2C3E63" stroke-width="2.5"/>
+  <rect x="119" y="130" width="190" height="36" rx="8" fill="#2C3E63"/>
+  <text x="214" y="155" text-anchor="middle" font-size="19" font-weight="700" letter-spacing="1.5" fill="#FFFFFF">PARTICIPANTS</text>
+
+  <!-- 三组 -->
+  <g>
+    <rect x="50" y="184" width="328" height="92" rx="12" fill="#FFFFFF" stroke="#C9D1DF" stroke-width="1.8"/>
+    <text x="74" y="236" font-size="40" font-weight="800" fill="#5F6B2E">75</text>
+    <text x="76" y="262" font-size="16" fill="#374151">healthy</text>
+    <use href="#person" x="186" y="204" width="30" height="52" fill="#A9B37A"/>
+  	<use href="#person" x="222" y="204" width="30" height="52" fill="#A9B37A"/>
+    <use href="#person" x="258" y="204" width="30" height="52" fill="#A9B37A"/>
+    <use href="#person" x="294" y="204" width="30" height="52" fill="#A9B37A"/>
+    <use href="#person" x="330" y="204" width="30" height="52" fill="#A9B37A"/>
+  </g>
+  <g>
+    <rect x="50" y="290" width="328" height="92" rx="12" fill="#FFFFFF" stroke="#C9D1DF" stroke-width="1.8"/>
+    <text x="74" y="342" font-size="40" font-weight="800" fill="#5F6B2E">99</text>
+    <text x="76" y="368" font-size="16" fill="#374151">MCI</text>
+    <use href="#person" x="186" y="310" width="30" height="52" fill="#6E7B3A"/>
+    <use href="#person" x="222" y="310" width="30" height="52" fill="#6E7B3A"/>
+    <use href="#person" x="258" y="310" width="30" height="52" fill="#6E7B3A"/>
+    <use href="#person" x="294" y="310" width="30" height="52" fill="#6E7B3A"/>
+    <use href="#person" x="330" y="310" width="30" height="52" fill="#6E7B3A"/>
+  </g>
+  <g>
+    <rect x="50" y="396" width="328" height="92" rx="12" fill="#FFFFFF" stroke="#C9D1DF" stroke-width="1.8"/>
+    <text x="74" y="448" font-size="40" font-weight="800" fill="#5F6B2E">78</text>
+    <text x="76" y="474" font-size="16" fill="#374151">dementia</text>
+    <use href="#person" x="186" y="416" width="30" height="52" fill="#2C3E63"/>
+    <use href="#person" x="222" y="416" width="30" height="52" fill="#2C3E63"/>
+    <use href="#person" x="258" y="416" width="30" height="52" fill="#2C3E63"/>
+    <use href="#person" x="294" y="416" width="30" height="52" fill="#2C3E63"/>
+    <use href="#person" x="330" y="416" width="30" height="52" fill="#2C3E63"/>
+  </g>
+  <text x="214" y="526" text-anchor="middle" font-size="19" font-weight="700" fill="#1F2937">252 subjects in total</text>
+  <line x1="56" y1="546" x2="372" y2="546" stroke="#C9D1DF" stroke-width="2"/>
+
+  <!-- 两次记录，设备不同 -->
+  <g transform="translate(73 566) scale(0.26)">
+    <use href="#headP" fill="url(#skin)" stroke="#B98A74" stroke-width="6"/>
+    <use href="#capP" fill="#3D5180" stroke="#22314F" stroke-width="6"/>
+    <g fill="#F5F7FA" stroke="#22314F" stroke-width="7"><circle cx="120" cy="128" r="13"/><circle cx="170" cy="92" r="13"/><circle cx="226" cy="80" r="13"/><circle cx="282" cy="96" r="13"/><circle cx="322" cy="134" r="13"/><circle cx="196" cy="136" r="13"/><circle cx="260" cy="136" r="13"/></g>
+  </g>
+  <g transform="translate(243 566) scale(0.26)">
+    <use href="#headP" fill="url(#skin)" stroke="#B98A74" stroke-width="6"/>
+    <path d="M86 150 C96 96 154 60 226 60 C296 60 340 100 348 156" fill="none" stroke="#6E7B3A" stroke-width="26" stroke-linecap="round"/>
+    <g fill="#F5F7FA" stroke="#4A5422" stroke-width="7"><rect x="100" y="110" width="26" height="26" rx="4"/><rect x="176" y="62" width="26" height="26" rx="4"/><rect x="256" y="66" width="26" height="26" rx="4"/><rect x="322" y="118" width="26" height="26" rx="4"/></g>
+  </g>
+  <text x="214" y="626" text-anchor="middle" font-size="28" font-weight="700" fill="#6B7280">≠</text>
+  <text x="130" y="696" text-anchor="middle" font-size="15" fill="#374151">recording 1</text>
+  <text x="300" y="696" text-anchor="middle" font-size="15" fill="#374151">recording 2</text>
+  <text x="214" y="730" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">EEG recorded twice</text>
+  <text x="214" y="752" text-anchor="middle" font-size="15" fill="#4B5563">recording devices varied</text>
+
+  <!-- 左 → 右上 -->
+  <path d="M404 308 L440 308" stroke="#2C3E63" stroke-width="6" marker-end="url(#an)"/>
+
+  <!-- ===== ENSEMBLE MODEL ===== -->
+  <rect x="452" y="146" width="720" height="324" rx="18" fill="#F4F6EC" stroke="#6E7B3A" stroke-width="2.5"/>
+  <rect x="702" y="130" width="220" height="36" rx="8" fill="#6E7B3A"/>
+  <text x="812" y="155" text-anchor="middle" font-size="19" font-weight="700" letter-spacing="1.5" fill="#FFFFFF">ENSEMBLE MODEL</text>
+
+  <!-- 脑电波形 -->
+  <g transform="translate(474 238)">
+    <rect x="0" y="0" width="110" height="110" rx="8" fill="#FFFFFF" stroke="#C9D1DF" stroke-width="2"/>
+    <g fill="none" stroke-width="1.8" stroke-linejoin="round">
+      <path stroke="#2C3E63" d="M10 26 l6 -6 l6 9 l6 -12 l6 10 l6 -5 l6 8 l6 -9 l6 6 l6 -4 l6 7 l6 -10 l6 8 l6 -3 l6 4 l6 -2"/>
+      <path stroke="#6E7B3A" d="M10 56 l6 5 l6 -9 l6 11 l6 -7 l6 8 l6 -12 l6 9 l6 -4 l6 6 l6 -8 l6 5 l6 -3 l6 7 l6 -6 l6 3"/>
+      <path stroke="#6F82A8" d="M10 86 l6 -8 l6 6 l6 -4 l6 11 l6 -9 l6 6 l6 -3 l6 8 l6 -10 l6 7 l6 -5 l6 9 l6 -6 l6 4 l6 -2"/>
+    </g>
+  </g>
+  <text x="529" y="418" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">resting EEG</text>
+  <path d="M592 293 L616 293" stroke="#2B2B2B" stroke-width="2.4" marker-end="url(#ak)"/>
+
+  <!-- 特征向量 -->
+  <g transform="translate(628 224)">
+    <rect x="0" y="0" width="34" height="23" fill="#2C3E63"/>
+    <rect x="0" y="23" width="34" height="23" fill="#6F82A8"/>
+    <rect x="0" y="46" width="34" height="23" fill="#A9B37A"/>
+    <rect x="0" y="69" width="34" height="23" fill="#6E7B3A"/>
+    <rect x="0" y="92" width="34" height="23" fill="#B9C3D6"/>
+    <rect x="0" y="115" width="34" height="23" fill="#8E9B4E"/>
+    <rect x="0" y="0" width="34" height="138" fill="none" stroke="#22314F" stroke-width="2"/>
+  </g>
+  <text x="645" y="418" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">features</text>
+  <path d="M670 293 L698 293" stroke="#2B2B2B" stroke-width="2.4" marker-end="url(#ak)"/>
+
+  <!-- SVM 弱学习器 -->
+  <use href="#svmCard" x="712" y="198"/>
+  <use href="#svmCard" x="712" y="265"/>
+  <use href="#svmCard" x="712" y="332"/>
+  <g font-size="18" font-weight="700" fill="#5F6B2E">
+    <text x="844" y="222">α<tspan font-size="14" dy="4">1</tspan></text><text x="844" y="285">α<tspan font-size="14" dy="4">2</tspan></text><text x="844" y="356">α<tspan font-size="14" dy="4">3</tspan></text>
+  </g>
+  <g fill="none" stroke="#5F6B2E" stroke-width="2.4">
+    <path d="M840 236 C880 236 880 286 894 290"/>
+    <path d="M866 293 L894 293"/>
+    <path d="M840 370 C880 370 880 300 894 296"/>
+  </g>
+  <text x="772" y="418" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">SVM learners</text>
+  <text x="772" y="440" text-anchor="middle" font-size="14" fill="#4B5563">boosted in sequence</text>
+
+  <!-- AdaBoost 加权和 -->
+  <circle cx="928" cy="293" r="32" fill="#6E7B3A"/>
+  <text x="928" y="306" text-anchor="middle" font-size="34" font-weight="700" fill="#FFFFFF">Σ</text>
+  <text x="928" y="418" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">AdaBoost</text>
+  <text x="928" y="440" text-anchor="middle" font-size="14" fill="#4B5563">weighted vote</text>
+  <path d="M964 293 L1008 293" stroke="#2B2B2B" stroke-width="2.4" marker-end="url(#ak)"/>
+
+  <!-- 连续分数 -->
+  <rect x="1020" y="252" width="132" height="82" rx="14" fill="#2C3E63"/>
+  <text x="1086" y="303" text-anchor="middle" font-size="30" font-weight="800" fill="#FFFFFF">0–100</text>
+  <text x="1086" y="418" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">cognition score</text>
+  <text x="1086" y="440" text-anchor="middle" font-size="14" fill="#4B5563">trained on scale scores</text>
+
+  <!-- 右上 → 右下 -->
+  <path d="M812 474 L812 494" stroke="#6E7B3A" stroke-width="6" marker-end="url(#ao)"/>
+
+  <!-- ===== RESULTS ===== -->
+  <rect x="452" y="520" width="720" height="256" rx="18" fill="#EEF1F6" stroke="#2C3E63" stroke-width="2.5"/>
+  <rect x="727" y="504" width="170" height="36" rx="8" fill="#2C3E63"/>
+  <text x="812" y="529" text-anchor="middle" font-size="19" font-weight="700" letter-spacing="1.5" fill="#FFFFFF">RESULTS</text>
+
+  <!-- 连续标尺 -->
+  <text x="486" y="574" font-size="16" font-weight="700" fill="#1F2937">One continuous scale, not three categories</text>
+  <rect x="488" y="604" width="392" height="22" rx="11" fill="url(#scale)"/>
+  <g stroke="#FFFFFF" stroke-width="2" stroke-opacity="0.8"><line x1="586" y1="606" x2="586" y2="624"/><line x1="684" y1="606" x2="684" y2="624"/><line x1="782" y1="606" x2="782" y2="624"/></g>
+  <text x="488" y="650" text-anchor="middle" font-size="15" fill="#374151">0</text>
+  <text x="880" y="650" text-anchor="middle" font-size="15" fill="#374151">100</text>
+  <!-- 预测点与误差带 -->
+  <rect x="708" y="598" width="38" height="34" rx="4" fill="#FDF0C2" fill-opacity="0.85" stroke="#C9A23E" stroke-width="1.6"/>
+  <line x1="727" y1="590" x2="727" y2="640" stroke="#22314F" stroke-width="3"/>
+  <circle cx="727" cy="588" r="7" fill="#22314F"/>
+  <text x="727" y="660" text-anchor="middle" font-size="14" fill="#4B5563">predicted ± error</text>
+
+  <line x1="912" y1="566" x2="912" y2="664" stroke="#C9D1DF" stroke-width="2"/>
+  <text x="938" y="614" font-size="52" font-weight="800" fill="#2C3E63">4.82</text>
+  <text x="940" y="640" font-size="17" fill="#1F2937">mean error</text>
+  <text x="940" y="662" font-size="15" fill="#4B5563">on 0–100 (&lt;5%)</text>
+
+  <line x1="476" y1="682" x2="1148" y2="682" stroke="#C9D1DF" stroke-width="2"/>
+  <g font-size="17" fill="#1F2937">
+    <g fill="none" stroke="#6E7B3A" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M484 712 l6 6 l11 -13"/><path d="M824 712 l6 6 l11 -13"/></g>
+    <text x="512" y="718">Cross-device robustness</text>
+    <text x="512" y="740" font-size="15" fill="#4B5563">holds when EEG devices vary</text>
+    <text x="852" y="718">Objective, affordable</text>
+    <text x="852" y="740" font-size="15" fill="#4B5563">alternative to subjective scales</text>
+  </g>
+</svg>

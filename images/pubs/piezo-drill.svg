@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" font-family="'Segoe UI', Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 Z" fill="#2B2B2B"/>
+    </marker>
+    <pattern id="bone" width="16" height="14" patternUnits="userSpaceOnUse">
+      <rect width="16" height="14" fill="#F1EADB"/>
+      <circle cx="4" cy="4" r="2.6" fill="#DDCDAA"/><circle cx="12" cy="10" r="2.2" fill="#DDCDAA"/>
+    </pattern>
+    <linearGradient id="ctx" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F3D6CE"/><stop offset="1" stop-color="#E7BBB0"/></linearGradient>
+    <linearGradient id="fur" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E3E6E9"/><stop offset="1" stop-color="#C3C8CD"/></linearGradient>
+    <linearGradient id="drillG" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4A5058"/><stop offset="0.5" stop-color="#7A828B"/><stop offset="1" stop-color="#4A5058"/></linearGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="#FFFFFF"/>
+
+  <!-- ============ bands ============ -->
+  <rect x="0" y="0" width="46" height="300" fill="#3A3F45"/>
+  <rect x="0" y="300" width="46" height="262" fill="#3C8D5A"/>
+  <rect x="0" y="562" width="46" height="238" fill="#2E5E45"/>
+  <g fill="#FFFFFF" font-size="21" font-weight="600" text-anchor="middle">
+    <text transform="translate(31 150) rotate(-90)">Procedure</text>
+    <text transform="translate(31 431) rotate(-90)">Signal quality</text>
+    <text transform="translate(31 681) rotate(-90)">Comparison</text>
+  </g>
+  <rect x="46" y="0" width="1154" height="300" fill="#F4F5F4"/>
+  <rect x="46" y="562" width="1154" height="238" fill="#F4F5F4"/>
+  <g stroke="#2B2B2B" stroke-width="2"><line x1="0" y1="300" x2="1200" y2="300"/><line x1="0" y1="562" x2="1200" y2="562"/></g>
+  <rect x="1" y="1" width="1198" height="798" fill="none" stroke="#2B2B2B" stroke-width="2"/>
+
+  <!-- ============ 1 PROCEDURE ============ -->
+  <text x="86" y="42" font-size="25" fill="#1F2937">Minimally invasive local-skull modification with a piezoelectric drill</text>
+
+  <!-- rat -->
+  <g transform="translate(176 176) scale(1.05)">
+    <path d="M-62 18 C-90 30 -108 12 -136 24" fill="none" stroke="#D9A79C" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="-40" cy="32" rx="12" ry="5" fill="#D9A79C"/><ellipse cx="44" cy="30" rx="11" ry="5" fill="#D9A79C"/>
+    <path d="M-66 14 C-70 -20 -36 -42 4 -40 C30 -40 48 -30 62 -18 C72 -10 86 -6 96 2 C102 7 98 14 88 15 C70 22 46 30 10 30 C-30 32 -64 34 -66 14 Z" fill="url(#fur)" stroke="#8C939A" stroke-width="2.2"/>
+    <ellipse cx="54" cy="-30" rx="10" ry="13" fill="#EFCFC7" stroke="#8C939A" stroke-width="2"/>
+    <circle cx="76" cy="-8" r="3.2" fill="#2B2B2B"/>
+    <circle cx="98" cy="6" r="4" fill="#D98C82"/>
+    <g stroke="#8C939A" stroke-width="1.3"><line x1="92" y1="8" x2="114" y2="2"/><line x1="92" y1="10" x2="114" y2="14"/></g>
+  </g>
+  <circle cx="262" cy="104" r="23" fill="#3A3F45"/>
+  <text x="262" y="111" text-anchor="middle" font-size="19" font-weight="700" fill="#FFFFFF">×6</text>
+  <text x="170" y="272" text-anchor="middle" font-size="15" fill="#4B5563">SD rats, 8 months old</text>
+
+  <path d="M296 170 L336 170" stroke="#2B2B2B" stroke-width="2.4" marker-end="url(#ah)"/>
+
+  <!-- skull top view -->
+  <g>
+    <path d="M430 66 C404 66 392 96 388 130 C384 170 380 214 398 240 C410 256 450 256 462 240 C480 214 476 170 472 130 C468 96 456 66 430 66 Z" fill="#F1EADB" stroke="#A89A80" stroke-width="2.5"/>
+    <g fill="none" stroke="#B8AA8E" stroke-width="2">
+      <line x1="430" y1="76" x2="430" y2="246"/>
+      <path d="M390 128 C408 140 452 140 470 128"/>
+      <path d="M392 212 C410 200 450 200 468 212"/>
+    </g>
+    <ellipse cx="452" cy="186" rx="15" ry="11" fill="#3C8D5A" fill-opacity="0.25" stroke="#3C8D5A" stroke-width="2"/>
+    <circle cx="452" cy="186" r="3.5" fill="#2B2B2B"/>
+    <text x="430" y="60" text-anchor="middle" font-size="14" fill="#6B7280">rostral</text>
+  </g>
+  <path d="M466 186 L494 186" stroke="#3C8D5A" stroke-width="1.8"/>
+  <text x="498" y="182" font-size="14" font-weight="700" fill="#2E6B45">drill</text>
+  <text x="498" y="199" font-size="14" font-weight="700" fill="#2E6B45">site</text>
+  <text x="430" y="272" text-anchor="middle" font-size="15" fill="#4B5563">above visual cortex</text>
+
+  <path d="M548 170 L588 170" stroke="#2B2B2B" stroke-width="2.4" marker-end="url(#ah)"/>
+
+  <!-- drill + skull cross-section -->
+  <g>
+    <rect x="610" y="190" width="220" height="30" fill="url(#bone)"/>
+    <rect x="610" y="190" width="220" height="30" fill="none" stroke="#A89A80" stroke-width="2"/>
+    <rect x="610" y="220" width="220" height="26" fill="url(#ctx)" stroke="#C99A8E" stroke-width="2"/>
+    <rect x="713" y="190" width="14" height="30" fill="#FFFFFF"/>
+    <line x1="713" y1="190" x2="713" y2="220" stroke="#A89A80" stroke-width="2"/><line x1="727" y1="190" x2="727" y2="220" stroke="#A89A80" stroke-width="2"/>
+    <g transform="translate(720 188) rotate(32)">
+      <line x1="0" y1="0" x2="0" y2="-24" stroke="#3A3F45" stroke-width="3.5"/>
+      <rect x="-8" y="-38" width="16" height="15" rx="3" fill="#3A3F45"/>
+      <rect x="-14" y="-122" width="28" height="86" rx="11" fill="url(#drillG)" stroke="#3A3F45" stroke-width="2"/>
+      <rect x="-14" y="-92" width="28" height="8" fill="#3C8D5A"/>
+      <path d="M0 -122 C0 -136 10 -142 22 -142" fill="none" stroke="#3A3F45" stroke-width="3"/>
+    </g>
+    <g fill="none" stroke="#3C8D5A" stroke-width="2.2" stroke-linecap="round">
+      <path d="M700 168 C694 174 694 182 698 186"/><path d="M692 162 C684 172 684 184 690 192"/>
+      <path d="M744 164 C750 170 750 176 748 182"/>
+    </g>
+    <!-- timer -->
+    <g transform="translate(640 104)">
+      <circle r="20" fill="#FFFFFF" stroke="#3A3F45" stroke-width="3"/>
+      <rect x="-5" y="-28" width="10" height="6" rx="2" fill="#3A3F45"/>
+      <path d="M0 0 L0 -13" stroke="#3A3F45" stroke-width="3" stroke-linecap="round"/>
+      <path d="M0 0 L9 6" stroke="#3C8D5A" stroke-width="3" stroke-linecap="round"/>
+      <path d="M0 -20 A20 20 0 0 1 17.3 10 L0 0 Z" fill="#3C8D5A" fill-opacity="0.3"/>
+    </g>
+    <text x="668" y="102" font-size="16" font-weight="700" fill="#1F2937">&lt; 30 s</text>
+    <text x="668" y="121" font-size="14" fill="#6B7280">per rat</text>
+  </g>
+  <text x="720" y="272" text-anchor="middle" font-size="15" fill="#4B5563">piezoelectric drill, ~500 µm hole</text>
+
+  <path d="M852 170 L892 170" stroke="#2B2B2B" stroke-width="2.4" marker-end="url(#ah)"/>
+
+  <!-- recording: flicker + traces -->
+  <g>
+    <rect x="910" y="92" width="92" height="70" rx="5" fill="#FFFFFF" stroke="#3A3F45" stroke-width="3"/>
+    <g fill="#3A3F45">
+      <rect x="918" y="100" width="19" height="18"/><rect x="956" y="100" width="19" height="18"/>
+      <rect x="937" y="118" width="19" height="18"/><rect x="975" y="118" width="19" height="18"/>
+      <rect x="918" y="136" width="19" height="18"/><rect x="956" y="136" width="19" height="18"/>
+    </g>
+    <rect x="948" y="162" width="16" height="12" fill="#3A3F45"/><rect x="934" y="174" width="44" height="6" rx="2" fill="#3A3F45"/>
+    <text x="956" y="204" text-anchor="middle" font-size="14" fill="#6B7280">flicker</text>
+    <rect x="1020" y="86" width="150" height="128" rx="10" fill="#FFFFFF" stroke="#C9CFD4" stroke-width="2"/>
+    <path d="M1030 120 l7 -6 l7 9 l7 -12 l7 10 l7 -5 l7 8 l7 -9 l7 6 l7 -4 l7 7 l7 -10 l7 8 l7 -3 l7 6 l7 -8 l7 5 l7 -2" fill="none" stroke="#3A3F45" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M1030 176 C1037 160 1044 160 1051 176 S1065 192 1072 176 S1086 160 1093 176 S1107 192 1114 176 S1128 160 1135 176 S1149 192 1156 176" fill="none" stroke="#3C8D5A" stroke-width="2.6"/>
+    <text x="1095" y="146" text-anchor="middle" font-size="14" fill="#6B7280">rsEEG</text>
+    <text x="1095" y="206" text-anchor="middle" font-size="14" fill="#6B7280">SSVEP</text>
+  </g>
+  <text x="1040" y="272" text-anchor="middle" font-size="15" fill="#4B5563">scalp EEG, before vs. after</text>
+
+  <!-- ============ 2 SIGNAL QUALITY ============ -->
+  <text x="86" y="342" font-size="25" fill="#1F2937">Higher-quality scalp EEG after modification</text>
+  <g transform="translate(1000 330)" font-size="14" fill="#374151">
+    <rect x="0" y="-12" width="16" height="14" rx="2" fill="#B5BBC1"/><text x="22" y="0">before</text>
+    <rect x="86" y="-12" width="16" height="14" rx="2" fill="#3C8D5A"/><text x="108" y="0">after</text>
+  </g>
+
+  <!-- SSVEP spectrum -->
+  <g>
+    <line x1="110" y1="512" x2="520" y2="512" stroke="#2B2B2B" stroke-width="2"/>
+    <line x1="110" y1="370" x2="110" y2="512" stroke="#2B2B2B" stroke-width="2"/>
+    <path d="M114 486 L130 482 L146 488 L162 483 L178 487 L192 484 L200 446 L208 486 L224 483 L240 489 L256 484 L272 488 L292 486 L300 462 L308 488 L324 485 L340 490 L356 486 L372 490 L392 488 L400 474 L408 490 L424 487 L440 492 L456 488 L472 492 L488 489 L516 492" fill="none" stroke="#B5BBC1" stroke-width="2.6" stroke-linejoin="round"/>
+    <path d="M114 480 L130 476 L146 482 L162 477 L178 481 L192 478 L200 384 L208 480 L224 477 L240 483 L256 478 L272 482 L292 480 L300 420 L308 482 L324 479 L340 484 L356 480 L372 484 L392 482 L400 446 L408 484 L424 481 L440 486 L456 482 L472 486 L488 483 L516 486" fill="none" stroke="#3C8D5A" stroke-width="3" stroke-linejoin="round"/>
+    <g font-size="15" fill="#4B5563" text-anchor="middle">
+      <text x="200" y="532">f</text><text x="300" y="532">2f</text><text x="400" y="532">3f</text>
+    </g>
+    <text x="478" y="532" text-anchor="middle" font-size="14" fill="#4B5563">frequency</text>
+    <text transform="translate(96 441) rotate(-90)" text-anchor="middle" font-size="14" fill="#4B5563">amplitude</text>
+    <text x="210" y="380" font-size="14" fill="#2E6B45">SSVEP peaks</text>
+  </g>
+  <g transform="translate(556 404)">
+    <text x="0" y="42" font-size="48" font-weight="800" fill="#3C8D5A">+5.13 dB</text>
+    <text x="2" y="70" font-size="17" fill="#1F2937">SSVEP broadband SNR</text>
+    <text x="2" y="92" font-size="15" fill="#6B7280">scalp recording, after vs. before</text>
+  </g>
+
+  <line x1="800" y1="372" x2="800" y2="540" stroke="#C9CFD4" stroke-width="2"/>
+
+  <!-- paired bars -->
+  <g>
+    <text x="822" y="384" font-size="16" fill="#1F2937">skull impedance</text>
+    <rect x="822" y="394" width="250" height="22" rx="4" fill="#B5BBC1"/>
+    <rect x="822" y="422" width="40" height="22" rx="4" fill="#3C8D5A"/>
+    <text x="872" y="440" font-size="20" font-weight="800" fill="#2E6B45">≈ −84%</text>
+    <text x="822" y="478" font-size="16" fill="#1F2937">rsEEG max bandwidth (mean)</text>
+    <rect x="822" y="488" width="160" height="22" rx="4" fill="#B5BBC1"/>
+    <rect x="822" y="516" width="251" height="22" rx="4" fill="#3C8D5A"/>
+    <text x="1082" y="534" font-size="20" font-weight="800" fill="#2E6B45">+57%</text>
+  </g>
+
+  <!-- ============ 3 COMPARISON ============ -->
+  <text x="86" y="600" font-size="23" fill="#1F2937">Compared with ECoG</text>
+  <line x1="86" y1="612" x2="760" y2="612" stroke="#2B2B2B" stroke-width="1.6"/>
+
+  <!-- ECoG icon -->
+  <g>
+    <rect x="300" y="644" width="40" height="20" fill="url(#bone)" stroke="#A89A80" stroke-width="1.5"/>
+    <rect x="410" y="644" width="40" height="20" fill="url(#bone)" stroke="#A89A80" stroke-width="1.5"/>
+    <rect x="300" y="664" width="150" height="24" fill="url(#ctx)" stroke="#C99A8E" stroke-width="1.5"/>
+    <rect x="346" y="660" width="58" height="9" rx="2" fill="#7A828B"/>
+    <g fill="#FFFFFF"><circle cx="356" cy="664.5" r="2"/><circle cx="368" cy="664.5" r="2"/><circle cx="380" cy="664.5" r="2"/><circle cx="392" cy="664.5" r="2"/></g>
+    <path d="M375 660 L375 636 C375 628 384 624 396 624" fill="none" stroke="#3A3F45" stroke-width="2.5"/>
+  </g>
+  <text x="375" y="708" text-anchor="middle" font-size="16" font-weight="700" fill="#4B5563">ECoG</text>
+  <!-- this method icon -->
+  <g>
+    <rect x="530" y="636" width="150" height="12" fill="#F6D9C9" stroke="#D9AE98" stroke-width="1.5"/>
+    <rect x="530" y="648" width="150" height="18" fill="url(#bone)" stroke="#A89A80" stroke-width="1.5"/>
+    <rect x="603" y="648" width="4" height="18" fill="#FFFFFF"/>
+    <rect x="530" y="666" width="150" height="22" fill="url(#ctx)" stroke="#C99A8E" stroke-width="1.5"/>
+    <ellipse cx="605" cy="633" rx="15" ry="4" fill="#3C8D5A"/>
+    <path d="M605 630 L605 622 C605 616 612 614 622 614" fill="none" stroke="#2E6B45" stroke-width="2.5"/>
+  </g>
+  <text x="605" y="708" text-anchor="middle" font-size="16" font-weight="700" fill="#2E6B45">This method</text>
+
+  <g stroke="#D3D8DC" stroke-width="1.5"><line x1="86" y1="720" x2="760" y2="720"/><line x1="86" y1="756" x2="760" y2="756"/></g>
+  <g font-size="16" fill="#1F2937">
+    <text x="90" y="744">electrode implantation</text>
+    <text x="90" y="780">operation time</text>
+  </g>
+  <g font-size="16" text-anchor="middle">
+    <text x="375" y="744" fill="#6B7280">required</text>
+    <text x="375" y="780" fill="#6B7280">longer</text>
+    <text x="605" y="744" fill="#2E6B45" font-weight="700">not needed</text>
+    <text x="605" y="780" fill="#2E6B45" font-weight="700">shorter</text>
+  </g>
+
+  <line x1="790" y1="586" x2="790" y2="782" stroke="#C9CFD4" stroke-width="2"/>
+
+  <text x="816" y="600" font-size="23" fill="#1F2937">Implication</text>
+  <line x1="816" y1="612" x2="1170" y2="612" stroke="#2B2B2B" stroke-width="1.6"/>
+  <g transform="translate(818 640)" font-size="17" fill="#1F2937">
+    <g fill="none" stroke="#3C8D5A" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 6 l6 6 l11 -13"/><path d="M0 56 l6 6 l11 -13"/><path d="M0 106 l6 6 l11 -13"/>
+    </g>
+    <text x="28" y="12">Boosts scalp EEG quality</text>
+    <text x="28" y="32" font-size="15" fill="#4B5563">at a targeted brain region</text>
+    <text x="28" y="62">Could replace ECoG in</text>
+    <text x="28" y="82" font-size="15" fill="#4B5563">certain application scenarios</text>
+    <text x="28" y="112">May invigorate</text>
+    <text x="28" y="132" font-size="15" fill="#4B5563">scalp EEG research</text>
+  </g>
+</svg>

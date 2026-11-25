@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" font-family="'Segoe UI', Arial, Helvetica, sans-serif">
+  <defs>
+    <symbol id="person" viewBox="-22 -50 44 76" overflow="visible">
+      <circle cx="0" cy="-33" r="13"/>
+      <path d="M-19 26 L-19 -4 Q-19 -17 -6 -17 L6 -17 Q19 -17 19 -4 L19 26 Z"/>
+    </symbol>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBE3D6"/><stop offset="1" stop-color="#EFC4AE"/></linearGradient>
+    <linearGradient id="scr" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F3F8F7"/><stop offset="1" stop-color="#DCEDEA"/></linearGradient>
+    <marker id="at" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#B5603F"/></marker>
+    <marker id="aq" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#2F7C78"/></marker>
+    <marker id="ak" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#4B5563"/></marker>
+  </defs>
+
+  <rect width="1200" height="800" fill="#FFFFFF"/>
+
+  <!-- title + question -->
+  <text x="600" y="50" text-anchor="middle" font-size="30" font-weight="700" fill="#3A2A22">EasyCog: cognitive assessment from passive video watching</text>
+  <rect x="190" y="70" width="820" height="44" rx="10" fill="#FDF0C2" stroke="#E2BC52" stroke-width="2"/>
+  <text x="600" y="99" text-anchor="middle" font-size="19" fill="#3D3420">Can cognition be assessed while people simply watch a short video?</text>
+
+  <!-- ===== PASSIVE RECORDING ===== -->
+  <rect x="28" y="146" width="612" height="632" rx="18" fill="#FCF5F1" stroke="#C9785A" stroke-width="2.5"/>
+  <rect x="210" y="130" width="248" height="36" rx="8" fill="#B5603F"/>
+  <text x="334" y="155" text-anchor="middle" font-size="19" font-weight="700" letter-spacing="1.5" fill="#FFFFFF">PASSIVE RECORDING</text>
+
+  <!-- floor -->
+  <line x1="60" y1="532" x2="610" y2="532" stroke="#E3CFC2" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- armchair -->
+  <g fill="#D8CBBE" stroke="#A89585" stroke-width="2.4" stroke-linejoin="round">
+    <path d="M100 472 L90 332 Q88 296 122 296 Q152 298 154 332 L162 472 Z"/>
+    <rect x="108" y="436" width="226" height="40" rx="14"/>
+    <rect x="112" y="476" width="218" height="24" rx="6" fill="#C2B2A3"/>
+    <rect x="124" y="500" width="12" height="30" rx="3" fill="#A89585"/>
+    <rect x="306" y="500" width="12" height="30" rx="3" fill="#A89585"/>
+  </g>
+
+  <!-- seated participant -->
+  <path d="M176 312 C150 318 138 340 138 372 L142 440 L238 440 L240 372 C240 340 232 320 214 312 Z" fill="#B5603F" stroke="#8F4630" stroke-width="2.4"/>
+  <path d="M144 404 L322 410 Q342 412 342 430 Q342 448 322 448 L144 446 Z" fill="#56616C" stroke="#3F4851" stroke-width="2.4"/>
+  <path d="M306 432 L340 432 L336 522 L308 522 Z" fill="#56616C" stroke="#3F4851" stroke-width="2.4"/>
+  <path d="M300 520 L348 520 Q362 522 362 532 L300 532 Z" fill="#3F4851"/>
+  <path d="M200 338 L214 402 L280 404" fill="none" stroke="#8F4630" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M200 338 L214 402 L280 404" fill="none" stroke="#B5603F" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="290" cy="403" r="10" fill="url(#skin)" stroke="#B98A74" stroke-width="2"/>
+
+  <!-- head (profile) with forehead band + ear sensor -->
+  <g transform="translate(130 186) scale(0.32)">
+    <path d="M120 400 C120 345 108 318 94 292 C70 250 64 198 80 158 C100 100 160 62 226 62 C292 62 336 106 343 160 C346 180 345 194 351 207 C359 221 373 235 377 247 C379 254 372 258 362 260 C365 268 366 274 360 278 C364 285 362 292 354 296 C351 312 343 322 325 324 C305 326 290 326 284 332 L280 400 Z" fill="url(#skin)" stroke="#B98A74" stroke-width="6"/>
+    <path d="M86 236 C60 170 92 70 220 56 C300 50 344 100 346 150 C310 120 250 112 214 124 C160 144 128 190 122 250 C110 252 96 248 86 236 Z" fill="#B4ACA4" stroke="#8E857C" stroke-width="5"/>
+    <ellipse cx="200" cy="222" rx="20" ry="30" fill="url(#skin)" stroke="#B98A74" stroke-width="6"/>
+    <path d="M72 172 C150 128 262 116 350 150" fill="none" stroke="#2F7C78" stroke-width="28" stroke-linecap="round"/>
+    <g fill="#F5F7FA" stroke="#1F5653" stroke-width="5"><circle cx="298" cy="134" r="10"/><circle cx="332" cy="144" r="10"/></g>
+    <path d="M186 186 C168 196 166 244 184 262" fill="none" stroke="#2F7C78" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="188" cy="262" r="11" fill="#F5F7FA" stroke="#1F5653" stroke-width="5"/>
+    <ellipse cx="322" cy="198" rx="7" ry="8" fill="#3A2A22"/>
+    <path d="M304 178 C314 172 328 172 338 178" fill="none" stroke="#8E857C" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- gaze cone -->
+  <path d="M237 249 L506 258 L506 284 Z" fill="#2F7C78" fill-opacity="0.13"/>
+  <line x1="237" y1="249" x2="506" y2="270" stroke="#2F7C78" stroke-width="2.4" stroke-dasharray="7 5"/>
+  <text x="344" y="240" font-size="15" font-style="italic" fill="#22605C">gaze</text>
+
+  <!-- screen + eye tracker + table -->
+  <rect x="438" y="222" width="174" height="112" rx="8" fill="#5A6068"/>
+  <rect x="448" y="232" width="154" height="88" rx="3" fill="url(#scr)"/>
+  <circle cx="578" cy="252" r="10" fill="#E9B872"/>
+  <path d="M448 304 C478 276 500 274 528 292 C548 280 572 276 602 296 L602 320 L448 320 Z" fill="#9CC8C2"/>
+  <path d="M448 312 C480 296 520 300 560 314 L602 310 L602 320 L448 320 Z" fill="#D9A08A"/>
+  <g fill="none" stroke="#22605C" stroke-width="2"><path d="M470 254 L506 270 L548 262"/></g>
+  <circle cx="470" cy="254" r="4" fill="#22605C"/><circle cx="548" cy="262" r="4" fill="#22605C"/>
+  <circle cx="506" cy="270" r="10" fill="none" stroke="#22605C" stroke-width="3"/><circle cx="506" cy="270" r="3.5" fill="#22605C"/>
+  <rect x="478" y="338" width="94" height="12" rx="4" fill="#6B7178"/>
+  <circle cx="496" cy="344" r="3.5" fill="#E7A88E"/><circle cx="554" cy="344" r="3.5" fill="#E7A88E"/>
+  <rect x="518" y="350" width="14" height="30" fill="#8A9096"/>
+  <rect x="490" y="378" width="70" height="8" rx="4" fill="#8A9096"/>
+  <g fill="#D8CBBE" stroke="#A89585" stroke-width="2.4"><rect x="430" y="386" width="190" height="12" rx="4"/><rect x="444" y="398" width="10" height="132"/><rect x="596" y="398" width="10" height="132"/></g>
+  <text x="510" y="372" text-anchor="end" font-size="15" fill="#374151">eye tracker</text>
+
+  <!-- callouts -->
+  <line x1="244" y1="226" x2="262" y2="212" stroke="#4B5563" stroke-width="1.6"/>
+  <text x="266" y="208" font-size="15" font-weight="600" fill="#22605C">forehead EEG</text>
+  <line x1="126" y1="262" x2="184" y2="268" stroke="#4B5563" stroke-width="1.6"/>
+  <text x="64" y="266" font-size="15" font-weight="600" fill="#22605C">ear EEG</text>
+
+  <!-- session timeline -->
+  <rect x="116" y="572" width="334" height="38" rx="6" fill="#F4D9CC" stroke="#C9785A" stroke-width="2"/>
+  <path d="M130 582 L130 600 L145 591 Z" fill="#B5603F"/>
+  <text x="292" y="597" text-anchor="middle" font-size="15" font-weight="600" fill="#6E3522">short, cognitively structured video</text>
+  <rect x="450" y="572" width="160" height="38" rx="6" fill="#D5EBE8" stroke="#5E9F9A" stroke-width="2"/>
+  <text x="530" y="597" text-anchor="middle" font-size="15" font-weight="600" fill="#1F5653">eyes-closed rest</text>
+
+  <line x1="450" y1="616" x2="450" y2="716" stroke="#9AA3AE" stroke-width="1.6" stroke-dasharray="4 4"/>
+  <text x="60" y="652" font-size="15" font-weight="700" fill="#22605C">EEG</text>
+  <path d="M116 643 L120 643 L124 642 L128 638 L132 645 L136 653 L140 654 L144 652 L148 648 L152 649 L156 645 L160 642 L164 635 L168 638 L172 643 L176 647 L180 655 L184 653 L188 650 L192 652 L196 650 L200 643 L204 638 L208 633 L212 639 L216 645 L220 644 L224 646 L228 649 L232 657 L236 655 L240 649 L244 640 L248 639 L252 641 L256 642 L260 645 L264 645 L268 650 L272 656 L276 655 L280 649 L284 643 L288 640 L292 645 L296 642 L300 640 L304 638 L308 648 L312 656 L316 652 L320 649 L324 650 L328 648 L332 651 L336 642 L340 634 L344 637 L348 645 L352 649 L356 649 L360 648 L364 652 L368 654 L372 650 L376 643 L380 635 L384 634 L388 643 L392 644 L396 647 L400 646 L404 648 L408 657 L412 653 L416 648 L420 638 L424 638 L428 640 L432 642 L436 644 L440 644 L444 648 L448 658 L452 654 L456 649 L460 646 L464 644 L468 642 L472 644 L476 636 L480 637 L484 648 L488 653 L492 653 L496 648 L500 645 L504 649 L508 646 L512 643 L516 635 L520 636 L524 647 L528 650 L532 651 L536 651 L540 648 L544 651 L548 654 L552 646 L556 635 L560 635 L564 644 L568 649 L572 644 L576 649 L580 653 L584 657 L588 654 L592 644 L596 637 L600 642 L604 641 L608 644" fill="none" stroke="#2F7C78" stroke-width="1.8" stroke-linejoin="round"/>
+  <text x="60" y="700" font-size="15" font-weight="700" fill="#8F4630">gaze</text>
+  <path d="M116 694 L146 694 L148 698 L184 698 L186 690 L210 690 L212 708 L230 708 L232 685 L256 685 L258 698 L276 698 L278 690 L302 690 L304 685 L322 685 L324 680 L354 680 L356 698 L392 698 L394 685 L412 685 L414 680 L438 680 L440 690" fill="none" stroke="#B5603F" stroke-width="2.4" stroke-linejoin="round"/>
+  <line x1="458" y1="694" x2="608" y2="694" stroke="#B9C0C8" stroke-width="2.4" stroke-dasharray="6 5"/>
+  <line x1="116" y1="728" x2="600" y2="728" stroke="#4B5563" stroke-width="2" marker-end="url(#ak)"/>
+  <text x="60" y="733" font-size="15" fill="#4B5563">time</text>
+  <text x="363" y="760" text-anchor="middle" font-size="15" fill="#4B5563">synchronized forehead/ear EEG + contactless eye tracking</text>
+
+  <!-- recording → dataset -->
+  <path d="M644 290 L664 290" stroke="#B5603F" stroke-width="6" marker-end="url(#at)"/>
+
+  <!-- ===== DATASET ===== -->
+  <rect x="680" y="146" width="492" height="274" rx="18" fill="#EFF6F5" stroke="#5E9F9A" stroke-width="2.5"/>
+  <rect x="856" y="130" width="140" height="36" rx="8" fill="#2F7C78"/>
+  <text x="926" y="155" text-anchor="middle" font-size="19" font-weight="700" letter-spacing="1.5" fill="#FFFFFF">DATASET</text>
+
+  <text x="706" y="240" font-size="58" font-weight="800" fill="#2F7C78">101</text>
+  <text x="710" y="268" font-size="17" fill="#1F2937">participants</text>
+
+  <use href="#person" x="870" y="188" width="44" height="76" fill="#4E9792"/>
+  <use href="#person" x="938" y="188" width="44" height="76" fill="#C27556"/>
+  <use href="#person" x="1006" y="188" width="44" height="76" fill="#9A5A44"/>
+  <use href="#person" x="1074" y="188" width="44" height="76" fill="#B79B83"/>
+  <g font-size="15" font-weight="700" fill="#1F2937" text-anchor="middle">
+    <text x="892" y="288">HC</text><text x="960" y="288">PD</text><text x="1028" y="288">AD</text><text x="1096" y="288">VaD</text>
+  </g>
+  <text x="994" y="310" text-anchor="middle" font-size="15" fill="#4B5563">healthy controls and patients</text>
+
+  <line x1="704" y1="328" x2="1148" y2="328" stroke="#BCD9D5" stroke-width="2"/>
+  <g transform="translate(712 342)">
+    <rect x="0" y="8" width="50" height="62" rx="6" fill="#FFFFFF" stroke="#8C99AA" stroke-width="2.2"/>
+    <rect x="15" y="0" width="20" height="14" rx="4" fill="#8C99AA"/>
+    <g stroke="#D5DCE4" stroke-width="4" stroke-linecap="round"><line x1="22" y1="30" x2="42" y2="30"/><line x1="22" y1="46" x2="42" y2="46"/><line x1="22" y1="60" x2="38" y2="60"/></g>
+    <g fill="none" stroke="#B5603F" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 30 l4 4 l6 -8"/><path d="M7 46 l4 4 l6 -8"/><path d="M7 60 l4 4 l6 -8"/></g>
+  </g>
+  <text x="788" y="372" font-size="19" font-weight="700" fill="#1F2937">MoCA / MMSE scores</text>
+  <text x="788" y="396" font-size="15" fill="#4B5563">clinician-administered, collected in daily settings</text>
+
+  <!-- dataset → benchmarks -->
+  <path d="M1120 424 L1120 444" stroke="#2F7C78" stroke-width="6" marker-end="url(#aq)"/>
+
+  <!-- ===== BENCHMARKS ===== -->
+  <rect x="680" y="470" width="492" height="150" rx="18" fill="#FCF5F1" stroke="#C9785A" stroke-width="2.5"/>
+  <rect x="828" y="454" width="196" height="36" rx="8" fill="#B5603F"/>
+  <text x="926" y="479" text-anchor="middle" font-size="19" font-weight="700" letter-spacing="1.5" fill="#FFFFFF">BENCHMARKS</text>
+
+  <g transform="translate(712 508)">
+    <line x1="0" y1="88" x2="104" y2="88" stroke="#2B2B2B" stroke-width="2"/>
+    <line x1="0" y1="0" x2="0" y2="88" stroke="#2B2B2B" stroke-width="2"/>
+    <rect x="12" y="40" width="16" height="48" fill="#5E9F9A"/>
+    <rect x="34" y="26" width="16" height="62" fill="#2F7C78"/>
+    <rect x="56" y="48" width="16" height="40" fill="#C9785A"/>
+    <rect x="78" y="32" width="16" height="56" fill="#B5603F"/>
+  </g>
+  <g transform="translate(846 506)" font-size="17" fill="#1F2937">
+    <g fill="none" stroke="#2F7C78" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0 6 l6 6 l11 -13"/><path d="M0 42 l6 6 l11 -13"/></g>
+    <text x="28" y="12">Quality-validated recordings</text>
+    <text x="28" y="48">Baselines show feasibility</text>
+    <path d="M8 70 L17 86 L-1 86 Z" fill="none" stroke="#B5603F" stroke-width="2.6" stroke-linejoin="round"/>
+    <line x1="8" y1="76" x2="8" y2="80" stroke="#B5603F" stroke-width="2.4" stroke-linecap="round"/>
+    <text x="28" y="86">Generalization is challenging</text>
+  </g>
+
+  <!-- benchmarks → outlook -->
+  <path d="M1120 624 L1120 644" stroke="#B5603F" stroke-width="6" marker-end="url(#at)"/>
+
+  <!-- ===== OUTLOOK ===== -->
+  <rect x="680" y="656" width="492" height="122" rx="18" fill="#EFF6F5" stroke="#5E9F9A" stroke-width="2.5"/>
+  <rect x="856" y="640" width="140" height="36" rx="8" fill="#2F7C78"/>
+  <text x="926" y="665" text-anchor="middle" font-size="19" font-weight="700" letter-spacing="1.5" fill="#FFFFFF">OUTLOOK</text>
+
+  <!-- clinic -->
+  <g transform="translate(710 694)">
+    <path d="M0 22 L30 4 L60 22" fill="none" stroke="#8F4630" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="6" y="22" width="48" height="44" fill="#FFFFFF" stroke="#8F4630" stroke-width="2.6"/>
+    <path d="M26 30 h8 v8 h8 v8 h-8 v8 h-8 v-8 h-8 v-8 h8 Z" fill="#B5603F"/>
+  </g>
+  <!-- home -->
+  <g transform="translate(786 694)">
+    <path d="M-2 30 L30 4 L62 30" fill="#9CC8C2" stroke="#22605C" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="8" y="30" width="44" height="36" fill="#FFFFFF" stroke="#22605C" stroke-width="2.6"/>
+    <rect x="24" y="44" width="12" height="22" fill="#5E9F9A"/>
+  </g>
+  <g transform="translate(870 712)">
+    <text x="0" y="0" font-size="17" font-weight="600" fill="#1F2937">Low-burden cognitive monitoring</text>
+    <text x="0" y="24" font-size="15" fill="#4B5563">in clinical and community settings</text>
+  </g>
+</svg>

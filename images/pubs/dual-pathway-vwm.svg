@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" font-family="'Segoe UI', Arial, Helvetica, sans-serif">
+  <defs>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBE3D6"/><stop offset="1" stop-color="#EFC4AE"/></linearGradient>
+    <linearGradient id="cap" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3C5288"/><stop offset="1" stop-color="#1F2E55"/></linearGradient>
+    <marker id="an" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#1F2E55"/></marker>
+    <marker id="ag" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#B58420"/></marker>
+  </defs>
+
+  <rect width="1200" height="800" fill="#FFFFFF"/>
+
+  <!-- title + question -->
+  <text x="600" y="50" text-anchor="middle" font-size="31" font-weight="700" fill="#1C2747">Dual-pathway dynamics in visual working memory</text>
+  <rect x="250" y="70" width="700" height="44" rx="10" fill="#FDF0C2" stroke="#E2BC52" stroke-width="2"/>
+  <text x="600" y="99" text-anchor="middle" font-size="19" fill="#3D3420">How do neural dynamics support visual working memory?</text>
+
+  <!-- ===== EEG RECORDING ===== -->
+  <rect x="28" y="146" width="344" height="632" rx="18" fill="#F1F3F9" stroke="#34497E" stroke-width="2.5"/>
+  <rect x="92" y="130" width="216" height="36" rx="8" fill="#34497E"/>
+  <text x="200" y="155" text-anchor="middle" font-size="19" font-weight="700" letter-spacing="1.5" fill="#FFFFFF">EEG RECORDING</text>
+
+  <g transform="translate(46 186) scale(0.40)">
+    <path d="M120 400 C120 345 108 318 94 292 C70 250 64 198 80 158 C100 100 160 62 226 62 C292 62 336 106 343 160 C346 180 345 194 351 207 C359 221 373 235 377 247 C379 254 372 258 362 260 C365 268 366 274 360 278 C364 285 362 292 354 296 C351 312 343 322 325 324 C305 326 290 326 284 332 L280 400 Z" fill="url(#skin)" stroke="#B98A74" stroke-width="5"/>
+    <path d="M78 176 C86 104 150 52 226 52 C300 52 346 102 352 170 C300 150 150 146 78 176 Z" fill="url(#cap)" stroke="#1C2747" stroke-width="4"/>
+    <g fill="#F5F7FA" stroke="#1C2747" stroke-width="5">
+      <circle cx="120" cy="128" r="12"/><circle cx="170" cy="92" r="12"/><circle cx="226" cy="80" r="12"/><circle cx="282" cy="96" r="12"/><circle cx="322" cy="134" r="12"/><circle cx="196" cy="136" r="12"/><circle cx="260" cy="136" r="12"/>
+    </g>
+    <path d="M226 52 C230 20 260 4 300 6" fill="none" stroke="#6B7280" stroke-width="6"/>
+    <ellipse cx="322" cy="198" rx="7" ry="8" fill="#2B2B2B"/>
+  </g>
+  <line x1="178" y1="265" x2="236" y2="258" stroke="#B58420" stroke-width="2.2" stroke-dasharray="5 4"/>
+  <!-- screen with memory items -->
+  <rect x="238" y="214" width="116" height="88" rx="7" fill="#4A5272"/>
+  <rect x="246" y="222" width="100" height="72" rx="3" fill="#F5F6FA"/>
+  <rect x="256" y="232" width="18" height="18" rx="2" fill="#C9962B"/>
+  <rect x="306" y="230" width="18" height="18" rx="2" fill="#8FA3CF"/>
+  <rect x="266" y="266" width="18" height="18" rx="2" fill="#34497E"/>
+  <rect x="316" y="264" width="18" height="18" rx="2" fill="#E3C27A"/>
+  <rect x="290" y="302" width="12" height="20" fill="#8A90A6"/>
+  <rect x="270" y="322" width="52" height="6" rx="3" fill="#8A90A6"/>
+  <text x="200" y="378" text-anchor="middle" font-size="16" fill="#374151">visual working memory</text>
+
+  <!-- multichannel EEG -->
+  <rect x="56" y="400" width="288" height="120" rx="10" fill="#FFFFFF" stroke="#C3CBE0" stroke-width="2"/>
+  <path d="M70 431.5 L73 434.8 L76 433.1 L79 429.1 L82 422.9 L85 424.6 L88 428.6 L91 427.9 L94 424.7 L97 417.5 L100 417.1 L103 418.8 L106 421.8 L109 420.3 L112 414.4 L115 412.7 L118 414.9 L121 420.9 L124 422.0 L127 417.9 L130 417.3 L133 416.6 L136 422.8 L139 425.3 L142 424.9 L145 425.0 L148 422.5 L151 426.1 L154 433.1 L157 434.1 L160 429.8 L163 429.0 L166 428.6 L169 432.6 L172 433.2 L175 433.0 L178 427.7 L181 426.3 L184 427.7 L187 428.2 L190 427.2 L193 421.9 L196 417.6 L199 417.3 L202 420.7 L205 422.6 L208 417.8 L211 415.5 L214 413.3 L217 416.2 L220 421.2 L223 420.2 L226 416.7 L229 415.5 L232 418.7 L235 421.7 L238 427.2 L241 423.1 L244 423.0 L247 424.2 L250 426.2 L253 432.7 L256 431.4 L259 429.1 L262 425.7 L265 428.1 L268 432.3 L271 435.5 L274 429.8 L277 427.4 L280 427.2 L283 429.8 L286 429.5 L289 427.0 L292 422.4 L295 420.1 L298 419.2 L301 423.6 L304 423.3 L307 419.4 L310 413.1 L313 416.0 L316 416.9 L319 420.1 L322 419.3 L325 417.0 L328 414.6" fill="none" stroke="#1F2E55" stroke-width="1.7" stroke-linejoin="round"/>
+  <path d="M70 442.8 L73 444.8 L76 446.8 L79 445.4 L82 441.4 L85 440.2 L88 442.6 L91 444.1 L94 445.7 L97 446.6 L100 442.5 L103 442.7 L106 446.7 L109 452.1 L112 453.3 L115 449.7 L118 448.7 L121 450.7 L124 458.2 L127 457.5 L130 456.7 L133 454.8 L136 453.0 L139 458.3 L142 461.5 L145 458.7 L148 454.7 L151 450.0 L154 452.3 L157 453.9 L160 455.4 L163 449.2 L166 445.2 L169 446.2 L172 448.2 L175 450.0 L178 445.9 L181 441.5 L184 440.5 L187 442.2 L190 445.3 L193 446.1 L196 442.4 L199 441.0 L202 444.8 L205 449.6 L208 451.8 L211 450.5 L214 447.6 L217 447.3 L220 452.1 L223 458.1 L226 459.0 L229 454.7 L232 453.9 L235 455.7 L238 459.4 L241 460.8 L244 458.2 L247 452.8 L250 452.6 L253 453.7 L256 456.2 L259 455.1 L262 449.8 L265 445.1 L268 447.7 L271 449.4 L274 449.2 L277 443.7 L280 441.1 L283 439.7 L286 444.2 L289 446.3 L292 446.3 L295 442.4 L298 441.7 L301 443.5 L304 449.1 L307 451.2 L310 449.6 L313 446.2 L316 449.5 L319 454.5 L322 457.6 L325 457.9 L328 454.9" fill="none" stroke="#34497E" stroke-width="1.7" stroke-linejoin="round"/>
+  <path d="M70 478.1 L73 483.3 L76 487.2 L79 485.7 L82 482.5 L85 479.2 L88 479.6 L91 480.7 L94 483.3 L97 479.2 L100 474.5 L103 471.7 L106 474.1 L109 476.6 L112 474.7 L115 470.3 L118 465.0 L121 466.5 L124 470.9 L127 472.9 L130 469.2 L133 467.4 L136 467.6 L139 470.1 L142 475.4 L145 474.9 L148 471.8 L151 471.3 L154 475.2 L157 479.8 L160 482.0 L163 479.6 L166 478.4 L169 479.1 L172 483.8 L175 486.7 L178 484.2 L181 482.1 L184 477.3 L187 480.2 L190 482.6 L193 482.5 L196 477.2 L199 474.9 L202 472.9 L205 474.3 L208 477.1 L211 472.6 L214 469.1 L217 466.4 L220 469.2 L223 473.5 L226 472.9 L229 468.3 L232 466.9 L235 468.1 L238 471.9 L241 474.0 L244 474.2 L247 471.6 L250 473.3 L253 477.7 L256 481.3 L259 481.3 L262 480.4 L265 476.2 L268 478.9 L271 484.7 L274 486.7 L277 482.8 L280 480.5 L283 480.6 L286 481.8 L289 484.2 L292 481.7 L295 477.0 L298 475.7 L301 474.7 L304 478.9 L307 478.5 L310 473.4 L313 467.9 L316 469.3 L319 470.6 L322 472.5 L325 470.6 L328 468.7" fill="none" stroke="#5A6FA3" stroke-width="1.7" stroke-linejoin="round"/>
+  <path d="M70 506.7 L73 504.0 L76 507.7 L79 511.0 L82 511.6 L85 509.8 L88 505.8 L91 502.6 L94 506.6 L97 507.5 L100 507.0 L103 501.4 L106 496.7 L109 497.8 L112 500.0 L115 502.1 L118 496.0 L121 493.0 L124 492.6 L127 496.5 L130 498.8 L133 497.8 L136 492.5 L139 493.7 L142 495.9 L145 501.2 L148 502.0 L151 499.8 L154 498.8 L157 500.9 L160 505.6 L163 510.0 L166 508.5 L169 503.9 L172 504.3 L175 508.3 L178 513.3 L181 512.9 L184 508.0 L187 503.2 L190 506.3 L193 508.1 L196 509.1 L199 505.8 L202 500.6 L205 498.4 L208 501.7 L211 502.0 L214 500.1 L217 496.8 L220 491.7 L223 493.3 L226 498.3 L229 497.1 L232 496.7 L235 493.1 L238 492.9 L241 496.7 L244 502.0 L247 502.3 L250 497.4 L253 497.8 L256 501.6 L259 506.5 L262 507.9 L265 505.4 L268 504.4 L271 506.3 L274 508.3 L277 511.6 L280 511.8 L283 507.7 L286 505.5 L289 505.6 L292 510.4 L295 510.5 L298 506.0 L301 500.9 L304 498.6 L307 503.4 L310 502.4 L313 500.4 L316 496.5 L319 493.8 L322 494.4 L325 497.7 L328 499.1" fill="none" stroke="#B58420" stroke-width="1.7" stroke-linejoin="round"/>
+  <text x="200" y="546" text-anchor="middle" font-size="16" fill="#374151">multichannel EEG</text>
+
+  <path d="M188 558 L132 584" stroke="#1F2E55" stroke-width="3" marker-end="url(#an)"/>
+  <path d="M212 558 L268 584" stroke="#B58420" stroke-width="3" marker-end="url(#ag)"/>
+
+  <rect x="50" y="600" width="144" height="150" rx="12" fill="#E3E8F4" stroke="#34497E" stroke-width="2"/>
+  <path d="M66 652.0 L68 648.3 L70 644.8 L72 641.4 L74 638.3 L76 635.7 L78 633.4 L80 631.7 L82 630.6 L84 630.0 L86 630.1 L88 630.8 L90 632.1 L92 633.9 L94 636.3 L96 639.1 L98 642.2 L100 645.6 L102 649.2 L104 652.9 L106 656.6 L108 660.1 L110 663.4 L112 666.4 L114 669.0 L116 671.1 L118 672.6 L120 673.6 L122 674.0 L124 673.8 L126 672.9 L128 671.5 L130 669.5 L132 667.1 L134 664.2 L136 660.9 L138 657.5 L140 653.8 L142 650.2 L144 646.5 L146 643.1 L148 639.8 L150 636.9 L152 634.5 L154 632.5 L156 631.1 L158 630.2 L160 630.0 L162 630.4 L164 631.4 L166 632.9 L168 635.0 L170 637.6 L172 640.6 L174 643.9 L176 647.4 L178 651.1" fill="none" stroke="#1F2E55" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="122" y="712" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2E55">low</text>
+  <text x="122" y="733" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2E55">frequency</text>
+  <rect x="206" y="600" width="144" height="150" rx="12" fill="#FBF1DA" stroke="#C9962B" stroke-width="2"/>
+  <path d="M222 652.0 L223 646.4 L224 641.8 L225 639.3 L226 639.3 L227 641.8 L228 646.4 L229 652.0 L230 657.6 L231 662.2 L232 664.7 L233 664.7 L234 662.2 L235 657.6 L236 652.0 L237 646.4 L238 641.8 L239 639.3 L240 639.3 L241 641.8 L242 646.4 L243 652.0 L244 657.6 L245 662.2 L246 664.7 L247 664.7 L248 662.2 L249 657.6 L250 652.0 L251 646.4 L252 641.8 L253 639.3 L254 639.3 L255 641.8 L256 646.4 L257 652.0 L258 657.6 L259 662.2 L260 664.7 L261 664.7 L262 662.2 L263 657.6 L264 652.0 L265 646.4 L266 641.8 L267 639.3 L268 639.3 L269 641.8 L270 646.4 L271 652.0 L272 657.6 L273 662.2 L274 664.7 L275 664.7 L276 662.2 L277 657.6 L278 652.0 L279 646.4 L280 641.8 L281 639.3 L282 639.3 L283 641.8 L284 646.4 L285 652.0 L286 657.6 L287 662.2 L288 664.7 L289 664.7 L290 662.2 L291 657.6 L292 652.0 L293 646.4 L294 641.8 L295 639.3 L296 639.3 L297 641.8 L298 646.4 L299 652.0 L300 657.6 L301 662.2 L302 664.7 L303 664.7 L304 662.2 L305 657.6 L306 652.0 L307 646.4 L308 641.8 L309 639.3 L310 639.3 L311 641.8 L312 646.4 L313 652.0 L314 657.6 L315 662.2 L316 664.7 L317 664.7 L318 662.2 L319 657.6 L320 652.0 L321 646.4 L322 641.8 L323 639.3 L324 639.3 L325 641.8 L326 646.4 L327 652.0 L328 657.6 L329 662.2 L330 664.7 L331 664.7 L332 662.2 L333 657.6 L334 652.0" fill="none" stroke="#B58420" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="278" y="712" text-anchor="middle" font-size="16" font-weight="700" fill="#8A6416">high</text>
+  <text x="278" y="733" text-anchor="middle" font-size="16" font-weight="700" fill="#8A6416">frequency</text>
+
+  <!-- recording → systems -->
+  <path d="M378 360 L398 360" stroke="#B58420" stroke-width="6" marker-end="url(#ag)"/>
+
+  <!-- ===== TWO INTERACTING SYSTEMS ===== -->
+  <rect x="420" y="146" width="752" height="414" rx="18" fill="#FAF8F2" stroke="#1F2E55" stroke-width="2.5"/>
+  <rect x="612" y="130" width="368" height="36" rx="8" fill="#1F2E55"/>
+  <text x="796" y="155" text-anchor="middle" font-size="19" font-weight="700" letter-spacing="1.5" fill="#FFFFFF">TWO INTERACTING SYSTEMS</text>
+
+  <!-- low-frequency lane -->
+  <rect x="448" y="186" width="696" height="138" rx="14" fill="#E9EDF6" stroke="#8FA3CF" stroke-width="2"/>
+  <path d="M474 255.0 L476 250.8 L478 246.6 L480 242.6 L482 238.8 L484 235.2 L486 231.9 L488 229.0 L490 226.5 L492 224.4 L494 222.8 L496 221.7 L498 221.1 L500 221.0 L502 221.5 L504 222.5 L506 224.0 L508 225.9 L510 228.3 L512 231.1 L514 234.3 L516 237.8 L518 241.6 L520 245.6 L522 249.7 L524 253.9 L526 258.2 L528 262.3 L530 266.4 L532 270.3 L534 273.9 L536 277.3 L538 280.3 L540 282.9 L542 285.1 L544 286.8 L546 288.1 L548 288.8 L550 289.0 L552 288.7 L554 287.8 L556 286.5 L558 284.6 L560 282.3 L562 279.6 L564 276.5 L566 273.1 L568 269.3 L570 265.4 L572 261.3 L574 257.1 L576 252.9 L578 248.7 L580 244.6 L582 240.7 L584 236.9 L586 233.5 L588 230.4 L590 227.7 L592 225.4 L594 223.5 L596 222.2 L598 221.3 L600 221.0 L602 221.2 L604 221.9 L606 223.2 L608 224.9 L610 227.1 L612 229.7 L614 232.7 L616 236.1 L618 239.7 L620 243.6 L622 247.7 L624 251.8 L626 256.1" fill="none" stroke="#1F2E55" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(748 255)">
+    <ellipse rx="92" ry="54" fill="#34497E" fill-opacity="0.08" stroke="#34497E" stroke-width="2.4" stroke-dasharray="8 6"/>
+    <g stroke="#34497E" stroke-width="2" stroke-opacity="0.55">
+      <line x1="-40" y1="-18" x2="38" y2="-22"/><line x1="-40" y1="-18" x2="-28" y2="22"/><line x1="-40" y1="-18" x2="44" y2="20"/>
+      <line x1="38" y1="-22" x2="-28" y2="22"/><line x1="38" y1="-22" x2="44" y2="20"/><line x1="-28" y1="22" x2="44" y2="20"/>
+    </g>
+    <rect x="-51" y="-29" width="22" height="22" rx="3" fill="#C9962B"/>
+    <rect x="27" y="-33" width="22" height="22" rx="3" fill="#8FA3CF"/>
+    <rect x="-39" y="11" width="22" height="22" rx="3" fill="#34497E"/>
+    <rect x="33" y="9" width="22" height="22" rx="3" fill="#E3C27A"/>
+  </g>
+  <text x="876" y="246" font-size="25" font-weight="700" fill="#1F2E55">Low-frequency</text>
+  <text x="876" y="278" font-size="20" fill="#374151">global processing</text>
+
+  <!-- interaction -->
+  <path d="M590 330 L590 380" stroke="#1F2E55" stroke-width="5" marker-end="url(#an)"/>
+  <path d="M1010 390 L1010 340" stroke="#B58420" stroke-width="5" marker-end="url(#ag)"/>
+  <text x="800" y="367" text-anchor="middle" font-size="18" font-style="italic" fill="#1F2E55">the two systems interact</text>
+
+  <!-- high-frequency lane -->
+  <rect x="448" y="396" width="696" height="138" rx="14" fill="#FBF3DF" stroke="#E0C27A" stroke-width="2"/>
+  <path d="M474 465.0 L475 457.9 L476 451.5 L477 446.6 L478 443.7 L479 443.1 L480 444.9 L481 448.8 L482 454.5 L483 461.4 L484 468.6 L485 475.5 L486 481.2 L487 485.1 L488 486.9 L489 486.3 L490 483.4 L491 478.5 L492 472.1 L493 465.0 L494 457.9 L495 451.5 L496 446.6 L497 443.7 L498 443.1 L499 444.9 L500 448.8 L501 454.5 L502 461.4 L503 468.6 L504 475.5 L505 481.2 L506 485.1 L507 486.9 L508 486.3 L509 483.4 L510 478.5 L511 472.1 L512 465.0 L513 457.9 L514 451.5 L515 446.6 L516 443.7 L517 443.1 L518 444.9 L519 448.8 L520 454.5 L521 461.4 L522 468.6 L523 475.5 L524 481.2 L525 485.1 L526 486.9 L527 486.3 L528 483.4 L529 478.5 L530 472.1 L531 465.0 L532 457.9 L533 451.5 L534 446.6 L535 443.7 L536 443.1 L537 444.9 L538 448.8 L539 454.5 L540 461.4 L541 468.6 L542 475.5 L543 481.2 L544 485.1 L545 486.9 L546 486.3 L547 483.4 L548 478.5 L549 472.1 L550 465.0 L551 457.9 L552 451.5 L553 446.6 L554 443.7 L555 443.1 L556 444.9 L557 448.8 L558 454.5 L559 461.4 L560 468.6 L561 475.5 L562 481.2 L563 485.1 L564 486.9 L565 486.3 L566 483.4 L567 478.5 L568 472.1 L569 465.0 L570 457.9 L571 451.5 L572 446.6 L573 443.7 L574 443.1 L575 444.9 L576 448.8 L577 454.5 L578 461.4 L579 468.6 L580 475.5 L581 481.2 L582 485.1 L583 486.9 L584 486.3 L585 483.4 L586 478.5 L587 472.1 L588 465.0 L589 457.9 L590 451.5 L591 446.6 L592 443.7 L593 443.1 L594 444.9 L595 448.8 L596 454.5 L597 461.4 L598 468.6 L599 475.5 L600 481.2 L601 485.1 L602 486.9 L603 486.3 L604 483.4 L605 478.5 L606 472.1 L607 465.0 L608 457.9 L609 451.5 L610 446.6 L611 443.7 L612 443.1 L613 444.9 L614 448.8 L615 454.5 L616 461.4 L617 468.6 L618 475.5 L619 481.2 L620 485.1 L621 486.9 L622 486.3 L623 483.4 L624 478.5 L625 472.1 L626 465.0" fill="none" stroke="#B58420" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(740 458)">
+    <line x1="30" y1="30" x2="58" y2="58" stroke="#8A6416" stroke-width="10" stroke-linecap="round"/>
+    <circle r="44" fill="#FFFFFF" stroke="#8A6416" stroke-width="5"/>
+    <rect x="-17" y="-17" width="34" height="34" rx="3" fill="#C9962B"/>
+    <g stroke="#1F2E55" stroke-width="2">
+      <line x1="0" y1="-38" x2="0" y2="-24"/><line x1="0" y1="24" x2="0" y2="38"/><line x1="-38" y1="0" x2="-24" y2="0"/><line x1="24" y1="0" x2="38" y2="0"/>
+    </g>
+    <g stroke="#1F2E55" stroke-width="1.4" stroke-opacity="0.6">
+      <line x1="-30" y1="-12" x2="-26" y2="-12"/><line x1="-30" y1="12" x2="-26" y2="12"/><line x1="26" y1="-12" x2="30" y2="-12"/><line x1="26" y1="12" x2="30" y2="12"/>
+    </g>
+  </g>
+  <text x="876" y="456" font-size="25" font-weight="700" fill="#8A6416">High-frequency</text>
+  <text x="876" y="488" font-size="20" fill="#374151">precise computation</text>
+
+  <!-- systems → takeaways -->
+  <path d="M1100 564 L1100 584" stroke="#1F2E55" stroke-width="6" marker-end="url(#an)"/>
+
+  <!-- ===== TAKEAWAYS ===== -->
+  <rect x="420" y="600" width="752" height="178" rx="18" fill="#F1F3F9" stroke="#34497E" stroke-width="2.5"/>
+  <rect x="706" y="584" width="180" height="36" rx="8" fill="#34497E"/>
+  <text x="796" y="609" text-anchor="middle" font-size="19" font-weight="700" letter-spacing="1.5" fill="#FFFFFF">TAKEAWAYS</text>
+
+  <g transform="translate(0 0)" fill="none" stroke-width="8">
+    <circle cx="488" cy="694" r="36" stroke="#34497E"/>
+    <circle cx="534" cy="694" r="36" stroke="#C9962B"/>
+  </g>
+
+  <g transform="translate(606 652)" font-size="18" fill="#1F2937">
+    <g fill="none" stroke="#B58420" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0 8 l6 6 l11 -13"/><path d="M0 70 l6 6 l11 -13"/></g>
+    <text x="28" y="14" font-weight="600">EEG reveals two interacting systems</text>
+    <text x="28" y="37" font-size="15" fill="#4B5563">during visual working memory</text>
+    <text x="28" y="76" font-weight="600">Global and precise processing are linked</text>
+    <text x="28" y="99" font-size="15" fill="#4B5563">across low- and high-frequency dynamics</text>
+  </g>
+</svg>

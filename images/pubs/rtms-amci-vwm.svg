@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" font-family="'Segoe UI', Arial, Helvetica, sans-serif">
+  <defs>
+    <symbol id="person" viewBox="-22 -50 44 76" overflow="visible">
+      <circle cx="0" cy="-33" r="13"/>
+      <path d="M-19 26 L-19 -4 Q-19 -17 -6 -17 L6 -17 Q19 -17 19 -4 L19 26 Z"/>
+    </symbol>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBE3D6"/><stop offset="1" stop-color="#EFC4AE"/></linearGradient>
+    <linearGradient id="coilTop" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4D72AE"/><stop offset="1" stop-color="#2F5597"/></linearGradient>
+    <radialGradient id="field" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#C0587A" stop-opacity="0.85"/><stop offset="1" stop-color="#C0587A" stop-opacity="0"/></radialGradient>
+    <radialGradient id="roseHot" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#C0587A" stop-opacity="0.95"/><stop offset="1" stop-color="#C0587A" stop-opacity="0"/></radialGradient>
+    <radialGradient id="roseWarm" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#E8A6B9" stop-opacity="0.9"/><stop offset="1" stop-color="#E8A6B9" stop-opacity="0"/></radialGradient>
+    <radialGradient id="blueCool" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#6F8FC4" stop-opacity="0.75"/><stop offset="1" stop-color="#6F8FC4" stop-opacity="0"/></radialGradient>
+    <clipPath id="scalpA"><circle cx="0" cy="0" r="50"/></clipPath>
+    <marker id="ab" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#2F5597"/></marker>
+    <marker id="ar" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#C0587A"/></marker>
+    <marker id="ag" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#8C96A6"/></marker>
+  </defs>
+
+  <rect width="1200" height="800" fill="#FFFFFF"/>
+
+  <!-- ===== 标题 + 问题 ===== -->
+  <text x="600" y="48" text-anchor="middle" font-size="30" font-weight="700" fill="#1F3A68">High-frequency rTMS improves visual working memory in aMCI</text>
+  <rect x="200" y="68" width="800" height="44" rx="10" fill="#FDF0C2" stroke="#E2BC52" stroke-width="2"/>
+  <text x="600" y="97" text-anchor="middle" font-size="19" fill="#3D3420">Which stage of visual working memory fails in aMCI, and can DLPFC rTMS help?</text>
+
+  <!-- ===== STUDY（左侧竖长框） ===== -->
+  <rect x="28" y="146" width="364" height="632" rx="18" fill="#EEF2F9" stroke="#2F5597" stroke-width="2.5"/>
+  <rect x="150" y="130" width="120" height="36" rx="8" fill="#2F5597"/>
+  <text x="210" y="155" text-anchor="middle" font-size="19" font-weight="700" letter-spacing="1.5" fill="#FFFFFF">STUDY</text>
+
+  <!-- 受试者 -->
+  <rect x="48" y="184" width="156" height="120" rx="14" fill="#FFFFFF" stroke="#E8A6B9" stroke-width="2"/>
+  <use href="#person" x="80" y="198" width="44" height="76" fill="#D88CA3"/>
+  <use href="#person" x="128" y="198" width="44" height="76" fill="#A8466A"/>
+  <use href="#person" x="104" y="222" width="44" height="76" fill="#C0587A"/>
+  <rect x="216" y="184" width="156" height="120" rx="14" fill="#FFFFFF" stroke="#A9BCDD" stroke-width="2"/>
+  <use href="#person" x="248" y="212" width="44" height="76" fill="#6F8FC4"/>
+  <use href="#person" x="296" y="212" width="44" height="76" fill="#2F5597"/>
+  <text x="126" y="332" text-anchor="middle" font-size="19" font-weight="700" fill="#A8466A">25 aMCI</text>
+  <text x="126" y="352" text-anchor="middle" font-size="15" fill="#4B5563">patients</text>
+  <text x="294" y="332" text-anchor="middle" font-size="19" font-weight="700" fill="#2F5597">15 healthy</text>
+  <text x="294" y="352" text-anchor="middle" font-size="15" fill="#4B5563">elderly controls</text>
+
+  <!-- 头 + 8 字线圈 -->
+  <g transform="translate(93 403) scale(0.44)">
+    <path d="M120 400 C120 345 108 318 94 292 C70 250 64 198 80 158 C100 100 160 62 226 62 C292 62 336 106 343 160 C346 180 345 194 351 207 C359 221 373 235 377 247 C379 254 372 258 362 260 C365 268 366 274 360 278 C364 285 362 292 354 296 C351 312 343 322 325 324 C305 326 290 326 284 332 L280 400 Z" fill="url(#skin)" stroke="#B98A74" stroke-width="4"/>
+    <circle cx="287" cy="96" r="44" fill="url(#field)"/>
+  </g>
+  <g fill="none" stroke="#C0587A" stroke-width="2" stroke-linecap="round" opacity="0.85">
+    <path d="M201 445 Q210 459 225 455"/><path d="M195 453 Q207 473 229 467"/>
+  </g>
+  <g transform="translate(223 429) rotate(29) scale(0.42)">
+    <path d="M-4 -8 L-40 -104" stroke="#1F3A68" stroke-width="28" stroke-linecap="round"/>
+    <path d="M-10 -24 L-36 -94" stroke="#4D72AE" stroke-width="7" stroke-linecap="round"/>
+    <path d="M-42 -112 C-50 -140 -80 -150 -112 -140" fill="none" stroke="#6B7280" stroke-width="8" stroke-linecap="round"/>
+    <ellipse cx="-46" cy="10" rx="46" ry="18" fill="#1F3A68"/>
+    <ellipse cx="46" cy="10" rx="46" ry="18" fill="#1F3A68"/>
+    <ellipse cx="-46" cy="0" rx="46" ry="18" fill="url(#coilTop)" stroke="#1F3A68" stroke-width="3"/>
+    <ellipse cx="46" cy="0" rx="46" ry="18" fill="url(#coilTop)" stroke="#1F3A68" stroke-width="3"/>
+    <g fill="none" stroke="#B9CAE6" stroke-width="3.2">
+      <ellipse cx="-46" cy="0" rx="33" ry="12.5"/><ellipse cx="-46" cy="0" rx="20" ry="7.5"/>
+      <ellipse cx="46" cy="0" rx="33" ry="12.5"/><ellipse cx="46" cy="0" rx="20" ry="7.5"/>
+    </g>
+    <rect x="-13" y="-10" width="26" height="20" rx="6" fill="#1F3A68"/>
+  </g>
+  <text x="210" y="612" text-anchor="middle" font-size="17" font-weight="600" fill="#1F2937">high-frequency rTMS</text>
+  <text x="210" y="632" text-anchor="middle" font-size="15" fill="#4B5563">over the DLPFC</text>
+
+  <!-- 7 天日历 -->
+  <g transform="translate(70 656)">
+    <rect x="0" y="0" width="280" height="64" rx="8" fill="#FFFFFF" stroke="#A9BCDD" stroke-width="2"/>
+    <path d="M0 8 Q0 0 8 0 L272 0 Q280 0 280 8 L280 18 L0 18 Z" fill="#C0587A"/>
+    <g fill="#FFFFFF"><circle cx="60" cy="9" r="3.5"/><circle cx="220" cy="9" r="3.5"/></g>
+    <g fill="#EEF2F9" stroke="#C9D3E6" stroke-width="1.5">
+      <rect x="8" y="26" width="32" height="30" rx="4"/><rect x="47" y="26" width="32" height="30" rx="4"/><rect x="86" y="26" width="32" height="30" rx="4"/>
+      <rect x="125" y="26" width="32" height="30" rx="4"/><rect x="164" y="26" width="32" height="30" rx="4"/><rect x="203" y="26" width="32" height="30" rx="4"/><rect x="242" y="26" width="32" height="30" rx="4"/>
+    </g>
+    <g fill="none" stroke="#2F5597" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M16 41 l5 5 l9 -11"/><path d="M55 41 l5 5 l9 -11"/><path d="M94 41 l5 5 l9 -11"/><path d="M133 41 l5 5 l9 -11"/>
+      <path d="M172 41 l5 5 l9 -11"/><path d="M211 41 l5 5 l9 -11"/><path d="M250 41 l5 5 l9 -11"/>
+    </g>
+  </g>
+  <text x="210" y="748" text-anchor="middle" font-size="17" font-weight="600" fill="#1F2937">7-day intervention</text>
+
+  <!-- STUDY → MECHANISM -->
+  <path d="M396 322 L418 322" stroke="#2F5597" stroke-width="6" marker-end="url(#ab)"/>
+
+  <!-- ===== NEURAL MECHANISM ===== -->
+  <rect x="428" y="146" width="744" height="354" rx="18" fill="#FFFFFF" stroke="#2F5597" stroke-width="2.5"/>
+  <rect x="680" y="130" width="240" height="36" rx="8" fill="#2F5597"/>
+  <text x="800" y="155" text-anchor="middle" font-size="19" font-weight="700" letter-spacing="1.5" fill="#FFFFFF">NEURAL MECHANISM</text>
+
+  <!-- 变化检测任务时间轴 -->
+  <path d="M452 216 L946 216" stroke="#8C96A6" stroke-width="2.4" marker-end="url(#ag)"/>
+  <g>
+    <rect x="470" y="180" width="120" height="74" rx="8" fill="#FFFFFF" stroke="#C0587A" stroke-width="4"/>
+    <rect x="490" y="196" width="18" height="18" fill="#2F5597"/><rect x="544" y="192" width="18" height="18" fill="#C0587A"/>
+    <rect x="512" y="224" width="18" height="18" fill="#E2BC52"/><rect x="556" y="226" width="18" height="18" fill="#6F8FC4"/>
+    <rect x="640" y="180" width="120" height="74" rx="8" fill="#FFFFFF" stroke="#8C96A6" stroke-width="2.4"/>
+    <path d="M700 209 L700 225 M692 217 L708 217" stroke="#4B5563" stroke-width="2.4"/>
+    <rect x="810" y="180" width="120" height="74" rx="8" fill="#FFFFFF" stroke="#8C96A6" stroke-width="2.4"/>
+    <rect x="830" y="196" width="18" height="18" fill="#2F5597"/><rect x="884" y="192" width="18" height="18" fill="#C0587A"/>
+    <rect x="852" y="224" width="18" height="18" fill="#2F5597"/><rect x="896" y="226" width="18" height="18" fill="#6F8FC4"/>
+  </g>
+  <text x="530" y="276" text-anchor="middle" font-size="16" font-weight="700" fill="#A8466A">Encoding</text>
+  <text x="700" y="276" text-anchor="middle" font-size="16" fill="#4B5563">Delay</text>
+  <text x="870" y="276" text-anchor="middle" font-size="16" fill="#4B5563">Test</text>
+  <!-- aMCI 缺陷说明 -->
+  <rect x="966" y="180" width="188" height="88" rx="10" fill="#FBEFF3" stroke="#E8A6B9" stroke-width="2"/>
+  <text x="980" y="204" font-size="16" font-weight="700" fill="#A8466A">aMCI deficit</text>
+  <text x="980" y="226" font-size="15" fill="#374151">N2pc, α and θ</text>
+  <text x="980" y="246" font-size="15" fill="#374151">reduced at encoding</text>
+
+  <!-- 编码期放大区 -->
+  <path d="M516 296 L530 284 L544 296 Z" fill="#FBEFF3" stroke="#E8A6B9" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="448" y="296" width="706" height="192" rx="12" fill="#FBEFF3" stroke="#E8A6B9" stroke-width="2"/>
+  <rect x="517" y="294" width="26" height="6" fill="#FBEFF3"/>
+  <text x="468" y="322" font-size="17" font-weight="700" fill="#A8466A">After rTMS, at encoding</text>
+  <line x1="700" y1="336" x2="700" y2="478" stroke="#E8A6B9" stroke-width="1.6"/>
+  <line x1="922" y1="336" x2="922" y2="478" stroke="#E8A6B9" stroke-width="1.6"/>
+
+  <!-- N2pc ERP -->
+  <g>
+    <rect x="574" y="346" width="44" height="98" fill="#F3D3DE"/>
+    <line x1="480" y1="390" x2="682" y2="390" stroke="#4B5563" stroke-width="1.8"/>
+    <line x1="492" y1="344" x2="492" y2="444" stroke="#4B5563" stroke-width="1.8"/>
+    <path d="M492 390 C506 390 512 376 526 378 C540 380 548 392 562 396 C578 400 588 408 600 406 C614 404 622 392 640 390 L680 390" fill="none" stroke="#8C96A6" stroke-width="2.6" stroke-dasharray="6 4"/>
+    <path d="M492 390 C506 390 512 374 526 376 C540 378 548 396 562 408 C578 422 590 434 600 432 C614 428 624 396 640 390 L680 390" fill="none" stroke="#C0587A" stroke-width="3.2"/>
+    <path d="M596 409 L596 429" stroke="#1F2937" stroke-width="1.6"/><path d="M591 409 L601 409 M591 429 L601 429" stroke="#1F2937" stroke-width="1.6"/>
+    <g font-size="14" fill="#4B5563">
+      <line x1="628" y1="350" x2="648" y2="350" stroke="#8C96A6" stroke-width="2.6" stroke-dasharray="6 4"/>
+      <text x="652" y="355">pre</text>
+      <line x1="628" y1="368" x2="648" y2="368" stroke="#C0587A" stroke-width="3.2"/>
+      <text x="652" y="373">post</text>
+    </g>
+  </g>
+  <text x="584" y="472" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">N2pc amplitude ↑</text>
+
+  <!-- α 地形图（顶枕区） -->
+  <g transform="translate(811 400)">
+    <path d="M-8 -48 L0 -62 L8 -48 Z" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+    <ellipse cx="-52" cy="0" rx="6" ry="13" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+    <ellipse cx="52" cy="0" rx="6" ry="13" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+    <circle r="50" fill="#F2F4F8"/>
+    <g clip-path="url(#scalpA)">
+      <circle cx="0" cy="-34" r="44" fill="url(#blueCool)"/>
+      <circle cx="0" cy="36" r="52" fill="url(#roseHot)"/>
+      <circle cx="-30" cy="22" r="28" fill="url(#roseWarm)"/>
+      <circle cx="30" cy="22" r="28" fill="url(#roseWarm)"/>
+    </g>
+    <circle r="50" fill="none" stroke="#6B7280" stroke-width="2"/>
+    <g fill="#2B2B2B">
+      <circle cx="-16" cy="-34" r="2.6"/><circle cx="16" cy="-34" r="2.6"/><circle cx="-32" cy="-10" r="2.6"/><circle cx="0" cy="-14" r="2.6"/><circle cx="32" cy="-10" r="2.6"/>
+      <circle cx="-36" cy="12" r="2.6"/><circle cx="-12" cy="8" r="2.6"/><circle cx="12" cy="8" r="2.6"/><circle cx="36" cy="12" r="2.6"/>
+      <circle cx="-22" cy="30" r="2.6"/><circle cx="0" cy="28" r="2.6"/><circle cx="22" cy="30" r="2.6"/><circle cx="0" cy="42" r="2.6"/>
+    </g>
+  </g>
+  <text x="811" y="472" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">parieto-occipital α ↑</text>
+
+  <!-- 额顶 θ 连接 -->
+  <g transform="translate(1038 400)">
+    <path d="M-8 -48 L0 -62 L8 -48 Z" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+    <ellipse cx="-52" cy="0" rx="6" ry="13" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+    <ellipse cx="52" cy="0" rx="6" ry="13" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+    <circle r="50" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+    <g fill="none" stroke-linecap="round">
+      <path d="M-18 -28 Q-34 -2 -22 20" stroke="#2F5597" stroke-width="5"/>
+      <path d="M18 -28 Q34 -2 22 20" stroke="#2F5597" stroke-width="5"/>
+      <path d="M-18 -28 Q0 -4 22 20" stroke="#2F5597" stroke-width="3.2" stroke-opacity="0.75"/>
+      <path d="M18 -28 Q0 -4 -22 20" stroke="#2F5597" stroke-width="3.2" stroke-opacity="0.75"/>
+      <path d="M0 -34 L0 36" stroke="#6F8FC4" stroke-width="2.4" stroke-opacity="0.7"/>
+    </g>
+    <g stroke="#FFFFFF" stroke-width="2.4">
+      <circle cx="-18" cy="-28" r="8" fill="#C0587A"/><circle cx="18" cy="-28" r="8" fill="#C0587A"/><circle cx="0" cy="-34" r="6.5" fill="#C0587A"/>
+      <circle cx="-22" cy="20" r="8" fill="#2F5597"/><circle cx="22" cy="20" r="8" fill="#2F5597"/><circle cx="0" cy="36" r="6.5" fill="#2F5597"/>
+    </g>
+  </g>
+  <text x="1038" y="472" text-anchor="middle" font-size="16" font-weight="700" fill="#1F2937">frontoparietal θ sync ↑</text>
+
+  <!-- MECHANISM → OUTCOMES -->
+  <path d="M1060 504 L1060 528" stroke="#C0587A" stroke-width="6" marker-end="url(#ar)"/>
+
+  <!-- ===== OUTCOMES ===== -->
+  <rect x="428" y="552" width="744" height="226" rx="18" fill="#FBEFF3" stroke="#C0587A" stroke-width="2.5"/>
+  <rect x="710" y="536" width="180" height="36" rx="8" fill="#C0587A"/>
+  <text x="800" y="561" text-anchor="middle" font-size="19" font-weight="700" letter-spacing="1.5" fill="#FFFFFF">OUTCOMES</text>
+
+  <!-- 示意柱状图 -->
+  <text x="552" y="604" text-anchor="middle" font-size="15" font-weight="700" fill="#1F2937">VWM in aMCI</text>
+  <line x1="476" y1="728" x2="630" y2="728" stroke="#2B2B2B" stroke-width="2"/>
+  <line x1="476" y1="618" x2="476" y2="728" stroke="#2B2B2B" stroke-width="2"/>
+  <rect x="498" y="672" width="40" height="56" rx="3" fill="#B7C0CE"/>
+  <rect x="566" y="634" width="40" height="94" rx="3" fill="#C0587A"/>
+  <path d="M518 662 C522 630 548 622 562 630" fill="none" stroke="#2F5597" stroke-width="2.4" marker-end="url(#ab)"/>
+  <text x="518" y="748" text-anchor="middle" font-size="14" fill="#4B5563">pre</text>
+  <text x="586" y="748" text-anchor="middle" font-size="14" fill="#4B5563">post</text>
+
+  <line x1="660" y1="590" x2="660" y2="760" stroke="#E8A6B9" stroke-width="2"/>
+  <g transform="translate(686 598)" font-size="17" fill="#1F2937">
+    <g fill="none" stroke="#C0587A" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 2 l6 6 l11 -13"/><path d="M0 44 l6 6 l11 -13"/><path d="M0 86 l6 6 l11 -13"/><path d="M0 142 l6 6 l11 -13"/>
+    </g>
+    <text x="28" y="8">Visual working memory improved in aMCI</text>
+    <text x="28" y="50">Attention and executive function improved</text>
+    <text x="28" y="92">Target selection supported at encoding</text>
+    <text x="28" y="113" font-size="15" fill="#4B5563">stronger N2pc; α helps suppress irrelevant input</text>
+    <text x="28" y="148">A promising non-invasive intervention for aMCI</text>
+  </g>
+</svg>

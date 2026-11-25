@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" font-family="'Segoe UI', Arial, Helvetica, sans-serif">
+  <defs>
+    <radialGradient id="hotL" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#A35D72" stop-opacity="0.95"/><stop offset="1" stop-color="#A35D72" stop-opacity="0"/></radialGradient>
+    <radialGradient id="warmL" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#D9A3B2" stop-opacity="0.9"/><stop offset="1" stop-color="#D9A3B2" stop-opacity="0"/></radialGradient>
+    <radialGradient id="coolS" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#8E9BB0" stop-opacity="0.55"/><stop offset="1" stop-color="#8E9BB0" stop-opacity="0"/></radialGradient>
+    <linearGradient id="valBar" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#5B6B82"/><stop offset="1" stop-color="#B5677D"/></linearGradient>
+    <linearGradient id="db" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6F7F96"/><stop offset="0.5" stop-color="#8E9BB0"/><stop offset="1" stop-color="#5B6B82"/></linearGradient>
+    <clipPath id="scalpD"><circle cx="0" cy="0" r="92"/></clipPath>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#2B2B2B"/></marker>
+    <g id="bldg">
+      <path d="M0 16 L28 0 L56 16 Z" fill="#8E9BB0"/>
+      <rect x="4" y="16" width="48" height="30" fill="#FFFFFF" stroke="#5B6B82" stroke-width="2"/>
+      <path d="M28 22 L28 38 M20 30 L36 30" stroke="#B5677D" stroke-width="4"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="800" fill="#FFFFFF"/>
+
+  <!-- ============ 色带与分隔 ============ -->
+  <rect x="0" y="0" width="46" height="410" fill="#4A5A70"/>
+  <rect x="0" y="410" width="46" height="390" fill="#A35D72"/>
+  <g fill="#FFFFFF" font-size="21" font-weight="600" text-anchor="middle">
+    <text transform="translate(31 205) rotate(-90)">Framework</text>
+    <text transform="translate(31 605) rotate(-90)">Interpretation</text>
+  </g>
+  <rect x="46" y="0" width="1154" height="410" fill="#F4F5F8"/>
+  <line x1="0" y1="410" x2="1200" y2="410" stroke="#2B2B2B" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="798" fill="none" stroke="#2B2B2B" stroke-width="2"/>
+
+  <!-- ============ 1 框架 ============ -->
+  <text x="86" y="44" font-size="25" fill="#1F2937">Data-centric, interpretable depression severity grading</text>
+
+  <!-- a 多中心数据 -->
+  <use href="#bldg" x="72" y="88"/>
+  <use href="#bldg" x="72" y="174"/>
+  <use href="#bldg" x="72" y="260"/>
+  <g fill="none" stroke="#2B2B2B" stroke-width="2">
+    <path d="M132 120 C160 120 160 196 180 200"/><path d="M132 206 L180 206"/><path d="M132 292 C160 292 160 216 180 212"/>
+  </g>
+  <g transform="translate(186 160)">
+    <path d="M0 12 L0 84 C0 98 66 98 66 84 L66 12 Z" fill="url(#db)"/>
+    <ellipse cx="33" cy="12" rx="33" ry="11" fill="#B4BFCF" stroke="#5B6B82" stroke-width="2"/>
+    <path d="M0 36 C0 48 66 48 66 36 M0 60 C0 72 66 72 66 60" fill="none" stroke="#E3E8EF" stroke-width="2"/>
+    <path d="M0 12 L0 84 C0 98 66 98 66 84 L66 12" fill="none" stroke="#5B6B82" stroke-width="2"/>
+  </g>
+  <text x="160" y="350" text-anchor="middle" font-size="17" font-weight="600" fill="#1F2937">multi-site resting EEG</text>
+  <text x="160" y="372" text-anchor="middle" font-size="15" fill="#4B5563">large-scale dataset</text>
+
+  <path d="M266 206 L298 206" stroke="#2B2B2B" stroke-width="2.4" marker-end="url(#ah)"/>
+
+  <!-- b 特征 -->
+  <g transform="translate(306 96)">
+    <rect x="0" y="0" width="160" height="210" rx="10" fill="#FFFFFF" stroke="#C9D0DB" stroke-width="2"/>
+    <path d="M14 40 l8 -10 l8 14 l8 -18 l8 16 l8 -8 l8 12 l8 -14 l8 9 l8 -6 l8 10 l8 -12 l8 8 l8 -4 l8 6 l8 -3" fill="none" stroke="#5B6B82" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="14" y1="70" x2="146" y2="70" stroke="#E3E8EF" stroke-width="2"/>
+    <line x1="22" y1="186" x2="148" y2="186" stroke="#2B2B2B" stroke-width="1.8"/>
+    <line x1="22" y1="86" x2="22" y2="186" stroke="#2B2B2B" stroke-width="1.8"/>
+    <path d="M24 92 C40 128 52 146 66 152 C74 150 78 136 86 140 C94 150 102 162 118 168 C130 172 140 174 146 175" fill="none" stroke="#B5677D" stroke-width="3"/>
+    <path d="M24 98 L146 178" stroke="#8E9BB0" stroke-width="2" stroke-dasharray="5 4"/>
+    <text x="78" y="128" font-size="14" fill="#8E4A5E">α</text>
+    <text x="118" y="150" font-size="14" fill="#5B6B82">1/f</text>
+  </g>
+  <text x="386" y="350" text-anchor="middle" font-size="17" font-weight="600" fill="#1F2937">EEG features</text>
+  <text x="386" y="372" text-anchor="middle" font-size="15" fill="#4B5563">spectral · 1/f · time-domain</text>
+
+  <path d="M478 206 L510 206" stroke="#2B2B2B" stroke-width="2.4" marker-end="url(#ah)"/>
+
+  <!-- c 混合特征选择 -->
+  <g>
+    <circle cx="576" cy="128" r="44" fill="#5B6B82" fill-opacity="0.22" stroke="#5B6B82" stroke-width="2"/>
+    <circle cx="650" cy="128" r="44" fill="#B5677D" fill-opacity="0.25" stroke="#B5677D" stroke-width="2"/>
+    <text x="567" y="134" text-anchor="middle" font-size="15" font-weight="700" fill="#3A475A">p-value</text>
+    <text x="665" y="134" text-anchor="middle" font-size="15" font-weight="700" fill="#8E4A5E">SHAP</text>
+    <path d="M613 162 L613 178" stroke="#2B2B2B" stroke-width="2" marker-end="url(#ah)"/>
+    <path d="M538 188 L688 188 L630 252 L630 286 L596 296 L596 252 Z" fill="#FFFFFF" stroke="#5B6B82" stroke-width="2.4" stroke-linejoin="round"/>
+    <g fill="#B7C0CE"><rect x="556" y="196" width="10" height="10" rx="2"/><rect x="574" y="200" width="10" height="10" rx="2"/><rect x="644" y="198" width="10" height="10" rx="2"/><rect x="662" y="196" width="10" height="10" rx="2"/></g>
+    <g fill="#B5677D"><rect x="600" y="202" width="10" height="10" rx="2"/><rect x="618" y="198" width="10" height="10" rx="2"/><rect x="608" y="226" width="10" height="10" rx="2"/></g>
+    <g fill="#8E4A5E"><rect x="602" y="306" width="10" height="10" rx="2"/><rect x="616" y="306" width="10" height="10" rx="2"/></g>
+  </g>
+  <text x="613" y="350" text-anchor="middle" font-size="17" font-weight="600" fill="#1F2937">hybrid selection</text>
+  <text x="613" y="372" text-anchor="middle" font-size="15" fill="#4B5563">significant + informative</text>
+
+  <path d="M712 206 L744 206" stroke="#2B2B2B" stroke-width="2.4" marker-end="url(#ah)"/>
+
+  <!-- d 随机森林 -->
+  <g stroke="#5B6B82" stroke-width="2.2">
+    <g transform="translate(780 100) scale(0.8)">
+      <line x1="0" y1="0" x2="-26" y2="40"/><line x1="0" y1="0" x2="26" y2="40"/><line x1="-26" y1="40" x2="-40" y2="80"/><line x1="-26" y1="40" x2="-12" y2="80"/><line x1="26" y1="40" x2="40" y2="80"/>
+      <circle r="9" fill="#5B6B82"/><circle cx="-26" cy="40" r="8" fill="#8E9BB0"/><circle cx="26" cy="40" r="8" fill="#8E9BB0"/>
+      <circle cx="-40" cy="80" r="7" fill="#B5677D"/><circle cx="-12" cy="80" r="7" fill="#D9A3B2"/><circle cx="40" cy="80" r="7" fill="#B5677D"/>
+    </g>
+    <g transform="translate(858 100) scale(0.8)">
+      <line x1="0" y1="0" x2="-26" y2="40"/><line x1="0" y1="0" x2="26" y2="40"/><line x1="26" y1="40" x2="12" y2="80"/><line x1="26" y1="40" x2="40" y2="80"/><line x1="-26" y1="40" x2="-36" y2="80"/>
+      <circle r="9" fill="#5B6B82"/><circle cx="-26" cy="40" r="8" fill="#8E9BB0"/><circle cx="26" cy="40" r="8" fill="#8E9BB0"/>
+      <circle cx="12" cy="80" r="7" fill="#D9A3B2"/><circle cx="40" cy="80" r="7" fill="#B5677D"/><circle cx="-36" cy="80" r="7" fill="#B5677D"/>
+    </g>
+    <g transform="translate(818 206) scale(0.8)">
+      <line x1="0" y1="0" x2="-24" y2="38"/><line x1="0" y1="0" x2="24" y2="38"/><line x1="-24" y1="38" x2="-36" y2="72"/><line x1="-24" y1="38" x2="-10" y2="72"/>
+      <circle r="9" fill="#5B6B82"/><circle cx="-24" cy="38" r="8" fill="#8E9BB0"/><circle cx="24" cy="38" r="7" fill="#B5677D"/>
+      <circle cx="-36" cy="72" r="7" fill="#D9A3B2"/><circle cx="-10" cy="72" r="7" fill="#B5677D"/>
+    </g>
+  </g>
+  <text x="815" y="350" text-anchor="middle" font-size="17" font-weight="600" fill="#1F2937">random forest</text>
+  <text x="815" y="372" text-anchor="middle" font-size="15" fill="#4B5563">classification · regression</text>
+
+  <path d="M896 206 L908 206 M908 138 L908 276" fill="none" stroke="#2B2B2B" stroke-width="2.4"/>
+  <path d="M908 138 L922 138" stroke="#2B2B2B" stroke-width="2.4" marker-end="url(#ah)"/>
+  <path d="M908 276 L922 276" stroke="#2B2B2B" stroke-width="2.4" marker-end="url(#ah)"/>
+
+  <!-- e 输出 -->
+  <g>
+    <rect x="928" y="76" width="250" height="124" rx="10" fill="#FFFFFF" stroke="#C9D0DB" stroke-width="2"/>
+    <text x="944" y="100" font-size="15" font-weight="700" fill="#4A5A70">severity grade</text>
+    <g transform="translate(990 178)">
+      <path d="M-40 0 A40 40 0 0 1 -20 -34.6" fill="none" stroke="#EBD3DA" stroke-width="16"/>
+      <path d="M-20 -34.6 A40 40 0 0 1 20 -34.6" fill="none" stroke="#D09AAA" stroke-width="16"/>
+      <path d="M20 -34.6 A40 40 0 0 1 40 0" fill="none" stroke="#A35D72" stroke-width="16"/>
+      <line x1="0" y1="0" x2="16" y2="-30" stroke="#2B2B2B" stroke-width="4" stroke-linecap="round"/>
+      <circle r="6" fill="#2B2B2B"/>
+    </g>
+    <text x="1046" y="158" font-size="34" font-weight="800" fill="#A35D72">74.5%</text>
+    <text x="1047" y="184" font-size="15" fill="#4B5563">10-fold accuracy</text>
+  </g>
+  <g>
+    <rect x="928" y="214" width="250" height="124" rx="10" fill="#FFFFFF" stroke="#C9D0DB" stroke-width="2"/>
+    <text x="944" y="238" font-size="15" font-weight="700" fill="#4A5A70">severity score</text>
+    <line x1="948" y1="324" x2="1028" y2="324" stroke="#2B2B2B" stroke-width="1.8"/>
+    <line x1="948" y1="252" x2="948" y2="324" stroke="#2B2B2B" stroke-width="1.8"/>
+    <line x1="952" y1="318" x2="1024" y2="262" stroke="#9AA3AE" stroke-width="1.8" stroke-dasharray="5 4"/>
+    <g fill="#5B6B82" fill-opacity="0.75">
+      <circle cx="958" cy="306" r="4"/><circle cx="966" cy="314" r="4"/><circle cx="972" cy="294" r="4"/><circle cx="982" cy="304" r="4"/>
+      <circle cx="988" cy="284" r="4"/><circle cx="996" cy="296" r="4"/><circle cx="1004" cy="278" r="4"/><circle cx="1010" cy="290" r="4"/>
+      <circle cx="1016" cy="268" r="4"/><circle cx="1020" cy="282" r="4"/>
+    </g>
+    <text x="1046" y="294" font-size="30" font-weight="800" fill="#4A5A70">r = 0.56</text>
+    <text x="1047" y="320" font-size="15" fill="#4B5563">severity estimation</text>
+  </g>
+
+  <!-- ============ 2 解释 ============ -->
+  <text x="86" y="454" font-size="25" fill="#1F2937">SHAP points to left parieto-occipital EEG markers</text>
+
+  <!-- 地形图 -->
+  <g transform="translate(198 600)">
+    <path d="M-12 -90 L0 -108 L12 -90 Z" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+    <ellipse cx="-96" cy="0" rx="9" ry="22" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+    <ellipse cx="96" cy="0" rx="9" ry="22" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+    <circle r="92" fill="#EEF0F4"/>
+    <g clip-path="url(#scalpD)">
+      <circle cx="30" cy="-40" r="70" fill="url(#coolS)"/>
+      <circle cx="-40" cy="44" r="72" fill="url(#hotL)"/>
+      <circle cx="-56" cy="10" r="40" fill="url(#warmL)"/>
+      <circle cx="0" cy="62" r="34" fill="url(#warmL)"/>
+    </g>
+    <circle r="92" fill="none" stroke="#6B7280" stroke-width="2"/>
+    <g fill="#2B2B2B">
+      <circle cx="-26" cy="-70" r="3.2"/><circle cx="26" cy="-70" r="3.2"/><circle cx="-56" cy="-40" r="3.2"/><circle cx="0" cy="-44" r="3.2"/><circle cx="56" cy="-40" r="3.2"/>
+      <circle cx="-72" cy="0" r="3.2"/><circle cx="-36" cy="0" r="3.2"/><circle cx="0" cy="0" r="3.2"/><circle cx="36" cy="0" r="3.2"/><circle cx="72" cy="0" r="3.2"/>
+      <circle cx="-56" cy="40" r="3.2"/><circle cx="-24" cy="44" r="3.2"/><circle cx="0" cy="44" r="3.2"/><circle cx="24" cy="44" r="3.2"/><circle cx="56" cy="40" r="3.2"/>
+      <circle cx="-26" cy="72" r="3.2"/><circle cx="0" cy="80" r="3.2"/><circle cx="26" cy="72" r="3.2"/>
+    </g>
+  </g>
+  <text x="84" y="606" text-anchor="middle" font-size="16" font-weight="700" fill="#4B5563">L</text>
+  <text x="312" y="606" text-anchor="middle" font-size="16" font-weight="700" fill="#4B5563">R</text>
+  <text x="198" y="740" text-anchor="middle" font-size="17" font-weight="600" fill="#1F2937">left parieto-occipital</text>
+  <text x="198" y="762" text-anchor="middle" font-size="15" fill="#4B5563">most informative region</text>
+
+  <!-- SHAP 蜂群图 -->
+  <g font-size="15" fill="#1F2937" text-anchor="end">
+    <text x="592" y="525">left parietal relative β power</text>
+    <text x="592" y="567">parietal-midline time-domain</text>
+    <text x="592" y="609">1/f intercept</text>
+    <text x="592" y="651">left occipital relative β power</text>
+    <text x="592" y="693">global α energy</text>
+  </g>
+  <line x1="725" y1="496" x2="725" y2="712" stroke="#9AA3AE" stroke-width="1.6"/>
+  <line x1="606" y1="712" x2="846" y2="712" stroke="#2B2B2B" stroke-width="1.8"/>
+  <g stroke="#FFFFFF" stroke-width="0.8"><circle cx="668.1" cy="519.5" r="4.6" fill="#D9A3B2"/><circle cx="647.6" cy="523.2" r="4.6" fill="#D9A3B2"/><circle cx="685.9" cy="518.7" r="4.6" fill="#5B6B82"/><circle cx="652.7" cy="521.8" r="4.6" fill="#D9A3B2"/><circle cx="760.6" cy="526.2" r="4.6" fill="#B5677D"/><circle cx="704.4" cy="525" r="4.6" fill="#D9A3B2"/><circle cx="769.8" cy="518.7" r="4.6" fill="#B5677D"/><circle cx="787" cy="517.2" r="4.6" fill="#B5677D"/><circle cx="723.2" cy="519.7" r="4.6" fill="#5B6B82"/><circle cx="727.3" cy="515.7" r="4.6" fill="#B5677D"/><circle cx="810.2" cy="519.2" r="4.6" fill="#B5677D"/><circle cx="747.2" cy="514" r="4.6" fill="#B5677D"/><circle cx="712.8" cy="522.8" r="4.6" fill="#5B6B82"/><circle cx="765.5" cy="518.7" r="4.6" fill="#8E9BB0"/><circle cx="698.5" cy="514.9" r="4.6" fill="#5B6B82"/><circle cx="738.2" cy="518.1" r="4.6" fill="#B5677D"/><circle cx="622" cy="518.7" r="4.6" fill="#D9A3B2"/><circle cx="742.8" cy="523.8" r="4.6" fill="#B5677D"/><circle cx="767.5" cy="521.6" r="4.6" fill="#B5677D"/><circle cx="662.1" cy="516.4" r="4.6" fill="#5B6B82"/><circle cx="758.5" cy="517.1" r="4.6" fill="#8E9BB0"/><circle cx="704.2" cy="523.4" r="4.6" fill="#D9A3B2"/><circle cx="770.8" cy="556.6" r="4.6" fill="#B5677D"/><circle cx="768.8" cy="561.1" r="4.6" fill="#B5677D"/><circle cx="661.4" cy="561.3" r="4.6" fill="#5B6B82"/><circle cx="649" cy="565.9" r="4.6" fill="#5B6B82"/><circle cx="724.6" cy="555.4" r="4.6" fill="#D9A3B2"/><circle cx="724.6" cy="566.7" r="4.6" fill="#D9A3B2"/><circle cx="751.4" cy="555.8" r="4.6" fill="#B5677D"/><circle cx="672.6" cy="558" r="4.6" fill="#5B6B82"/><circle cx="687.4" cy="556.5" r="4.6" fill="#5B6B82"/><circle cx="681.1" cy="566.3" r="4.6" fill="#D9A3B2"/><circle cx="655.3" cy="558.2" r="4.6" fill="#5B6B82"/><circle cx="768.6" cy="557.7" r="4.6" fill="#B5677D"/><circle cx="762.1" cy="568.3" r="4.6" fill="#B5677D"/><circle cx="765.8" cy="566.8" r="4.6" fill="#8E9BB0"/><circle cx="719.6" cy="556.5" r="4.6" fill="#D9A3B2"/><circle cx="726.2" cy="563.1" r="4.6" fill="#8E9BB0"/><circle cx="810.8" cy="560.8" r="4.6" fill="#B5677D"/><circle cx="709.4" cy="560.3" r="4.6" fill="#5B6B82"/><circle cx="657.5" cy="561.9" r="4.6" fill="#5B6B82"/><circle cx="773.9" cy="567.4" r="4.6" fill="#8E9BB0"/><circle cx="763.9" cy="558" r="4.6" fill="#B5677D"/><circle cx="773.2" cy="556.5" r="4.6" fill="#B5677D"/><circle cx="679.4" cy="602.7" r="4.6" fill="#5B6B82"/><circle cx="724.1" cy="601.2" r="4.6" fill="#D9A3B2"/><circle cx="686.6" cy="600.9" r="4.6" fill="#D9A3B2"/><circle cx="674.9" cy="601.6" r="4.6" fill="#5B6B82"/><circle cx="664.2" cy="608.6" r="4.6" fill="#5B6B82"/><circle cx="743.8" cy="599.7" r="4.6" fill="#B5677D"/><circle cx="671.2" cy="601.1" r="4.6" fill="#D9A3B2"/><circle cx="649.9" cy="603.6" r="4.6" fill="#D9A3B2"/><circle cx="808.8" cy="602.8" r="4.6" fill="#8E9BB0"/><circle cx="680.5" cy="606" r="4.6" fill="#5B6B82"/><circle cx="762.9" cy="606" r="4.6" fill="#B5677D"/><circle cx="766.5" cy="607" r="4.6" fill="#B5677D"/><circle cx="674.7" cy="603.2" r="4.6" fill="#5B6B82"/><circle cx="696.9" cy="597.5" r="4.6" fill="#5B6B82"/><circle cx="743.5" cy="611" r="4.6" fill="#B5677D"/><circle cx="735.4" cy="607.3" r="4.6" fill="#B5677D"/><circle cx="732.9" cy="597.5" r="4.6" fill="#B5677D"/><circle cx="753.5" cy="606.5" r="4.6" fill="#8E9BB0"/><circle cx="752.6" cy="604" r="4.6" fill="#8E9BB0"/><circle cx="696.8" cy="606.3" r="4.6" fill="#5B6B82"/><circle cx="763.8" cy="604.5" r="4.6" fill="#B5677D"/><circle cx="710.2" cy="609.4" r="4.6" fill="#5B6B82"/><circle cx="780.5" cy="642" r="4.6" fill="#B5677D"/><circle cx="729" cy="647.1" r="4.6" fill="#B5677D"/><circle cx="732.4" cy="651.8" r="4.6" fill="#B5677D"/><circle cx="767.3" cy="644.2" r="4.6" fill="#B5677D"/><circle cx="715.5" cy="647.5" r="4.6" fill="#5B6B82"/><circle cx="666.4" cy="646.4" r="4.6" fill="#5B6B82"/><circle cx="760.5" cy="643.7" r="4.6" fill="#B5677D"/><circle cx="766.7" cy="649.7" r="4.6" fill="#B5677D"/><circle cx="757.5" cy="643.4" r="4.6" fill="#B5677D"/><circle cx="704.6" cy="649.8" r="4.6" fill="#5B6B82"/><circle cx="648.6" cy="642.1" r="4.6" fill="#D9A3B2"/><circle cx="754.8" cy="643.4" r="4.6" fill="#8E9BB0"/><circle cx="724.4" cy="649.2" r="4.6" fill="#5B6B82"/><circle cx="742.1" cy="638.9" r="4.6" fill="#B5677D"/><circle cx="719.5" cy="645.6" r="4.6" fill="#5B6B82"/><circle cx="753.6" cy="647" r="4.6" fill="#B5677D"/><circle cx="710.8" cy="647.1" r="4.6" fill="#5B6B82"/><circle cx="657.6" cy="649.8" r="4.6" fill="#D9A3B2"/><circle cx="777.5" cy="643.3" r="4.6" fill="#B5677D"/><circle cx="707.8" cy="647.2" r="4.6" fill="#5B6B82"/><circle cx="709.1" cy="642.5" r="4.6" fill="#5B6B82"/><circle cx="779.9" cy="649.1" r="4.6" fill="#8E9BB0"/><circle cx="758.4" cy="684.1" r="4.6" fill="#B5677D"/><circle cx="681.5" cy="684.6" r="4.6" fill="#5B6B82"/><circle cx="747.9" cy="687.3" r="4.6" fill="#B5677D"/><circle cx="664.5" cy="689.9" r="4.6" fill="#5B6B82"/><circle cx="758.2" cy="686.9" r="4.6" fill="#B5677D"/><circle cx="738" cy="689.7" r="4.6" fill="#B5677D"/><circle cx="698.5" cy="693.8" r="4.6" fill="#5B6B82"/><circle cx="696.6" cy="686" r="4.6" fill="#5B6B82"/><circle cx="744.7" cy="683.7" r="4.6" fill="#B5677D"/><circle cx="757" cy="690.5" r="4.6" fill="#B5677D"/><circle cx="773.3" cy="689.5" r="4.6" fill="#B5677D"/><circle cx="684" cy="693.4" r="4.6" fill="#5B6B82"/><circle cx="756.1" cy="693" r="4.6" fill="#B5677D"/><circle cx="666.6" cy="689.6" r="4.6" fill="#D9A3B2"/><circle cx="777.9" cy="684.6" r="4.6" fill="#B5677D"/><circle cx="759.8" cy="692" r="4.6" fill="#B5677D"/><circle cx="738.7" cy="690.6" r="4.6" fill="#B5677D"/><circle cx="729.5" cy="691" r="4.6" fill="#8E9BB0"/><circle cx="661" cy="684.7" r="4.6" fill="#5B6B82"/><circle cx="681.3" cy="685.2" r="4.6" fill="#D9A3B2"/><circle cx="743.1" cy="688.5" r="4.6" fill="#B5677D"/><circle cx="689.6" cy="687.2" r="4.6" fill="#5B6B82"/></g>
+  <text x="725" y="736" text-anchor="middle" font-size="15" fill="#4B5563">SHAP value (impact on severity output)</text>
+  <rect x="862" y="520" width="12" height="150" rx="3" fill="url(#valBar)"/>
+  <text x="868" y="510" text-anchor="middle" font-size="14" fill="#4B5563">high</text>
+  <text x="868" y="688" text-anchor="middle" font-size="14" fill="#4B5563">low</text>
+  <text x="725" y="762" text-anchor="middle" font-size="14" fill="#6B7280">dot colour = feature value</text>
+
+  <line x1="900" y1="480" x2="900" y2="780" stroke="#D8C9CF" stroke-width="2"/>
+
+  <!-- 意义 -->
+  <text x="924" y="502" font-size="23" fill="#1F2937">Implication</text>
+  <line x1="924" y1="514" x2="1176" y2="514" stroke="#2B2B2B" stroke-width="1.6"/>
+  <g transform="translate(926 552)" font-size="17" fill="#1F2937">
+    <g fill="none" stroke="#A35D72" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 -4 l6 6 l11 -13"/><path d="M0 66 l6 6 l11 -13"/><path d="M0 136 l6 6 l11 -13"/>
+    </g>
+    <text x="28" y="2">Explainable grading</text>
+    <text x="28" y="24" font-size="15" fill="#4B5563">feature- and region-level</text>
+    <text x="28" y="72">Simple model, rich data</text>
+    <text x="28" y="94" font-size="15" fill="#4B5563">multi-center EEG</text>
+    <text x="28" y="142">Toward objective</text>
+    <text x="28" y="164" font-size="15" fill="#4B5563">severity assessment</text>
+  </g>
+</svg>

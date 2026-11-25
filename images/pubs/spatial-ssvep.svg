@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" font-family="'Segoe UI', Arial, Helvetica, sans-serif">
+  <defs>
+    <radialGradient id="hot" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#D9604A" stop-opacity="1"/><stop offset="0.45" stop-color="#D9604A" stop-opacity="0.75"/><stop offset="1" stop-color="#D9604A" stop-opacity="0"/></radialGradient>
+    <radialGradient id="warm" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#EFA77F" stop-opacity="1"/><stop offset="0.45" stop-color="#EFA77F" stop-opacity="0.7"/><stop offset="1" stop-color="#EFA77F" stop-opacity="0"/></radialGradient>
+    <radialGradient id="cold" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#3F7F5F" stop-opacity="0.95"/><stop offset="0.45" stop-color="#3F7F5F" stop-opacity="0.6"/><stop offset="1" stop-color="#4E8C68" stop-opacity="0"/></radialGradient>
+    <clipPath id="scalp"><circle cx="0" cy="0" r="38"/></clipPath>
+    <marker id="ag" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#2E6B4F"/></marker>
+    <marker id="ac" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#C2614A"/></marker>
+    <marker id="ak" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#2B2B2B"/></marker>
+    <g id="headbase">
+      <path d="M-7 -36 L0 -47 L7 -36 Z" fill="#FFFFFF" stroke="#6B7280" stroke-width="1.8"/>
+      <ellipse cx="-39" cy="0" rx="5" ry="11" fill="#FFFFFF" stroke="#6B7280" stroke-width="1.8"/>
+      <ellipse cx="39" cy="0" rx="5" ry="11" fill="#FFFFFF" stroke="#6B7280" stroke-width="1.8"/>
+      <circle r="38" fill="#F4F1EA"/>
+    </g>
+    <g id="headtop">
+      <circle r="38" fill="none" stroke="#6B7280" stroke-width="1.8"/>
+      <g fill="#2B2B2B"><circle cx="-14" cy="-24" r="2"/><circle cx="14" cy="-24" r="2"/><circle cx="-24" cy="-4" r="2"/><circle cx="0" cy="-8" r="2"/><circle cx="24" cy="-4" r="2"/><circle cx="-24" cy="16" r="2"/><circle cx="0" cy="12" r="2"/><circle cx="24" cy="16" r="2"/><circle cx="-12" cy="28" r="2"/><circle cx="12" cy="28" r="2"/></g>
+    </g>
+    <g id="tilebg">
+      <rect width="104" height="104" rx="10" fill="#FFFFFF" stroke="#9DBFA8" stroke-width="2"/>
+      <line x1="14" y1="92" x2="90" y2="92" stroke="#C9D6CC" stroke-width="3" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="800" fill="#FFFFFF"/>
+
+  <!-- 标题 + 问题 -->
+  <text x="600" y="48" text-anchor="middle" font-size="31" font-weight="700" fill="#1F3D2E">Beyond frequency: spatial features for SSVEP-BCI</text>
+  <rect x="210" y="66" width="780" height="44" rx="10" fill="#FDF0C2" stroke="#E2BC52" stroke-width="2"/>
+  <text x="600" y="95" text-anchor="middle" font-size="19" fill="#3D3420">Can six targets flickering at the same frequency still be told apart?</text>
+
+  <!-- ===== PARADIGM ===== -->
+  <rect x="28" y="140" width="792" height="420" rx="18" fill="#F1F6F2" stroke="#5E9C76" stroke-width="2.5"/>
+  <rect x="329" y="124" width="190" height="36" rx="8" fill="#2E6B4F"/>
+  <text x="424" y="149" text-anchor="middle" font-size="19" font-weight="700" letter-spacing="1.5" fill="#FFFFFF">PARADIGM</text>
+
+  <!-- 六个动作动画 -->
+  <g fill="none" stroke="#2F3E36" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- 1 -->
+    <g transform="translate(62 196)">
+      <use href="#tilebg"/>
+      <circle cx="52" cy="22" r="9" fill="#2F3E36" stroke="none"/>
+      <path d="M52 34 L52 60 M52 40 L42 54 M52 40 L62 54 M52 60 L42 89 M52 60 L63 89"/>
+      <path d="M24 40 L32 40 M22 52 L30 52" stroke="#B9C7BE" stroke-width="3"/>
+    </g>
+    <!-- 2 -->
+    <g transform="translate(186 196)">
+      <use href="#tilebg"/>
+      <circle cx="60" cy="22" r="9" fill="#2F3E36" stroke="none"/>
+      <path d="M57 34 L49 58 M55 40 L67 46 L71 36 M55 40 L43 47 L39 57 M49 58 L63 70 L59 89 M49 58 L37 72 L25 70"/>
+      <path d="M16 34 L28 34 M12 46 L24 46 M16 58 L26 58" stroke="#B9C7BE" stroke-width="3"/>
+    </g>
+    <!-- 3 -->
+    <g transform="translate(310 196)">
+      <use href="#tilebg"/>
+      <circle cx="48" cy="24" r="9" fill="#2F3E36" stroke="none"/>
+      <path d="M48 36 L48 62 M48 42 L62 32 L66 16 M48 42 L38 58 M48 62 L41 89 M48 62 L56 89"/>
+      <path d="M76 12 Q84 20 76 28 M82 8 Q94 20 82 32" stroke="#B9C7BE" stroke-width="3"/>
+    </g>
+    <!-- 4 -->
+    <g transform="translate(434 196)">
+      <use href="#tilebg"/>
+      <circle cx="52" cy="16" r="9" fill="#2F3E36" stroke="none"/>
+      <path d="M52 28 L52 52 M52 33 L38 19 M52 33 L66 19 M52 52 L42 62 L46 74 M52 52 L62 62 L58 74"/>
+      <ellipse cx="52" cy="92" rx="18" ry="3" fill="#C9D6CC" stroke="none"/>
+      <path d="M36 80 L36 86 M52 80 L52 86 M68 80 L68 86" stroke="#B9C7BE" stroke-width="3"/>
+    </g>
+    <!-- 5 -->
+    <g transform="translate(558 196)">
+      <use href="#tilebg"/>
+      <circle cx="46" cy="38" r="9" fill="#2F3E36" stroke="none"/>
+      <path d="M48 50 L44 70 M47 55 L64 60 M47 55 L60 66 M44 70 L60 74 L58 89 M44 70 L34 80 L40 89"/>
+      <path d="M78 46 L86 46 M78 56 L88 56" stroke="#B9C7BE" stroke-width="3"/>
+    </g>
+    <!-- 6 -->
+    <g transform="translate(682 196)">
+      <use href="#tilebg"/>
+      <circle cx="44" cy="22" r="9" fill="#2F3E36" stroke="none"/>
+      <path d="M44 34 L44 60 M44 40 L26 46 M44 40 L62 34 M44 60 L40 89 M44 60 L74 58"/>
+      <path d="M80 50 Q88 58 80 66" stroke="#B9C7BE" stroke-width="3"/>
+    </g>
+  </g>
+  <!-- 编号徽标 -->
+  <g font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+    <circle cx="78" cy="212" r="11" fill="#2E6B4F"/><text x="78" y="217">1</text>
+    <circle cx="202" cy="212" r="11" fill="#5E9C76"/><text x="202" y="217">2</text>
+    <circle cx="326" cy="212" r="11" fill="#86B48F"/><text x="326" y="217">3</text>
+    <circle cx="450" cy="212" r="11" fill="#C2614A"/><text x="450" y="217">4</text>
+    <circle cx="574" cy="212" r="11" fill="#E39478"/><text x="574" y="217">5</text>
+    <circle cx="698" cy="212" r="11" fill="#A98352"/><text x="698" y="217">6</text>
+  </g>
+
+  <!-- 统一 6 Hz -->
+  <path d="M68 312 L68 322 L780 322 L780 312" fill="none" stroke="#C2614A" stroke-width="2.4"/>
+  <rect x="304" y="308" width="240" height="30" rx="15" fill="#FBE7DF" stroke="#C2614A" stroke-width="2"/>
+  <text x="424" y="329" text-anchor="middle" font-size="16" font-weight="700" fill="#9C4733">all six flicker at 6 Hz</text>
+
+  <g stroke="#2B2B2B" stroke-width="2.2" marker-end="url(#ak)">
+    <line x1="114" y1="342" x2="114" y2="370"/><line x1="238" y1="342" x2="238" y2="370"/><line x1="362" y1="342" x2="362" y2="370"/>
+    <line x1="486" y1="342" x2="486" y2="370"/><line x1="610" y1="342" x2="610" y2="370"/><line x1="734" y1="342" x2="734" y2="370"/>
+  </g>
+
+  <!-- 六种空间分布 -->
+  <g transform="translate(114 434)"><use href="#headbase"/><g clip-path="url(#scalp)"><circle cx="0" cy="24" r="32" fill="url(#hot)"/><circle cx="0" cy="-24" r="26" fill="url(#cold)"/></g><use href="#headtop"/></g>
+  <g transform="translate(238 434)"><use href="#headbase"/><g clip-path="url(#scalp)"><circle cx="-18" cy="18" r="30" fill="url(#hot)"/><circle cx="20" cy="-10" r="26" fill="url(#cold)"/></g><use href="#headtop"/></g>
+  <g transform="translate(362 434)"><use href="#headbase"/><g clip-path="url(#scalp)"><circle cx="18" cy="18" r="30" fill="url(#hot)"/><circle cx="-20" cy="-10" r="26" fill="url(#cold)"/></g><use href="#headtop"/></g>
+  <g transform="translate(486 434)"><use href="#headbase"/><g clip-path="url(#scalp)"><circle cx="-20" cy="24" r="22" fill="url(#hot)"/><circle cx="20" cy="24" r="22" fill="url(#hot)"/><circle cx="0" cy="-16" r="24" fill="url(#cold)"/></g><use href="#headtop"/></g>
+  <g transform="translate(610 434)"><use href="#headbase"/><g clip-path="url(#scalp)"><circle cx="0" cy="2" r="26" fill="url(#hot)"/><circle cx="0" cy="32" r="22" fill="url(#cold)"/></g><use href="#headtop"/></g>
+  <g transform="translate(734 434)"><use href="#headbase"/><g clip-path="url(#scalp)"><circle cx="0" cy="32" r="24" fill="url(#hot)"/><circle cx="-16" cy="-12" r="22" fill="url(#warm)"/><circle cx="20" cy="-4" r="20" fill="url(#cold)"/></g><use href="#headtop"/></g>
+
+  <text x="424" y="510" text-anchor="middle" font-size="17" font-weight="600" fill="#1F2937">distinct SSVEP spatial patterns, one per animation</text>
+  <text x="424" y="534" text-anchor="middle" font-size="15" fill="#4B5563">six everyday actions · offline EEG, 10 participants</text>
+
+  <!-- 范式 → 洞见 -->
+  <path d="M824 350 L842 350" stroke="#2E6B4F" stroke-width="6" marker-end="url(#ag)"/>
+
+  <!-- ===== KEY INSIGHT ===== -->
+  <rect x="852" y="140" width="320" height="420" rx="18" fill="#FCF2EE" stroke="#E0957D" stroke-width="2.5"/>
+  <rect x="917" y="124" width="190" height="36" rx="8" fill="#C2614A"/>
+  <text x="1012" y="149" text-anchor="middle" font-size="19" font-weight="700" letter-spacing="1.5" fill="#FFFFFF">KEY INSIGHT</text>
+
+  <!-- 频谱：六条重合 -->
+  <g transform="translate(888 186)">
+    <line x1="0" y1="0" x2="0" y2="100" stroke="#2B2B2B" stroke-width="2"/>
+    <line x1="0" y1="100" x2="250" y2="100" stroke="#2B2B2B" stroke-width="2"/>
+    <g fill="none" stroke-width="2.4" stroke-linejoin="round" stroke-opacity="0.85">
+      <path stroke="#2E6B4F" d="M4 92 L40 90 L80 92 L104 88 L116 14 L128 88 L160 91 L200 90 L244 92"/>
+      <path stroke="#5E9C76" d="M4 94 L40 92 L80 94 L104 90 L116 16 L128 90 L160 93 L200 92 L244 94"/>
+      <path stroke="#86B48F" d="M4 90 L40 88 L80 90 L104 86 L116 12 L128 86 L160 89 L200 88 L244 90"/>
+      <path stroke="#C2614A" d="M4 93 L40 91 L80 93 L104 89 L116 18 L128 89 L160 92 L200 91 L244 93"/>
+      <path stroke="#E39478" d="M4 91 L40 89 L80 91 L104 87 L116 15 L128 87 L160 90 L200 89 L244 91"/>
+      <path stroke="#A98352" d="M4 95 L40 93 L80 95 L104 91 L116 20 L128 91 L160 94 L200 93 L244 95"/>
+    </g>
+    <text x="116" y="120" text-anchor="middle" font-size="15" font-weight="600" fill="#374151">6 Hz</text>
+    <text x="140" y="30" font-size="14" fill="#4B5563">×6, overlapping</text>
+  </g>
+  <g transform="translate(880 330)">
+    <path d="M2 -12 L14 0 M14 -12 L2 0" stroke="#C2614A" stroke-width="3.4" stroke-linecap="round"/>
+    <text x="24" y="0" font-size="16" font-weight="600" fill="#1F2937">Frequency: identical</text>
+    <text x="24" y="20" font-size="14" fill="#4B5563">cannot separate the targets</text>
+  </g>
+
+  <line x1="876" y1="368" x2="1148" y2="368" stroke="#EBC4B6" stroke-width="2"/>
+
+  <!-- 空间特征：六簇可分 -->
+  <g transform="translate(888 384)">
+    <rect x="0" y="0" width="250" height="110" rx="8" fill="#FFFFFF" stroke="#E5CFC6" stroke-width="2"/>
+    <g fill="#2E6B4F"><circle cx="30" cy="28" r="5"/><circle cx="40" cy="22" r="5"/><circle cx="38" cy="36" r="5"/><circle cx="26" cy="40" r="5"/></g>
+    <g fill="#5E9C76"><circle cx="96" cy="20" r="5"/><circle cx="108" cy="26" r="5"/><circle cx="100" cy="34" r="5"/><circle cx="90" cy="30" r="5"/></g>
+    <g fill="#86B48F"><circle cx="176" cy="24" r="5"/><circle cx="188" cy="30" r="5"/><circle cx="180" cy="38" r="5"/><circle cx="168" cy="32" r="5"/></g>
+    <g fill="#C2614A"><circle cx="40" cy="80" r="5"/><circle cx="52" cy="74" r="5"/><circle cx="50" cy="88" r="5"/><circle cx="36" cy="92" r="5"/></g>
+    <g fill="#E39478"><circle cx="122" cy="76" r="5"/><circle cx="134" cy="82" r="5"/><circle cx="124" cy="90" r="5"/><circle cx="114" cy="84" r="5"/></g>
+    <g fill="#A98352"><circle cx="204" cy="74" r="5"/><circle cx="216" cy="80" r="5"/><circle cx="208" cy="90" r="5"/><circle cx="196" cy="84" r="5"/></g>
+  </g>
+  <g transform="translate(880 524)">
+    <path d="M0 -6 l6 6 l11 -13" fill="none" stroke="#2E6B4F" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="24" y="0" font-size="16" font-weight="600" fill="#1F2937">Space: distinct</text>
+    <text x="24" y="20" font-size="14" fill="#4B5563">topography separates the targets</text>
+  </g>
+
+  <!-- → 结果 -->
+  <path d="M120 564 L120 588" stroke="#2E6B4F" stroke-width="6" marker-end="url(#ag)"/>
+
+  <!-- ===== RESULTS ===== -->
+  <rect x="28" y="600" width="1144" height="178" rx="18" fill="#F1F6F2" stroke="#5E9C76" stroke-width="2.5"/>
+  <rect x="505" y="584" width="190" height="36" rx="8" fill="#2E6B4F"/>
+  <text x="600" y="609" text-anchor="middle" font-size="19" font-weight="700" letter-spacing="1.5" fill="#FFFFFF">RESULTS</text>
+
+  <!-- 小流程：地形图 → 空间特征分类 → 6 类 -->
+  <g transform="translate(110 686) scale(0.8)"><use href="#headbase"/><g clip-path="url(#scalp)"><circle cx="-18" cy="18" r="30" fill="url(#hot)"/><circle cx="20" cy="-10" r="26" fill="url(#cold)"/></g><use href="#headtop"/></g>
+  <text x="110" y="760" text-anchor="middle" font-size="15" fill="#4B5563">topography</text>
+  <path d="M152 686 L184 686" stroke="#2B2B2B" stroke-width="2.4" marker-end="url(#ak)"/>
+  <rect x="194" y="656" width="132" height="60" rx="10" fill="#2E6B4F"/>
+  <text x="260" y="682" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">spatial</text>
+  <text x="260" y="702" text-anchor="middle" font-size="16" font-weight="700" fill="#FFFFFF">features</text>
+  <text x="260" y="760" text-anchor="middle" font-size="15" fill="#4B5563">classifier</text>
+  <path d="M334 686 L366 686" stroke="#2B2B2B" stroke-width="2.4" marker-end="url(#ak)"/>
+  <g font-size="14" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+    <circle cx="390" cy="668" r="12" fill="#2E6B4F"/><text x="390" y="673">1</text>
+    <circle cx="420" cy="668" r="12" fill="#5E9C76"/><text x="420" y="673">2</text>
+    <circle cx="450" cy="668" r="12" fill="#86B48F"/><text x="450" y="673">3</text>
+    <circle cx="390" cy="702" r="12" fill="#C2614A"/><text x="390" y="707">4</text>
+    <circle cx="420" cy="702" r="12" fill="#E39478"/><text x="420" y="707">5</text>
+    <circle cx="450" cy="702" r="12" fill="#A98352"/><text x="450" y="707">6</text>
+  </g>
+  <text x="420" y="760" text-anchor="middle" font-size="15" fill="#4B5563">six targets</text>
+
+  <!-- 关键数字 -->
+  <g transform="translate(520 0)">
+    <text x="0" y="712" font-size="66" font-weight="800" fill="#C2614A">93%</text>
+    <text x="150" y="690" font-size="19" font-weight="600" fill="#1F2937">accuracy</text>
+    <text x="150" y="712" font-size="15" fill="#4B5563">six-target task</text>
+    <text x="2" y="750" font-size="15" fill="#4B5563">6-s window · 10 participants, offline</text>
+  </g>
+
+  <line x1="840" y1="636" x2="840" y2="760" stroke="#B9D2C0" stroke-width="2"/>
+  <g transform="translate(866 660)" font-size="17" fill="#1F2937">
+    <g fill="none" stroke="#2E6B4F" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0 6 l6 6 l11 -13"/><path d="M0 66 l6 6 l11 -13"/></g>
+    <text x="28" y="12">No frequency features needed</text>
+    <text x="28" y="32" font-size="15" fill="#4B5563">targets can share one frequency</text>
+    <text x="28" y="72">Toward multi-sensory BCIs</text>
+    <text x="28" y="92" font-size="15" fill="#4B5563">animations carry behavioral content</text>
+  </g>
+</svg>

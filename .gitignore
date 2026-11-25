@@ -1,0 +1,7 @@
+# 个人文件：不发布
+files/
+images/profile photo.jpg
+# 本地预览用，不需要发布
+serve.ps1
+# 说明文档，只在本地用，不发布
+README.md

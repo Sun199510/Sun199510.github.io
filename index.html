@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jingnan Sun</title>
+  <!-- 搜索引擎和分享卡片里显示的介绍 -->
+  <meta name="description" content="Jingnan Sun (孙劲男) — EEG, brain-computer interfaces, cognitive assessment, depression and neuromodulation.">
+  <meta property="og:title" content="Jingnan Sun (孙劲男)">
+  <meta property="og:description" content="EEG · Brain-Computer Interfaces · Depression · Neuromodulation">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    // 在页面绘制前确定主题，避免深色模式下闪白
+    (function () {
+      var t = null;
+      try { t = localStorage.getItem('theme'); } catch (e) {}
+      if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+</head>
+<body>
+  <div class="toolbar" role="toolbar" aria-label="Display options">
+    <button id="lang-toggle" class="tool-btn" type="button" aria-label="Switch language">中文</button>
+    <button id="theme-toggle" class="tool-btn" type="button" aria-label="Toggle dark mode">
+      <svg class="icon-moon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="currentColor"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></g></svg>
+    </button>
+  </div>
+
+  <main id="app" class="page">
+    <noscript>This page needs JavaScript to display its content.</noscript>
+  </main>
+
+  <!-- 所有内容都在 data.js 里，平时只需要改它 -->
+  <script src="data.js"></script>
+  <script src="publications.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

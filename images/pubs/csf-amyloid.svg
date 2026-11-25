@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" font-family="'Segoe UI', Arial, Helvetica, sans-serif">
+  <defs>
+    <symbol id="person" viewBox="-22 -50 44 76" overflow="visible">
+      <circle cx="0" cy="-33" r="13"/>
+      <path d="M-19 26 L-19 -4 Q-19 -17 -6 -17 L6 -17 Q19 -17 19 -4 L19 26 Z"/>
+    </symbol>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBE3D6"/><stop offset="1" stop-color="#EFC4AE"/></linearGradient>
+    <linearGradient id="brainFill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F7D3CC"/><stop offset="1" stop-color="#EDB2A8"/></linearGradient>
+    <linearGradient id="csf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E8F3FA"/><stop offset="1" stop-color="#BFDDF0"/></linearGradient>
+    <radialGradient id="plaque" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#E7902F"/><stop offset="1" stop-color="#E7902F" stop-opacity="0"/></radialGradient>
+    <marker id="ag" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#3F7A52"/></marker>
+    <marker id="ao" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#D9822B"/></marker>
+    <g id="tree">
+      <rect x="-4" y="10" width="8" height="26" rx="2" fill="#8A6A4A"/>
+      <circle cx="0" cy="-4" r="22" fill="#6FA77B"/><circle cx="-14" cy="8" r="14" fill="#5E9A6B"/><circle cx="14" cy="8" r="14" fill="#5E9A6B"/>
+      <circle cx="-6" cy="-12" r="8" fill="#8CC197" opacity="0.8"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="800" fill="#FFFFFF"/>
+
+  <!-- 标题 + 问题 -->
+  <text x="600" y="50" text-anchor="middle" font-size="31" font-weight="700" fill="#1F3B2D">Predicting CSF amyloid-β from non-invasive multimodal data</text>
+  <rect x="190" y="70" width="820" height="44" rx="10" fill="#FDF0C2" stroke="#E2BC52" stroke-width="2"/>
+  <text x="600" y="99" text-anchor="middle" font-size="19" fill="#3D3420">Can routine clinical tests reveal amyloid status without a lumbar puncture?</text>
+
+  <!-- ===== METHODS ===== -->
+  <rect x="28" y="146" width="556" height="364" rx="18" fill="#F3F8F2" stroke="#4E8A5E" stroke-width="2.5"/>
+  <rect x="220" y="130" width="172" height="36" rx="8" fill="#3F7A52"/>
+  <text x="306" y="155" text-anchor="middle" font-size="19" font-weight="700" letter-spacing="1.5" fill="#FFFFFF">METHODS</text>
+
+  <!-- MRI -->
+  <g transform="translate(118 260)">
+    <rect x="-70" y="30" width="140" height="16" rx="5" fill="#C9D3E0"/>
+    <circle r="58" fill="#E7EBF0" stroke="#8C99AA" stroke-width="3"/>
+    <circle r="32" fill="#FFFFFF" stroke="#8C99AA" stroke-width="2.5"/>
+    <rect x="-34" y="22" width="110" height="14" rx="7" fill="#9AB7D3"/>
+    <circle cx="-26" cy="14" r="10" fill="url(#skin)" stroke="#B98A74" stroke-width="1.5"/>
+    <g transform="translate(84 -46) scale(0.8)">
+      <rect x="-24" y="-24" width="48" height="48" rx="6" fill="#2B2B2B"/>
+      <ellipse cx="0" cy="0" rx="17" ry="20" fill="#9AA3AE"/>
+      <path d="M0 -18 L0 18 M-12 -8 C-6 -4 -6 4 -12 8 M12 -8 C6 -4 6 4 12 8" stroke="#55606E" stroke-width="2" fill="none"/>
+    </g>
+  </g>
+  <text x="118" y="356" text-anchor="middle" font-size="18" font-weight="600" fill="#1F2937">MRI</text>
+  <text x="118" y="376" text-anchor="middle" font-size="14" fill="#4B5563">brain structure</text>
+
+  <!-- EEG -->
+  <g transform="translate(244 196) scale(0.36)">
+    <path d="M120 400 C120 345 108 318 94 292 C70 250 64 198 80 158 C100 100 160 62 226 62 C292 62 336 106 343 160 C346 180 345 194 351 207 C359 221 373 235 377 247 C379 254 372 258 362 260 C365 268 366 274 360 278 C364 285 362 292 354 296 C351 312 343 322 325 324 C305 326 290 326 284 332 L280 400 Z" fill="url(#skin)" stroke="#B98A74" stroke-width="4"/>
+    <path d="M78 176 C86 104 150 52 226 52 C300 52 346 102 352 170 C300 150 150 146 78 176 Z" fill="#5E9A6B" stroke="#3F7A52" stroke-width="4"/>
+    <g fill="#F5F7FA" stroke="#2F5A3E" stroke-width="5">
+      <circle cx="120" cy="128" r="12"/><circle cx="170" cy="92" r="12"/><circle cx="226" cy="80" r="12"/><circle cx="282" cy="96" r="12"/><circle cx="322" cy="134" r="12"/><circle cx="196" cy="136" r="12"/><circle cx="260" cy="136" r="12"/>
+    </g>
+  </g>
+  <g fill="none" stroke="#3F7A52" stroke-width="1.8" stroke-linejoin="round">
+  </g>
+  <text x="310" y="356" text-anchor="middle" font-size="18" font-weight="600" fill="#1F2937">EEG</text>
+  <text x="310" y="376" text-anchor="middle" font-size="14" fill="#4B5563">resting-state rhythms</text>
+
+  <!-- Clinical scales -->
+  <g transform="translate(450 206)">
+    <rect x="0" y="10" width="92" height="120" rx="8" fill="#FFFFFF" stroke="#8C99AA" stroke-width="2.4"/>
+    <rect x="28" y="0" width="36" height="18" rx="5" fill="#8C99AA"/>
+    <g stroke="#D5DCE4" stroke-width="5" stroke-linecap="round"><line x1="32" y1="44" x2="78" y2="44"/><line x1="32" y1="70" x2="78" y2="70"/><line x1="32" y1="96" x2="70" y2="96"/></g>
+    <g fill="none" stroke="#3F7A52" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 44 l5 5 l9 -11"/><path d="M12 70 l5 5 l9 -11"/><path d="M12 96 l5 5 l9 -11"/></g>
+  </g>
+  <text x="496" y="356" text-anchor="middle" font-size="18" font-weight="600" fill="#1F2937">Clinical scales</text>
+  <text x="496" y="376" text-anchor="middle" font-size="14" fill="#4B5563">cognition &amp; history</text>
+
+  <!-- 汇入随机森林 -->
+  <path d="M118 388 C118 410 220 410 280 418 M310 384 L306 412 M496 388 C496 410 392 410 332 418" fill="none" stroke="#3F7A52" stroke-width="2.4"/>
+  <path d="M306 414 L306 428" stroke="#3F7A52" stroke-width="3" marker-end="url(#ag)"/>
+  <g transform="translate(230 460) scale(0.8)"><use href="#tree"/></g>
+  <g transform="translate(270 456)"><use href="#tree"/></g>
+  <g transform="translate(312 460) scale(0.8)"><use href="#tree"/></g>
+  <g transform="translate(350 458) scale(0.9)"><use href="#tree"/></g>
+  <text x="400" y="458" font-size="18" font-weight="600" fill="#1F2937">Random forest</text>
+  <text x="400" y="478" font-size="14" fill="#4B5563">multimodal fusion</text>
+
+  <!-- 方法 → 发现 -->
+  <path d="M588 328 L612 328" stroke="#3F7A52" stroke-width="6" marker-end="url(#ag)"/>
+
+  <!-- ===== KEY FINDINGS ===== -->
+  <rect x="624" y="146" width="548" height="364" rx="18" fill="#FDF5EC" stroke="#D9822B" stroke-width="2.5"/>
+  <rect x="802" y="130" width="192" height="36" rx="8" fill="#D9822B"/>
+  <text x="898" y="155" text-anchor="middle" font-size="19" font-weight="700" letter-spacing="1.5" fill="#FFFFFF">KEY FINDINGS</text>
+
+  <!-- 大脑 + 斑块 -->
+  <g transform="translate(660 210)">
+    <path d="M10 70 C2 34 34 6 72 10 C92 -8 140 -8 158 12 C190 10 212 36 206 66 C222 88 206 118 176 120 C162 140 126 142 110 128 C92 142 56 140 44 122 C14 122 -2 96 10 70 Z" fill="url(#brainFill)" stroke="#C27A74" stroke-width="2.5"/>
+    <path d="M150 122 C164 136 196 140 204 120" fill="#E7A79D" stroke="#C27A74" stroke-width="2.5"/>
+    <g fill="none" stroke="#C98880" stroke-width="2.2" stroke-linecap="round">
+      <path d="M42 50 C58 36 74 44 72 60 C70 78 92 82 102 66"/><path d="M112 28 C108 46 126 54 140 44 C154 34 170 46 164 62"/>
+      <path d="M38 92 C56 86 66 100 82 96 C100 92 108 104 126 100"/><path d="M140 84 C152 76 170 84 178 98"/>
+      <path d="M92 18 C88 30 96 38 104 36"/>
+    </g>
+    <circle cx="70" cy="74" r="20" fill="url(#plaque)"/><circle cx="138" cy="60" r="18" fill="url(#plaque)"/><circle cx="110" cy="104" r="15" fill="url(#plaque)"/>
+    <g fill="#D9822B"><circle cx="66" cy="72" r="3.5"/><circle cx="74" cy="78" r="3"/><circle cx="72" cy="68" r="2.5"/><circle cx="136" cy="58" r="3.5"/><circle cx="142" cy="64" r="3"/><circle cx="108" cy="102" r="3"/><circle cx="114" cy="106" r="2.5"/></g>
+  </g>
+  <text x="768" y="378" text-anchor="middle" font-size="15" fill="#4B5563">amyloid-β plaques</text>
+
+  <!-- 脑脊液试管 -->
+  <g transform="translate(910 206)">
+    <path d="M0 0 L36 0 L36 128 C36 146 0 146 0 128 Z" fill="url(#csf)" stroke="#6B88A6" stroke-width="2.5"/>
+    <rect x="-6" y="-10" width="48" height="14" rx="4" fill="#6B88A6"/>
+    <g fill="#D9822B"><circle cx="12" cy="96" r="4"/><circle cx="24" cy="110" r="3.5"/><circle cx="16" cy="122" r="3"/></g>
+    <g fill="#5E9A6B"><circle cx="22" cy="80" r="4"/><circle cx="10" cy="64" r="3.5"/><circle cx="26" cy="54" r="3"/><circle cx="14" cy="104" r="3"/></g>
+  </g>
+  <text x="928" y="378" text-anchor="middle" font-size="15" fill="#4B5563">CSF Aβ42 / Aβ40</text>
+
+  <!-- 关键数字 -->
+  <g transform="translate(1000 214)">
+    <text x="0" y="56" font-size="54" font-weight="800" fill="#D9822B">91.6%</text>
+    <text x="2" y="84" font-size="17" fill="#1F2937">precision</text>
+    <text x="2" y="108" font-size="15" fill="#4B5563">predicted Aβ status</text>
+    <text x="2" y="128" font-size="15" fill="#4B5563">vs. CSF measurement</text>
+  </g>
+  <line x1="650" y1="402" x2="1146" y2="402" stroke="#EBCFAE" stroke-width="2"/>
+  <g transform="translate(656 428)" font-size="17" fill="#1F2937">
+    <g fill="none" stroke="#D9822B" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0 6 l6 6 l11 -13"/><path d="M0 46 l6 6 l11 -13"/></g>
+    <text x="28" y="12"><tspan font-weight="700">MRI + EEG + scales</tspan> jointly estimate the CSF Aβ42/Aβ40 ratio</text>
+    <text x="28" y="52"><tspan font-weight="700">Early-stage</tspan> amyloid pathology detected from routine data</text>
+  </g>
+
+  <!-- 发现 → 应用 -->
+  <path d="M898 514 L898 536" stroke="#D9822B" stroke-width="6" marker-end="url(#ao)"/>
+
+  <!-- ===== APPLICATIONS ===== -->
+  <rect x="28" y="552" width="1144" height="226" rx="18" fill="#F3F8F2" stroke="#4E8A5E" stroke-width="2.5"/>
+  <rect x="500" y="536" width="200" height="36" rx="8" fill="#3F7A52"/>
+  <text x="600" y="561" text-anchor="middle" font-size="19" font-weight="700" letter-spacing="1.5" fill="#FFFFFF">APPLICATIONS</text>
+
+  <!-- 腰穿：脊柱 + 针 + 禁止 -->
+  <g transform="translate(150 664)">
+    <g fill="#F1E6D6" stroke="#B9A27F" stroke-width="2">
+      <rect x="-14" y="-70" width="28" height="20" rx="6"/><rect x="-14" y="-44" width="28" height="20" rx="6"/>
+      <rect x="-14" y="-18" width="28" height="20" rx="6"/><rect x="-14" y="8" width="28" height="20" rx="6"/>
+      <rect x="-14" y="34" width="28" height="20" rx="6"/>
+    </g>
+    <path d="M70 -6 L14 22" stroke="#6B7280" stroke-width="4" stroke-linecap="round"/>
+    <rect x="66" y="-22" width="40" height="18" rx="4" transform="rotate(-27 86 -13)" fill="#C9D3E0" stroke="#6B7280" stroke-width="2"/>
+    <circle cx="30" cy="0" r="72" fill="none" stroke="#D0473F" stroke-width="6"/>
+    <line x1="-21" y1="-51" x2="81" y2="51" stroke="#D0473F" stroke-width="6"/>
+  </g>
+  <text x="180" y="762" text-anchor="middle" font-size="15" fill="#4B5563">fewer invasive lumbar punctures</text>
+
+  <!-- 筛查路径 -->
+  <g transform="translate(390 606)">
+    <use href="#person" x="0" y="10" width="56" height="97" fill="#7BA7D9"/>
+    <text x="28" y="140" text-anchor="middle" font-size="15" fill="#4B5563">older adult</text>
+    <path d="M78 58 L128 58" stroke="#3F7A52" stroke-width="3" marker-end="url(#ag)"/>
+    <rect x="142" y="12" width="120" height="92" rx="12" fill="#FFFFFF" stroke="#4E8A5E" stroke-width="2.4"/>
+    <text x="202" y="46" text-anchor="middle" font-size="15" font-weight="700" fill="#3F7A52">routine</text>
+    <text x="202" y="66" text-anchor="middle" font-size="15" font-weight="700" fill="#3F7A52">MRI · EEG</text>
+    <text x="202" y="86" text-anchor="middle" font-size="15" font-weight="700" fill="#3F7A52">· scales</text>
+    <text x="202" y="140" text-anchor="middle" font-size="15" fill="#4B5563">model screening</text>
+    <path d="M276 58 L326 58" stroke="#3F7A52" stroke-width="3" marker-end="url(#ag)"/>
+    <g transform="translate(340 14)">
+      <rect x="0" y="0" width="120" height="38" rx="19" fill="#FBE4CF" stroke="#D9822B" stroke-width="2"/>
+      <text x="60" y="25" text-anchor="middle" font-size="15" font-weight="600" fill="#9A5A17">Aβ+ : refer</text>
+      <rect x="0" y="54" width="120" height="38" rx="19" fill="#E3F0E5" stroke="#4E8A5E" stroke-width="2"/>
+      <text x="60" y="79" text-anchor="middle" font-size="15" font-weight="600" fill="#3F7A52">Aβ− : follow up</text>
+    </g>
+    <text x="400" y="140" text-anchor="middle" font-size="15" fill="#4B5563">triage</text>
+  </g>
+
+  <!-- 要点 -->
+  <line x1="884" y1="590" x2="884" y2="756" stroke="#C9DCCB" stroke-width="2"/>
+  <g transform="translate(910 616)" font-size="17" fill="#1F2937">
+    <g fill="none" stroke="#3F7A52" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M0 6 l6 6 l11 -13"/><path d="M0 62 l6 6 l11 -13"/><path d="M0 118 l6 6 l11 -13"/></g>
+    <text x="28" y="12">Non-invasive</text><text x="28" y="32" font-size="15" fill="#4B5563">pre-screening for AD</text>
+    <text x="28" y="68">Earlier detection</text><text x="28" y="88" font-size="15" fill="#4B5563">before overt dementia</text>
+    <text x="28" y="124">Lower cost</text><text x="28" y="144" font-size="15" fill="#4B5563">uses data clinics already have</text>
+  </g>
+</svg>
